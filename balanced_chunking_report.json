@@ -1,0 +1,1931 @@
+{
+  "processing_summary": {
+    "files_processed": 28,
+    "successful": 28,
+    "failed": 0,
+    "total_chunks": 224,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "chunk_statistics": {
+    "distribution": {
+      "Revenue & Profitability": {
+        "companies": 28,
+        "avg_metrics": 69.96428571428571,
+        "avg_tokens": 11654.214285714286,
+        "max_tokens": 17625.0
+      },
+      "Operations & Metadata": {
+        "companies": 28,
+        "avg_metrics": 64.57142857142857,
+        "avg_tokens": 10460.32142857143,
+        "max_tokens": 15079.0
+      },
+      "Risk & Capital Management": {
+        "companies": 28,
+        "avg_metrics": 9.892857142857142,
+        "avg_tokens": 1737.4285714285713,
+        "max_tokens": 4144.0
+      },
+      "Other Assets": {
+        "companies": 28,
+        "avg_metrics": 86.32142857142857,
+        "avg_tokens": 15426.535714285714,
+        "max_tokens": 25603.0
+      },
+      "Liabilities & Deposits": {
+        "companies": 28,
+        "avg_metrics": 138.60714285714286,
+        "avg_tokens": 26280.678571428572,
+        "max_tokens": 38857.0
+      },
+      "Securities & Investments": {
+        "companies": 28,
+        "avg_metrics": 181.75,
+        "avg_tokens": 36230.857142857145,
+        "max_tokens": 55567.0
+      },
+      "Cash & Cash Equivalents": {
+        "companies": 28,
+        "avg_metrics": 100.92857142857143,
+        "avg_tokens": 19019.321428571428,
+        "max_tokens": 26428.0
+      },
+      "Loans & Credit": {
+        "companies": 28,
+        "avg_metrics": 100.92857142857143,
+        "avg_tokens": 18583.39285714286,
+        "max_tokens": 32407.0
+      }
+    },
+    "max_tokens": {
+      "Revenue & Profitability": 17625.0,
+      "Operations & Metadata": 15079.0,
+      "Risk & Capital Management": 4144.0,
+      "Other Assets": 25603.0,
+      "Liabilities & Deposits": 38857.0,
+      "Securities & Investments": 55567.0,
+      "Cash & Cash Equivalents": 26428.0,
+      "Loans & Credit": 32407.0
+    },
+    "min_tokens": {
+      "Revenue & Profitability": 6976.0,
+      "Operations & Metadata": 5369.0,
+      "Risk & Capital Management": 243.0,
+      "Other Assets": 3781.0,
+      "Liabilities & Deposits": 1338.0,
+      "Securities & Investments": 4134.0,
+      "Cash & Cash Equivalents": 2074.0,
+      "Loans & Credit": 2560.0
+    }
+  },
+  "file_details": [
+    {
+      "success": true,
+      "company": "BANK OF MONTREAL",
+      "ticker": "BMO",
+      "cik": "927971",
+      "total_metrics": 277,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_BMO_927971_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 57,
+          "estimated_tokens": 7095.0
+        },
+        {
+          "file": "public_BMO_927971_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 66,
+          "estimated_tokens": 8062.0
+        },
+        {
+          "file": "public_BMO_927971_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 2,
+          "estimated_tokens": 243.0
+        },
+        {
+          "file": "public_BMO_927971_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 47,
+          "estimated_tokens": 5734.0
+        },
+        {
+          "file": "public_BMO_927971_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 17,
+          "estimated_tokens": 2074.0
+        },
+        {
+          "file": "public_BMO_927971_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 36,
+          "estimated_tokens": 4381.0
+        },
+        {
+          "file": "public_BMO_927971_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 28,
+          "estimated_tokens": 3420.0
+        },
+        {
+          "file": "public_BMO_927971_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 24,
+          "estimated_tokens": 2930.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "BANK OF NOVA SCOTIA",
+      "ticker": "BNS",
+      "cik": "9631",
+      "total_metrics": 260,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_BNS_9631_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 65,
+          "estimated_tokens": 8078.0
+        },
+        {
+          "file": "public_BNS_9631_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 39,
+          "estimated_tokens": 4878.0
+        },
+        {
+          "file": "public_BNS_9631_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 30,
+          "estimated_tokens": 3659.0
+        },
+        {
+          "file": "public_BNS_9631_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 44,
+          "estimated_tokens": 5369.0
+        },
+        {
+          "file": "public_BNS_9631_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 43,
+          "estimated_tokens": 5250.0
+        },
+        {
+          "file": "public_BNS_9631_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 23,
+          "estimated_tokens": 2805.0
+        },
+        {
+          "file": "public_BNS_9631_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 14,
+          "estimated_tokens": 1704.0
+        },
+        {
+          "file": "public_BNS_9631_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 2,
+          "estimated_tokens": 243.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "Bank of America Corporation",
+      "ticker": "BAC",
+      "cik": "70858",
+      "total_metrics": 878,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_BAC_70858_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 86,
+          "estimated_tokens": 15119.0
+        },
+        {
+          "file": "public_BAC_70858_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 198,
+          "estimated_tokens": 41405.0
+        },
+        {
+          "file": "public_BAC_70858_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 64,
+          "estimated_tokens": 10712.0
+        },
+        {
+          "file": "public_BAC_70858_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 94,
+          "estimated_tokens": 17121.0
+        },
+        {
+          "file": "public_BAC_70858_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 132,
+          "estimated_tokens": 26428.0
+        },
+        {
+          "file": "public_BAC_70858_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 125,
+          "estimated_tokens": 24780.0
+        },
+        {
+          "file": "public_BAC_70858_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 170,
+          "estimated_tokens": 33203.0
+        },
+        {
+          "file": "public_BAC_70858_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 9,
+          "estimated_tokens": 1535.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "CANADIAN IMPERIAL BANK OF COMMERCE",
+      "ticker": "CM",
+      "cik": "1045520",
+      "total_metrics": 241,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_CM_1045520_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 59,
+          "estimated_tokens": 7340.0
+        },
+        {
+          "file": "public_CM_1045520_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 42,
+          "estimated_tokens": 5123.0
+        },
+        {
+          "file": "public_CM_1045520_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 52,
+          "estimated_tokens": 6350.0
+        },
+        {
+          "file": "public_CM_1045520_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 3,
+          "estimated_tokens": 365.0
+        },
+        {
+          "file": "public_CM_1045520_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 34,
+          "estimated_tokens": 4134.0
+        },
+        {
+          "file": "public_CM_1045520_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 23,
+          "estimated_tokens": 2805.0
+        },
+        {
+          "file": "public_CM_1045520_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 11,
+          "estimated_tokens": 1338.0
+        },
+        {
+          "file": "public_CM_1045520_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 17,
+          "estimated_tokens": 2074.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "CAPITAL\u00a0ONE\u00a0FINANCIAL\u00a0CORP",
+      "ticker": "COF",
+      "cik": "927628",
+      "total_metrics": 1003,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_COF_927628_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 99,
+          "estimated_tokens": 17544.0
+        },
+        {
+          "file": "public_COF_927628_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 262,
+          "estimated_tokens": 54080.0
+        },
+        {
+          "file": "public_COF_927628_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 53,
+          "estimated_tokens": 9046.0
+        },
+        {
+          "file": "public_COF_927628_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 134,
+          "estimated_tokens": 25603.0
+        },
+        {
+          "file": "public_COF_927628_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 136,
+          "estimated_tokens": 26054.0
+        },
+        {
+          "file": "public_COF_927628_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 131,
+          "estimated_tokens": 25182.0
+        },
+        {
+          "file": "public_COF_927628_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 172,
+          "estimated_tokens": 33677.0
+        },
+        {
+          "file": "public_COF_927628_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 16,
+          "estimated_tokens": 2884.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "CITIZENS FINANCIAL GROUP INC/RI",
+      "ticker": "CFG",
+      "cik": "759944",
+      "total_metrics": 750,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_CFG_759944_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 44,
+          "estimated_tokens": 7168.0
+        },
+        {
+          "file": "public_CFG_759944_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 164,
+          "estimated_tokens": 32912.0
+        },
+        {
+          "file": "public_CFG_759944_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 89,
+          "estimated_tokens": 15955.0
+        },
+        {
+          "file": "public_CFG_759944_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 150,
+          "estimated_tokens": 26896.0
+        },
+        {
+          "file": "public_CFG_759944_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 19,
+          "estimated_tokens": 3163.0
+        },
+        {
+          "file": "public_CFG_759944_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 57,
+          "estimated_tokens": 9284.0
+        },
+        {
+          "file": "public_CFG_759944_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 128,
+          "estimated_tokens": 24533.0
+        },
+        {
+          "file": "public_CFG_759944_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 99,
+          "estimated_tokens": 18511.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "Citigroup\u00a0Inc",
+      "ticker": "C",
+      "cik": "831001",
+      "total_metrics": 774,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_C_831001_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 85,
+          "estimated_tokens": 14888.0
+        },
+        {
+          "file": "public_C_831001_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 204,
+          "estimated_tokens": 41043.0
+        },
+        {
+          "file": "public_C_831001_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 149,
+          "estimated_tokens": 28596.0
+        },
+        {
+          "file": "public_C_831001_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 89,
+          "estimated_tokens": 15913.0
+        },
+        {
+          "file": "public_C_831001_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 106,
+          "estimated_tokens": 20153.0
+        },
+        {
+          "file": "public_C_831001_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 7,
+          "estimated_tokens": 1202.0
+        },
+        {
+          "file": "public_C_831001_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 77,
+          "estimated_tokens": 14236.0
+        },
+        {
+          "file": "public_C_831001_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 57,
+          "estimated_tokens": 9794.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "Comerica Incorporated",
+      "ticker": "CMA",
+      "cik": "28412",
+      "total_metrics": 735,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_CMA_28412_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 80,
+          "estimated_tokens": 14219.0
+        },
+        {
+          "file": "public_CMA_28412_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 176,
+          "estimated_tokens": 37281.0
+        },
+        {
+          "file": "public_CMA_28412_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 45,
+          "estimated_tokens": 7475.0
+        },
+        {
+          "file": "public_CMA_28412_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 60,
+          "estimated_tokens": 10691.0
+        },
+        {
+          "file": "public_CMA_28412_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 120,
+          "estimated_tokens": 23139.0
+        },
+        {
+          "file": "public_CMA_28412_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 105,
+          "estimated_tokens": 19296.0
+        },
+        {
+          "file": "public_CMA_28412_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 137,
+          "estimated_tokens": 26667.0
+        },
+        {
+          "file": "public_CMA_28412_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 12,
+          "estimated_tokens": 2016.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "FIRST CITIZENS BANCSHARES INC /DE/",
+      "ticker": "FCNCA",
+      "cik": "798941",
+      "total_metrics": 925,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_FCNCA_798941_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 220,
+          "estimated_tokens": 42946.0
+        },
+        {
+          "file": "public_FCNCA_798941_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 127,
+          "estimated_tokens": 23082.0
+        },
+        {
+          "file": "public_FCNCA_798941_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 122,
+          "estimated_tokens": 23681.0
+        },
+        {
+          "file": "public_FCNCA_798941_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 205,
+          "estimated_tokens": 38699.0
+        },
+        {
+          "file": "public_FCNCA_798941_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 58,
+          "estimated_tokens": 10004.0
+        },
+        {
+          "file": "public_FCNCA_798941_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 130,
+          "estimated_tokens": 25066.0
+        },
+        {
+          "file": "public_FCNCA_798941_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 57,
+          "estimated_tokens": 9476.0
+        },
+        {
+          "file": "public_FCNCA_798941_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 6,
+          "estimated_tokens": 952.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "Fifth Third Bancorp",
+      "ticker": "FITB",
+      "cik": "35527",
+      "total_metrics": 1009,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_FITB_35527_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 75,
+          "estimated_tokens": 13278.0
+        },
+        {
+          "file": "public_FITB_35527_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 224,
+          "estimated_tokens": 43571.0
+        },
+        {
+          "file": "public_FITB_35527_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 138,
+          "estimated_tokens": 25048.0
+        },
+        {
+          "file": "public_FITB_35527_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 126,
+          "estimated_tokens": 24065.0
+        },
+        {
+          "file": "public_FITB_35527_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 197,
+          "estimated_tokens": 38536.0
+        },
+        {
+          "file": "public_FITB_35527_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 5,
+          "estimated_tokens": 914.0
+        },
+        {
+          "file": "public_FITB_35527_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 153,
+          "estimated_tokens": 28353.0
+        },
+        {
+          "file": "public_FITB_35527_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 91,
+          "estimated_tokens": 15079.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "Huntington Bancshares Incorporated",
+      "ticker": "HBAN",
+      "cik": "49196",
+      "total_metrics": 855,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_HBAN_49196_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 74,
+          "estimated_tokens": 13065.0
+        },
+        {
+          "file": "public_HBAN_49196_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 183,
+          "estimated_tokens": 37168.0
+        },
+        {
+          "file": "public_HBAN_49196_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 77,
+          "estimated_tokens": 13294.0
+        },
+        {
+          "file": "public_HBAN_49196_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 96,
+          "estimated_tokens": 17883.0
+        },
+        {
+          "file": "public_HBAN_49196_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 115,
+          "estimated_tokens": 21898.0
+        },
+        {
+          "file": "public_HBAN_49196_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 184,
+          "estimated_tokens": 33952.0
+        },
+        {
+          "file": "public_HBAN_49196_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 115,
+          "estimated_tokens": 22091.0
+        },
+        {
+          "file": "public_HBAN_49196_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 11,
+          "estimated_tokens": 2035.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "JPMorgan Chase & Co",
+      "ticker": "JPM",
+      "cik": "19617",
+      "total_metrics": 896,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_JPM_19617_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 87,
+          "estimated_tokens": 15741.0
+        },
+        {
+          "file": "public_JPM_19617_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 263,
+          "estimated_tokens": 53866.0
+        },
+        {
+          "file": "public_JPM_19617_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 63,
+          "estimated_tokens": 10750.0
+        },
+        {
+          "file": "public_JPM_19617_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 154,
+          "estimated_tokens": 30912.0
+        },
+        {
+          "file": "public_JPM_19617_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 75,
+          "estimated_tokens": 14001.0
+        },
+        {
+          "file": "public_JPM_19617_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 10,
+          "estimated_tokens": 1900.0
+        },
+        {
+          "file": "public_JPM_19617_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 132,
+          "estimated_tokens": 24891.0
+        },
+        {
+          "file": "public_JPM_19617_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 112,
+          "estimated_tokens": 21783.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "KeyCorp",
+      "ticker": "KEY",
+      "cik": "91576",
+      "total_metrics": 802,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_KEY_91576_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 67,
+          "estimated_tokens": 12061.0
+        },
+        {
+          "file": "public_KEY_91576_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 158,
+          "estimated_tokens": 31330.0
+        },
+        {
+          "file": "public_KEY_91576_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 66,
+          "estimated_tokens": 11385.0
+        },
+        {
+          "file": "public_KEY_91576_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 138,
+          "estimated_tokens": 26306.0
+        },
+        {
+          "file": "public_KEY_91576_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 113,
+          "estimated_tokens": 21216.0
+        },
+        {
+          "file": "public_KEY_91576_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 117,
+          "estimated_tokens": 21348.0
+        },
+        {
+          "file": "public_KEY_91576_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 134,
+          "estimated_tokens": 24938.0
+        },
+        {
+          "file": "public_KEY_91576_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 9,
+          "estimated_tokens": 1543.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "MORGAN STANLEY",
+      "ticker": "MS",
+      "cik": "895421",
+      "total_metrics": 904,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_MS_895421_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 101,
+          "estimated_tokens": 17625.0
+        },
+        {
+          "file": "public_MS_895421_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 245,
+          "estimated_tokens": 49166.0
+        },
+        {
+          "file": "public_MS_895421_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 64,
+          "estimated_tokens": 10817.0
+        },
+        {
+          "file": "public_MS_895421_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 135,
+          "estimated_tokens": 26628.0
+        },
+        {
+          "file": "public_MS_895421_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 100,
+          "estimated_tokens": 18758.0
+        },
+        {
+          "file": "public_MS_895421_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 126,
+          "estimated_tokens": 24055.0
+        },
+        {
+          "file": "public_MS_895421_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 122,
+          "estimated_tokens": 22311.0
+        },
+        {
+          "file": "public_MS_895421_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 11,
+          "estimated_tokens": 1748.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "M&T BANK CORPORATION",
+      "ticker": "MTB",
+      "cik": "36270",
+      "total_metrics": 857,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_MTB_36270_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 78,
+          "estimated_tokens": 13396.0
+        },
+        {
+          "file": "public_MTB_36270_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 202,
+          "estimated_tokens": 40860.0
+        },
+        {
+          "file": "public_MTB_36270_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 66,
+          "estimated_tokens": 11252.0
+        },
+        {
+          "file": "public_MTB_36270_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 99,
+          "estimated_tokens": 18572.0
+        },
+        {
+          "file": "public_MTB_36270_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 167,
+          "estimated_tokens": 32254.0
+        },
+        {
+          "file": "public_MTB_36270_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 126,
+          "estimated_tokens": 23552.0
+        },
+        {
+          "file": "public_MTB_36270_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 111,
+          "estimated_tokens": 21622.0
+        },
+        {
+          "file": "public_MTB_36270_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 8,
+          "estimated_tokens": 1534.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "NORTHERN TRUST CORPORATION",
+      "ticker": "NTRS",
+      "cik": "73124",
+      "total_metrics": 756,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_NTRS_73124_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 61,
+          "estimated_tokens": 10467.0
+        },
+        {
+          "file": "public_NTRS_73124_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 157,
+          "estimated_tokens": 31427.0
+        },
+        {
+          "file": "public_NTRS_73124_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 64,
+          "estimated_tokens": 10483.0
+        },
+        {
+          "file": "public_NTRS_73124_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 69,
+          "estimated_tokens": 12782.0
+        },
+        {
+          "file": "public_NTRS_73124_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 175,
+          "estimated_tokens": 30854.0
+        },
+        {
+          "file": "public_NTRS_73124_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 8,
+          "estimated_tokens": 1576.0
+        },
+        {
+          "file": "public_NTRS_73124_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 106,
+          "estimated_tokens": 19652.0
+        },
+        {
+          "file": "public_NTRS_73124_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 116,
+          "estimated_tokens": 21732.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "PNC Financial Services Group, Inc.",
+      "ticker": "PNC",
+      "cik": "713676",
+      "total_metrics": 941,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_PNC_713676_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 75,
+          "estimated_tokens": 13428.0
+        },
+        {
+          "file": "public_PNC_713676_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 258,
+          "estimated_tokens": 53651.0
+        },
+        {
+          "file": "public_PNC_713676_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 77,
+          "estimated_tokens": 13507.0
+        },
+        {
+          "file": "public_PNC_713676_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 94,
+          "estimated_tokens": 17211.0
+        },
+        {
+          "file": "public_PNC_713676_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 117,
+          "estimated_tokens": 22405.0
+        },
+        {
+          "file": "public_PNC_713676_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 125,
+          "estimated_tokens": 23813.0
+        },
+        {
+          "file": "public_PNC_713676_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 183,
+          "estimated_tokens": 34363.0
+        },
+        {
+          "file": "public_PNC_713676_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 12,
+          "estimated_tokens": 2318.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "Regions Financial Corporation",
+      "ticker": "RF",
+      "cik": "1281761",
+      "total_metrics": 909,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_RF_1281761_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 77,
+          "estimated_tokens": 13492.0
+        },
+        {
+          "file": "public_RF_1281761_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 213,
+          "estimated_tokens": 42512.0
+        },
+        {
+          "file": "public_RF_1281761_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 85,
+          "estimated_tokens": 14703.0
+        },
+        {
+          "file": "public_RF_1281761_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 140,
+          "estimated_tokens": 25969.0
+        },
+        {
+          "file": "public_RF_1281761_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 102,
+          "estimated_tokens": 18314.0
+        },
+        {
+          "file": "public_RF_1281761_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 131,
+          "estimated_tokens": 25147.0
+        },
+        {
+          "file": "public_RF_1281761_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 151,
+          "estimated_tokens": 28522.0
+        },
+        {
+          "file": "public_RF_1281761_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 10,
+          "estimated_tokens": 1821.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "Royal Bank of Canada",
+      "ticker": "RY",
+      "cik": "1000275",
+      "total_metrics": 298,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_RY_1000275_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 66,
+          "estimated_tokens": 8190.0
+        },
+        {
+          "file": "public_RY_1000275_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 21,
+          "estimated_tokens": 2561.0
+        },
+        {
+          "file": "public_RY_1000275_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 22,
+          "estimated_tokens": 2682.0
+        },
+        {
+          "file": "public_RY_1000275_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 45,
+          "estimated_tokens": 5490.0
+        },
+        {
+          "file": "public_RY_1000275_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 76,
+          "estimated_tokens": 9328.0
+        },
+        {
+          "file": "public_RY_1000275_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 36,
+          "estimated_tokens": 4390.0
+        },
+        {
+          "file": "public_RY_1000275_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 2,
+          "estimated_tokens": 243.0
+        },
+        {
+          "file": "public_RY_1000275_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 30,
+          "estimated_tokens": 3661.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "SCHWAB CHARLES CORP",
+      "ticker": "SCHW",
+      "cik": "316709",
+      "total_metrics": 771,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_SCHW_316709_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 42,
+          "estimated_tokens": 6976.0
+        },
+        {
+          "file": "public_SCHW_316709_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 243,
+          "estimated_tokens": 49057.0
+        },
+        {
+          "file": "public_SCHW_316709_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 24,
+          "estimated_tokens": 4144.0
+        },
+        {
+          "file": "public_SCHW_316709_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 151,
+          "estimated_tokens": 28071.0
+        },
+        {
+          "file": "public_SCHW_316709_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 78,
+          "estimated_tokens": 14144.0
+        },
+        {
+          "file": "public_SCHW_316709_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 68,
+          "estimated_tokens": 12740.0
+        },
+        {
+          "file": "public_SCHW_316709_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 105,
+          "estimated_tokens": 19086.0
+        },
+        {
+          "file": "public_SCHW_316709_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 60,
+          "estimated_tokens": 10682.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "STATE STREET CORPORATION",
+      "ticker": "STT",
+      "cik": "93751",
+      "total_metrics": 835,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_STT_93751_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 69,
+          "estimated_tokens": 11691.0
+        },
+        {
+          "file": "public_STT_93751_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 214,
+          "estimated_tokens": 43097.0
+        },
+        {
+          "file": "public_STT_93751_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 69,
+          "estimated_tokens": 11681.0
+        },
+        {
+          "file": "public_STT_93751_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 121,
+          "estimated_tokens": 22423.0
+        },
+        {
+          "file": "public_STT_93751_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 160,
+          "estimated_tokens": 30535.0
+        },
+        {
+          "file": "public_STT_93751_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 112,
+          "estimated_tokens": 20461.0
+        },
+        {
+          "file": "public_STT_93751_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 77,
+          "estimated_tokens": 13694.0
+        },
+        {
+          "file": "public_STT_93751_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 13,
+          "estimated_tokens": 2271.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "THE BANK OF NEW YORK MELLON CORPORATION",
+      "ticker": "BK",
+      "cik": "1390777",
+      "total_metrics": 940,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_BK_1390777_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 79,
+          "estimated_tokens": 13762.0
+        },
+        {
+          "file": "public_BK_1390777_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 230,
+          "estimated_tokens": 47650.0
+        },
+        {
+          "file": "public_BK_1390777_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 193,
+          "estimated_tokens": 36654.0
+        },
+        {
+          "file": "public_BK_1390777_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 80,
+          "estimated_tokens": 13756.0
+        },
+        {
+          "file": "public_BK_1390777_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 103,
+          "estimated_tokens": 19413.0
+        },
+        {
+          "file": "public_BK_1390777_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 114,
+          "estimated_tokens": 20872.0
+        },
+        {
+          "file": "public_BK_1390777_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 130,
+          "estimated_tokens": 25047.0
+        },
+        {
+          "file": "public_BK_1390777_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 11,
+          "estimated_tokens": 2092.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "TORONTO DOMINION BANK",
+      "ticker": "TD",
+      "cik": "947263",
+      "total_metrics": 239,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_TD_947263_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 57,
+          "estimated_tokens": 7103.0
+        },
+        {
+          "file": "public_TD_947263_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 60,
+          "estimated_tokens": 7356.0
+        },
+        {
+          "file": "public_TD_947263_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 21,
+          "estimated_tokens": 2560.0
+        },
+        {
+          "file": "public_TD_947263_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 3,
+          "estimated_tokens": 366.0
+        },
+        {
+          "file": "public_TD_947263_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 31,
+          "estimated_tokens": 3781.0
+        },
+        {
+          "file": "public_TD_947263_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 34,
+          "estimated_tokens": 4148.0
+        },
+        {
+          "file": "public_TD_947263_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 21,
+          "estimated_tokens": 2565.0
+        },
+        {
+          "file": "public_TD_947263_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 12,
+          "estimated_tokens": 1462.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "TRUIST FINANCIAL CORPORATION",
+      "ticker": "TFC",
+      "cik": "92230",
+      "total_metrics": 834,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_TFC_92230_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 70,
+          "estimated_tokens": 12175.0
+        },
+        {
+          "file": "public_TFC_92230_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 230,
+          "estimated_tokens": 46904.0
+        },
+        {
+          "file": "public_TFC_92230_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 69,
+          "estimated_tokens": 11873.0
+        },
+        {
+          "file": "public_TFC_92230_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 80,
+          "estimated_tokens": 14686.0
+        },
+        {
+          "file": "public_TFC_92230_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 114,
+          "estimated_tokens": 21518.0
+        },
+        {
+          "file": "public_TFC_92230_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 149,
+          "estimated_tokens": 28063.0
+        },
+        {
+          "file": "public_TFC_92230_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 11,
+          "estimated_tokens": 2172.0
+        },
+        {
+          "file": "public_TFC_92230_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 111,
+          "estimated_tokens": 20124.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "The Goldman Sachs Group, Inc.",
+      "ticker": "GS",
+      "cik": "886982",
+      "total_metrics": 613,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_GS_886982_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 47,
+          "estimated_tokens": 7864.0
+        },
+        {
+          "file": "public_GS_886982_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 151,
+          "estimated_tokens": 29913.0
+        },
+        {
+          "file": "public_GS_886982_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 49,
+          "estimated_tokens": 8119.0
+        },
+        {
+          "file": "public_GS_886982_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 108,
+          "estimated_tokens": 22341.0
+        },
+        {
+          "file": "public_GS_886982_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 75,
+          "estimated_tokens": 13708.0
+        },
+        {
+          "file": "public_GS_886982_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 74,
+          "estimated_tokens": 13375.0
+        },
+        {
+          "file": "public_GS_886982_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 92,
+          "estimated_tokens": 17711.0
+        },
+        {
+          "file": "public_GS_886982_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 17,
+          "estimated_tokens": 2941.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "US BANCORP \\DE\\",
+      "ticker": "USB",
+      "cik": "36104",
+      "total_metrics": 882,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_USB_36104_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 50,
+          "estimated_tokens": 8608.0
+        },
+        {
+          "file": "public_USB_36104_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 196,
+          "estimated_tokens": 38510.0
+        },
+        {
+          "file": "public_USB_36104_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 69,
+          "estimated_tokens": 11538.0
+        },
+        {
+          "file": "public_USB_36104_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 91,
+          "estimated_tokens": 16603.0
+        },
+        {
+          "file": "public_USB_36104_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 93,
+          "estimated_tokens": 18231.0
+        },
+        {
+          "file": "public_USB_36104_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 167,
+          "estimated_tokens": 32407.0
+        },
+        {
+          "file": "public_USB_36104_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 201,
+          "estimated_tokens": 38857.0
+        },
+        {
+          "file": "public_USB_36104_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 15,
+          "estimated_tokens": 2828.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "WELLS FARGO & COMPANY/MN",
+      "ticker": "WFC",
+      "cik": "72971",
+      "total_metrics": 908,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_WFC_72971_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 80,
+          "estimated_tokens": 14008.0
+        },
+        {
+          "file": "public_WFC_72971_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 236,
+          "estimated_tokens": 48245.0
+        },
+        {
+          "file": "public_WFC_72971_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 139,
+          "estimated_tokens": 25735.0
+        },
+        {
+          "file": "public_WFC_72971_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 107,
+          "estimated_tokens": 20160.0
+        },
+        {
+          "file": "public_WFC_72971_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 174,
+          "estimated_tokens": 34878.0
+        },
+        {
+          "file": "public_WFC_72971_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 118,
+          "estimated_tokens": 22857.0
+        },
+        {
+          "file": "public_WFC_72971_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 3,
+          "estimated_tokens": 530.0
+        },
+        {
+          "file": "public_WFC_72971_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 51,
+          "estimated_tokens": 8524.0
+        }
+      ]
+    },
+    {
+      "success": true,
+      "company": "ZIONS BANCORPORATION, NATIONAL ASSOCIATION",
+      "ticker": "ZION",
+      "cik": "109380",
+      "total_metrics": 991,
+      "chunks_created": 8,
+      "chunk_details": [
+        {
+          "file": "public_ZION_109380_SEC_revenue_profit.json",
+          "chunk_name": "revenue_profit",
+          "display_name": "Revenue & Profitability",
+          "metrics_count": 71,
+          "estimated_tokens": 11933.0
+        },
+        {
+          "file": "public_ZION_109380_SEC_securities_investments.json",
+          "chunk_name": "securities_investments",
+          "display_name": "Securities & Investments",
+          "metrics_count": 279,
+          "estimated_tokens": 55567.0
+        },
+        {
+          "file": "public_ZION_109380_SEC_operations_metadata.json",
+          "chunk_name": "operations_metadata",
+          "display_name": "Operations & Metadata",
+          "metrics_count": 77,
+          "estimated_tokens": 13194.0
+        },
+        {
+          "file": "public_ZION_109380_SEC_other_assets.json",
+          "chunk_name": "other_assets",
+          "display_name": "Other Assets",
+          "metrics_count": 97,
+          "estimated_tokens": 17490.0
+        },
+        {
+          "file": "public_ZION_109380_SEC_cash_equivalents.json",
+          "chunk_name": "cash_equivalents",
+          "display_name": "Cash & Cash Equivalents",
+          "metrics_count": 123,
+          "estimated_tokens": 23039.0
+        },
+        {
+          "file": "public_ZION_109380_SEC_loans_credit.json",
+          "chunk_name": "loans_credit",
+          "display_name": "Loans & Credit",
+          "metrics_count": 123,
+          "estimated_tokens": 22294.0
+        },
+        {
+          "file": "public_ZION_109380_SEC_liabilities_deposits.json",
+          "chunk_name": "liabilities_deposits",
+          "display_name": "Liabilities & Deposits",
+          "metrics_count": 203,
+          "estimated_tokens": 37256.0
+        },
+        {
+          "file": "public_ZION_109380_SEC_risk_capital.json",
+          "chunk_name": "risk_capital",
+          "display_name": "Risk & Capital Management",
+          "metrics_count": 18,
+          "estimated_tokens": 3069.0
+        }
+      ]
+    }
+  ]
+}

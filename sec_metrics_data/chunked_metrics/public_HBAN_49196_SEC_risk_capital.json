@@ -1,0 +1,240 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "49196",
+    "data_type": "SEC",
+    "ticker": "HBAN",
+    "chunk_name": "Risk & Capital Management",
+    "chunk_id": "risk_capital",
+    "company_name": "Huntington Bancshares Incorporated",
+    "extraction_date": "2025-09-30T10:50:08.492447",
+    "metrics_count": 10,
+    "total_company_metrics": 0
+  },
+  "metrics": {
+    "AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue": {
+      "taxonomy": "us-gaap",
+      "label": "APIC, Share-based Payment Arrangement, Increase for Cost Recognition",
+      "description": "Amount of increase to additional paid-in capital (APIC) for recognition of cost for award under share-based payment arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 166,
+      "latest_value": {
+        "value": 106000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "AllocatedShareBasedCompensationExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Expense",
+      "description": "Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 85,
+      "latest_value": {
+        "value": 133000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "Capital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Total Capital, Actual",
+      "description": "Amount of total capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 20565000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EquipmentExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Equipment Expense",
+      "description": "This element represents equipment expense including depreciation, repairs, rentals, and service contract costs. This item also includes equipment purchases which do not qualify for capitalization in accordance with the entity's accounting policy. This item may also include furniture expenses.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 206,
+      "latest_value": {
+        "value": 267000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures and Expirations in Period, Weighted Average Exercise Price",
+      "description": "Weighted average price of options that were either forfeited or expired.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 27,
+      "latest_value": {
+        "value": 14.11,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-06-30",
+        "latest": "2024-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestOutstandingWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Vested and Expected to Vest, Outstanding, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted-average period between the balance sheet date and expiration date for fully vested and expected to vest options outstanding, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "pure",
+        "Y"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 2.6,
+        "date": "2011-06-30",
+        "fiscal_year": 2011,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2011-08-08",
+        "unit": "pure",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2011-06-30",
+        "latest": "2012-09-30"
+      }
+    },
+    "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all awards outstanding under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "pure",
+        "Y"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 2.6,
+        "date": "2011-06-30",
+        "fiscal_year": 2011,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2011-08-08",
+        "unit": "pure",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2011-06-30",
+        "latest": "2012-09-30"
+      }
+    },
+    "TierOneLeverageCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Leverage Capital, Actual",
+      "description": "Amount of Tier 1 leverage capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 17126000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TierOneRiskBasedCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Risk-Based Capital, Actual",
+      "description": "Amount of Tier 1 risk-based capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 17126000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "BankingRegulationCapitalConservationBufferTotalRiskBasedCapitalActual": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Capital Conservation Buffer, Total Risk-Based Capital, Actual",
+      "description": "Capital conservation buffer percentage calculated as total risk-based capital ratio after deduction of minimum total risk-based capital ratio as defined by regulatory framework.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0.025,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    }
+  }
+}

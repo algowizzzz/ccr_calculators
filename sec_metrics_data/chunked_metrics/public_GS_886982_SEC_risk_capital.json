@@ -1,0 +1,304 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "886982",
+    "data_type": "SEC",
+    "ticker": "GS",
+    "chunk_name": "Risk & Capital Management",
+    "chunk_id": "risk_capital",
+    "company_name": "The Goldman Sachs Group, Inc.",
+    "extraction_date": "2025-09-30T10:50:08.954608",
+    "metrics_count": 13,
+    "total_company_metrics": 0
+  },
+  "metrics": {
+    "Capital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Total Capital, Actual",
+      "description": "Amount of total capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 43,
+      "latest_value": {
+        "value": 90978000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "ConcentrationRiskPercentage1": {
+      "taxonomy": "us-gaap",
+      "label": "Concentration Risk, Percentage",
+      "description": "\"For an entity that discloses a concentration risk in relation to quantitative amount, which serves as the \"\"benchmark\"\" (or denominator) in the equation, this concept represents the concentration percentage derived from the division.\"",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 1,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-22",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2021-06-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all vested portions of options outstanding and currently exercisable (or convertible) under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "Y"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 5.79,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "Y",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all awards outstanding under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "Y"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 6.08,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "Y",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "SupplementaryLeverageRatio": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Supplementary Leverage Ratio, Actual",
+      "description": "Ratio of Tier 1 risk-based capital to total leverage exposure as defined by regulatory framework.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 58,
+      "latest_value": {
+        "value": 0.055,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "TierOneLeverageCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Leverage Capital, Actual",
+      "description": "Amount of Tier 1 leverage capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 60,
+      "latest_value": {
+        "value": 115647000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "TierOneRiskBasedCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Risk-Based Capital, Actual",
+      "description": "Amount of Tier 1 risk-based capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 66,
+      "latest_value": {
+        "value": 115647000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "TierTwoRiskBasedCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier Two Risk-Based Capital, Actual",
+      "description": "Amount of Tier 2 risk-based capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 12545000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "BankingRegulationCountercyclicalCapitalBuffer": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Countercyclical Capital Buffer",
+      "description": "Countercyclical capital buffer percentage as defined by regulatory framework.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0,
+        "date": "2023-09-30",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2023-11-03",
+        "unit": "pure",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2023-09-30"
+      }
+    },
+    "BankingRegulationGlobalSystemicallyImportantBankGsibSurcharge": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Global Systemically Important Bank (GSIB) Surcharge",
+      "description": "Global systemically important bank (GSIB) surcharge percentage as defined by regulatory framework.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0.03,
+        "date": "2023-09-30",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2023-11-03",
+        "unit": "pure",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2023-09-30"
+      }
+    },
+    "BankingRegulationSupplementaryLeverageRatioCapitalAdequacyMinimum": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Supplementary Leverage Ratio, Capital Adequacy, Minimum",
+      "description": "Ratio of minimum Tier 1 risk-based capital to total leverage exposure required for capital adequacy as defined by regulatory framework.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 16,
+      "latest_value": {
+        "value": 0.03,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "BankingRegulationLeverageBufferMinimum": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Leverage Buffer, Minimum",
+      "description": "Minimum leverage buffer percentage as defined by regulatory framework.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 0.02,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "BankingRegulationSupplementaryLeverageRatioWellCapitalizedMinimum": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Supplementary Leverage Ratio, Well Capitalized, Minimum",
+      "description": "Ratio of minimum Tier 1 risk-based capital to total leverage exposure categorized as well capitalized as defined by regulatory framework for prompt corrective action.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 0.05,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    }
+  }
+}

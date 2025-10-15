@@ -1,0 +1,61 @@
+Below is a consolidated table for ~30 large U.S. and Canadian banks with **ticker → CIK → companyfacts JSON URL**. The URL pattern is deterministic:
+`https://data.sec.gov/api/xbrl/companyfacts/CIK<10-digit-CIK>.json`
+
+> Note: The SEC requires a descriptive **User-Agent** with contact info for programmatic access. Some Canadian issuers file under IFRS but still expose `companyfacts` JSON. Market-cap ranks move; this list is meant for immediate engineering use.
+
+|  # | Bank                               | Ticker(s)    | CIK (10-digit) | companyfacts JSON URL                                                                                                          |
+| -: | ---------------------------------- | ------------ | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+|  1 | JPMorgan Chase & Co.               | JPM          | 0000019617     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json) |
+|  2 | Bank of America Corp.              | BAC          | 0000070858     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000070858.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000070858.json) |
+|  3 | Wells Fargo & Co.                  | WFC          | 0000072971     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000072971.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000072971.json) |
+|  4 | Citigroup Inc.                     | C            | 0000831001     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000831001.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000831001.json) |
+|  5 | Morgan Stanley                     | MS           | 0000895421     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000895421.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000895421.json) |
+|  6 | Goldman Sachs Group, Inc.          | GS           | 0000886982     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000886982.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000886982.json) |
+|  7 | The Charles Schwab Corp.           | SCHW         | 0000316709     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000316709.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000316709.json) |
+|  8 | PNC Financial Services Group       | PNC          | 0000713676     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000713676.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000713676.json) |
+|  9 | U.S. Bancorp                       | USB          | 0000036104     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000036104.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000036104.json) |
+| 10 | Bank of New York Mellon Corp.      | BK           | 0001390777     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0001390777.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001390777.json) |
+| 11 | Truist Financial Corp.             | TFC          | 0000092230     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000092230.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000092230.json) |
+| 12 | Capital One Financial Corp.        | COF          | 0000927628     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000927628.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000927628.json) |
+| 13 | State Street Corp.                 | STT          | 0000093751     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000093751.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000093751.json) |
+| 14 | Northern Trust Corp.               | NTRS         | 0000073124     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000073124.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000073124.json) |
+| 15 | Fifth Third Bancorp                | FITB         | 0000035527     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000035527.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000035527.json) |
+| 16 | Huntington Bancshares Inc.         | HBAN         | 0000049196     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000049196.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000049196.json) |
+| 17 | Regions Financial Corp.            | RF           | 0001281761     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0001281761.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001281761.json) |
+| 18 | Citizens Financial Group, Inc.     | CFG          | 0000759944     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000759944.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000759944.json) |
+| 19 | KeyCorp                            | KEY          | 0000091576     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000091576.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000091576.json) |
+| 20 | M&T Bank Corp.                     | MTB          | 0000036270     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000036270.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000036270.json) |
+| 21 | First Citizens BancShares, Inc.    | FCNCA        | 0000798941     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000798941.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000798941.json) |
+| 22 | Comerica Inc.                      | CMA          | 0000028412     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000028412.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000028412.json) |
+| 23 | Zions Bancorporation, N.A.         | ZION         | 0000109380     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000109380.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000109380.json) |
+| 24 | Ally Financial Inc.                | ALLY         | 0000040719     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000040719.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000040719.json) |
+| 25 | Royal Bank of Canada               | RY / RY.TO   | 0001000275     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0001000275.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001000275.json) |
+| 26 | Toronto-Dominion Bank              | TD / TD.TO   | 0000947263     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000947263.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000947263.json) |
+| 27 | Bank of Nova Scotia (Scotiabank)   | BNS / BNS.TO | 0000009631     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000009631.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000009631.json) |
+| 28 | Bank of Montreal                   | BMO / BMO.TO | 0000927971     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000927971.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000927971.json) |
+| 29 | Canadian Imperial Bank of Commerce | CM / CM.TO   | 0001045520     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0001045520.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0001045520.json) |
+| 30 | National Bank of Canada            | NA / NA.TO   | 0000926171     | [https://data.sec.gov/api/xbrl/companyfacts/CIK0000926171.json](https://data.sec.gov/api/xbrl/companyfacts/CIK0000926171.json) |
+
+### How I validated / how you can “check if it works”
+
+* The **endpoint specification** and examples are documented by the SEC (companyfacts / companyconcept / frames). ([SEC][1])
+* The **tickers→CIKs** come from the SEC’s official mapping (regularly updated). ([SEC][2])
+* For Canadian issuers (e.g., **BMO**, **RBC**), their **CIKs are confirmed on recent SEC filing index pages**, indicating active EDGAR coverage (hence valid companyfacts endpoints when XBRL facts are present). ([SEC][3])
+
+#### Quick command to test any row (replace email & CIK)
+
+```bash
+curl -sS \
+  -H "User-Agent: Saad Ahmed saad@example.com" \
+  -H "Accept: application/json" \
+  "https://data.sec.gov/api/xbrl/companyfacts/CIK0000070858.json" | jq '.entityName, (.facts | keys)'
+```
+
+* Expect a JSON payload with `entityName` and a `facts` object (e.g., `us-gaap`, `ifrs-full`, `dei`).
+* If a particular issuer has **no XBRL facts** for a period, the endpoint may exist but return a smaller payload (or, rarely, 404 for thin filers). In practice, the 30 above are active filers and should respond.
+
+If you want, I can hand you a **Python script** that takes this table, pings each URL with proper headers, and returns a pass/fail plus the first few taxonomy keys it finds.
+
+[1]: https://www.sec.gov/search-filings/edgar-application-programming-interfaces?utm_source=chatgpt.com "EDGAR Application Programming Interfaces (APIs)"
+[2]: https://www.sec.gov/search-filings/edgar-search-assistance/accessing-edgar-data?utm_source=chatgpt.com "Accessing EDGAR Data"
+[3]: https://www.sec.gov/Archives/edgar/data/927971/000121465925014326/0001214659-25-014326-index.htm?utm_source=chatgpt.com "EDGAR Filing Documents for 0001214659-25-014326"

@@ -1,0 +1,1557 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "1000275",
+    "data_type": "SEC",
+    "ticker": "RY",
+    "chunk_name": "Revenue & Profitability",
+    "chunk_id": "revenue_profit",
+    "company_name": "Royal Bank of Canada",
+    "extraction_date": "2025-09-30T10:50:08.771845",
+    "metrics_count": 67,
+    "total_company_metrics": 0
+  },
+  "metrics": {
+    "AdjustmentsForGainLossOnDisposalsPropertyPlantAndEquipment": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 1000000,
+        "date": "2017-10-31",
+        "fiscal_year": 2018,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2018-11-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2017-10-31"
+      }
+    },
+    "AdjustmentsForIncomeTaxExpense": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": -60000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "AmountPresentedInOtherComprehensiveIncomeRealisedAtDerecognition": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 1425000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "BasicEarningsLossPerShare": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD/shares"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 10.33,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD/shares",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "BrokerageFeeIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 1401000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ComprehensiveIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 14440000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ComprehensiveIncomeAttributableToNoncontrollingInterests": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 5000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ComprehensiveIncomeAttributableToOwnersOfParent": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 14435000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "CurrentTaxExpenseIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 4829000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "CurrentTaxExpenseIncomeAndAdjustmentsForCurrentTaxOfPriorPeriods": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 5123000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "DeferredIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 3518000000,
+        "date": "2021-10-31",
+        "fiscal_year": 2021,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2021-12-01",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2021-10-31"
+      }
+    },
+    "DeferredTaxExpenseIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": -1501000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "DeferredTaxExpenseIncomeRecognisedInProfitOrLoss": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 1501000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "DeferredTaxExpenseIncomeRelatingToOriginationAndReversalOfTemporaryDifferences": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": -1118000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "DeferredTaxExpenseIncomeRelatingToTaxRateChangesOrImpositionOfNewTaxes": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 13,
+      "latest_value": {
+        "value": -47000000,
+        "date": "2023-10-31",
+        "fiscal_year": 2023,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2023-11-30",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2023-10-31"
+      }
+    },
+    "DescriptionOfRiskFreeInterestRateShareOptionsGranted": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 0.0329,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "DilutedEarningsLossPerShare": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD/shares"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 10.31,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD/shares",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "DividendsPaidOrdinaryShares": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 6344000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "DividendsPaidOtherShares": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 394000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "DividendsReceivedClassifiedAsOperatingActivities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 3038000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ExpectedDividendAsPercentageShareOptionsGranted": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 0.042,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "FinancialInstrumentsSubjectToEnforceableMasterNettingArrangementOrSimilarAgreementNotSetOffAgainstFinancialLiabilities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 105603000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "GainsLossesOnExchangeDifferencesOnTranslationNetOfTax": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": -258000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "GainsLossesRecognisedInOtherComprehensiveIncomeFairValueMeasurementLiabilities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": -3000000,
+        "date": "2020-10-31",
+        "fiscal_year": 2020,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2020-12-02",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2020-10-31",
+        "latest": "2020-10-31"
+      }
+    },
+    "GainsLossesRecognisedInProfitOrLossOnFinancialLiabilitiesAtFairValueThroughProfitOrLossDesignatedUponInitialRecognitionOrSubsequently": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": -5838000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "IncomeArisingFromInsuranceContracts": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 62,
+      "latest_value": {
+        "value": 5675000000,
+        "date": "2023-10-31",
+        "fiscal_year": 2023,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2023-11-30",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2023-10-31"
+      }
+    },
+    "IncomeTaxExpenseContinuingOperations": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 3888000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "IncomeTaxesPaidRefundClassifiedAsOperatingActivities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 3913000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "IncomeTaxRelatingToComponentsOfOtherComprehensiveIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 70,
+      "latest_value": {
+        "value": -2000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-01-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "IncomeTaxRelatingToExchangeDifferencesOnTranslationOfOtherComprehensiveIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 65,
+      "latest_value": {
+        "value": -6000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "IncomeTaxRelatingToRemeasurementsOfDefinedBenefitPlansOfOtherComprehensiveIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 124000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "InterestExpense": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 53180000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "InterestExpenseOnOtherFinancialLiabilities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 18945000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "InterestPaidClassifiedAsOperatingActivities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 53735000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "InterestReceivedClassifiedAsOperatingActivities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 74901000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "NoncontrollingInterests": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 56,
+      "latest_value": {
+        "value": 69000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "OtherAdjustmentsToReconcileProfitLoss": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": -4805000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "OtherComponentsOfDeferredTaxExpenseIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 3000000,
+        "date": "2022-10-31",
+        "fiscal_year": 2022,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2022-11-30",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2019-10-31",
+        "latest": "2022-10-31"
+      }
+    },
+    "OtherComprehensiveIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": -495000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": -27000000,
+        "date": "2019-01-31",
+        "fiscal_year": 2019,
+        "fiscal_period": "Q1",
+        "form": "6-K",
+        "filed": "2019-02-22",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2019-01-31"
+      }
+    },
+    "OtherComprehensiveIncomeNetOfTaxGainsLossesOnRemeasurementsOfDefinedBenefitPlans": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 327000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "OtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTax": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -173000000,
+        "date": "2018-10-31",
+        "fiscal_year": 2018,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2018-11-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2018-10-31"
+      }
+    },
+    "OtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTax": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": -218000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "OtherRevenue": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 1264000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "OtherTaxEffectsForReconciliationBetweenAccountingProfitAndTaxExpenseIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 143000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "OtherTaxRateEffectsForReconciliationBetweenAccountingProfitAndTaxExpenseIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 0.007,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "PortfolioAndOtherManagementFeeIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 7853000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ProfessionalFeesExpense": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 1568000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ProfitLoss": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 14935000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ProfitLossAttributableToNoncontrollingInterests": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 82,
+      "latest_value": {
+        "value": 5000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ProfitLossAttributableToOwnersOfParent": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 14930000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ProfitLossBeforeTax": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 18823000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "RetainedEarnings": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 56,
+      "latest_value": {
+        "value": 94971000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "Revenue": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 49396000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "RevenueFromDividends": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 2904000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "RevenueFromInterest": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 77535000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "TaxEffectOfRevenuesExemptFromTaxation2011": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 52000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "TaxExpenseIncomeAtApplicableTaxRate": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 5502000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "TaxRateEffectOfRevenuesExemptFromTaxation": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 0.003,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "IncomeFromAmountsRecoveredFromReinsurer": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 957000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2023-01-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "InsuranceFinanceIncomeExpenses": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": -574000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2023-01-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "InsuranceRevenue": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 4108000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2023-01-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ContractualServiceMargin": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -2137000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2023-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "InsuranceRevenueChangeInRiskAdjustmentForNonfinancialRisk": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 191000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2023-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "InsuranceRevenueContractualServiceMarginRecognisedInProfitOrLossBecauseOfTransferOfServices": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 255000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2023-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "InsuranceRevenueInsuranceServiceExpensesIncurredDuringPeriodMeasuredAtAmountsExpectedAtBeginningOfPeriod": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 2970000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-04",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2023-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "IncomeTaxRelatingToChangeInValueOfForeignCurrencyBasisSpreadsOfOtherComprehensiveIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 0,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-27",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2025-07-31",
+        "latest": "2025-07-31"
+      }
+    }
+  }
+}

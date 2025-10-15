@@ -1,0 +1,1938 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "19617",
+    "data_type": "SEC",
+    "ticker": "JPM",
+    "chunk_name": "Revenue & Profitability",
+    "chunk_id": "revenue_profit",
+    "company_name": "JPMorgan Chase & Co",
+    "extraction_date": "2025-09-30T11:01:43.827872",
+    "metrics_count": 87,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "EntityCommonStockSharesOutstanding": {
+      "taxonomy": "dei",
+      "label": "Entity Common Stock, Shares Outstanding",
+      "description": "Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests, if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member], Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings, Instrument.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 69,
+      "latest_value": {
+        "value": 2796106099,
+        "date": "2025-01-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-07-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "BusinessAcquisitionProFormaEarningsPerShareBasic": {
+      "taxonomy": "us-gaap",
+      "label": "Business Acquisition, Pro Forma Earnings Per Share, Basic",
+      "description": "The pro forma basic net income per share for a period as if the business combination or combinations had been completed at the beginning of a period.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -3.72,
+        "date": "2008-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2008-12-31"
+      }
+    },
+    "BusinessAcquisitionProFormaEarningsPerShareDiluted": {
+      "taxonomy": "us-gaap",
+      "label": "Business Acquisition, Pro Forma Earnings Per Share, Diluted",
+      "description": "The pro forma diluted net income per share for a period as if the business combination or combinations had been completed at the beginning of a period.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -3.72,
+        "date": "2008-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2008-12-31"
+      }
+    },
+    "BusinessAcquisitionProFormaIncomeLossFromContinuingOperationsBeforeChangesInAccountingAndExtraordinaryItemsNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Business Acquisition, Pro Forma Income (Loss) from Continuing Operations before Changes in Accounting and Extraordinary Items, Net of Tax (Deprecated 2011-01-31)",
+      "description": "The pro forma income from continuing operations before changes in accounting and extraordinary items, net of tax effect, for the period as if the business combination or combinations had been completed at the beginning of a period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -14090000000,
+        "date": "2008-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2008-12-31"
+      }
+    },
+    "BusinessAcquisitionProFormaIncomeLossFromContinuingOperationsBeforeChangesInAccountingAndExtraordinaryItemsNetOfTaxPerShareBasic": {
+      "taxonomy": "us-gaap",
+      "label": "Business Acquisition, Pro Forma Income (Loss) from Continuing Operations, Net of Tax, Per Share, Basic",
+      "description": "Per basic share amount of pro forma income from continuing operations, after tax, as if the business combination had been completed at the beginning of a period.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -4.26,
+        "date": "2008-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2008-12-31"
+      }
+    },
+    "BusinessAcquisitionProFormaIncomeLossFromContinuingOperationsBeforeChangesInAccountingAndExtraordinaryItemsNetOfTaxPerShareDiluted": {
+      "taxonomy": "us-gaap",
+      "label": "Business Acquisition, Pro Forma Income (Loss) from Continuing Operations, Net of Tax, Per Share, Diluted",
+      "description": "Per diluted share amount of pro forma income from continuing operations, after tax, as if the business combination had been completed at the beginning of a period.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -4.26,
+        "date": "2008-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2008-12-31"
+      }
+    },
+    "BusinessAcquisitionProFormaNetIncomeLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Business Acquisition, Pro Forma Net Income (Loss) (Deprecated 2011-01-31)",
+      "description": "The pro forma net Income or Loss for the period as if the business combination or combinations had been completed at the beginning of a period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -12184000000,
+        "date": "2008-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2008-12-31"
+      }
+    },
+    "BusinessAcquisitionProFormaRevenue": {
+      "taxonomy": "us-gaap",
+      "label": "Business Acquisition, Pro Forma Revenue (Deprecated 2011-01-31)",
+      "description": "The pro forma revenue for a period as if the business combination or combinations had been completed at the beginning of the period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 68149000000,
+        "date": "2008-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2008-12-31"
+      }
+    },
+    "ChangeInUnrealizedGainLossOnFairValueHedgingInstruments": {
+      "taxonomy": "us-gaap",
+      "label": "Change in Unrealized Gain (Loss) on Fair Value Hedging Instruments (Deprecated 2013-01-31)",
+      "description": "The amount recognized in earnings related to the change in fair value during the period of derivative or nonderivative instruments designated as fair value hedging instruments.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 36,
+      "latest_value": {
+        "value": 6795000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2013-06-30"
+      }
+    },
+    "ChangeInUnrealizedGainLossOnFairValueHedgingInstruments1": {
+      "taxonomy": "us-gaap",
+      "label": "Change in Unrealized Gain (Loss) on Fair Value Hedging Instruments",
+      "description": "Amount of gain (loss) from the increase (decrease) in fair value of derivative and nonderivative instruments designated as fair value hedging instruments recognized in the income statement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 156,
+      "latest_value": {
+        "value": 827000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ChangeInUnrealizedGainLossOnHedgedItemInFairValueHedge": {
+      "taxonomy": "us-gaap",
+      "label": "Change in Unrealized Gain (Loss) on Hedged Item in Fair Value Hedge (Deprecated 2013-01-31)",
+      "description": "The amount recognized in earnings related to the change in fair value during the period of the hedged item in a fair value hedge.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 36,
+      "latest_value": {
+        "value": -5935000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2013-06-30"
+      }
+    },
+    "ChangeInUnrealizedGainLossOnHedgedItemInFairValueHedge1": {
+      "taxonomy": "us-gaap",
+      "label": "Change in Unrealized Gain (Loss) on Hedged Item in Fair Value Hedge",
+      "description": "Amount of the increase (decrease) in fair value of the hedged item in a fair value hedge recognized in the income statement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 156,
+      "latest_value": {
+        "value": 177000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CommonStockDividendsPerShareDeclared": {
+      "taxonomy": "us-gaap",
+      "label": "Common Stock, Dividends, Per Share, Declared",
+      "description": "Aggregate dividends declared during the period for each share of common stock outstanding.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 170,
+      "latest_value": {
+        "value": 4.8,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CommonStockSharesOutstanding": {
+      "taxonomy": "us-gaap",
+      "label": "Common Stock, Shares, Outstanding",
+      "description": "Number of shares of common stock outstanding. Common stock represent the ownership interest in a corporation.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 48,
+      "latest_value": {
+        "value": 2797600000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple": {
+      "taxonomy": "us-gaap",
+      "label": "Cumulative Effect of Initial Adoption of New Accounting Principle (Deprecated 2011-01-31)",
+      "description": "Cumulative effect of initial adoption of new accounting principle on beginning retained earnings, net of tax. This element can be used, generally, for the adjustment to retained earnings of a new accounting principle.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -129000000,
+        "date": "2010-03-31",
+        "fiscal_year": 2011,
+        "fiscal_period": "Q1",
+        "form": "10-Q",
+        "filed": "2011-05-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2010-03-31",
+        "latest": "2010-03-31"
+      }
+    },
+    "CurrentForeignTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Current Foreign Tax Expense (Benefit)",
+      "description": "Amount of current foreign income tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 4753000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CurrentIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Current Income Tax Expense (Benefit)",
+      "description": "Amount of current income tax expense (benefit) pertaining to taxable income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 48,
+      "latest_value": {
+        "value": 14606000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CurrentStateAndLocalTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Current State and Local Tax Expense (Benefit)",
+      "description": "Amount of current state and local tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 2762000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredForeignIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Foreign Income Tax Expense (Benefit)",
+      "description": "Amount of deferred foreign income tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 72000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Income Tax Expense (Benefit)",
+      "description": "Amount of deferred income tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 155,
+      "latest_value": {
+        "value": 2004000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DeferredStateAndLocalIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred State and Local Income Tax Expense (Benefit)",
+      "description": "Amount of deferred state and local tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 161000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DefinedBenefitPlanEffectOfOnePercentagePointDecreaseOnServiceAndInterestCostComponents": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Effect of One Percentage Point Decrease on Service and Interest Cost Components (Deprecated 2012-01-31)",
+      "description": "The effect of a one-percentage- point decrease in the assumed health care cost trend rates on the aggregate of the service and interest cost components of net periodic postretirement health care benefit costs.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": -1000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "DefinedBenefitPlanEffectOfOnePercentagePointDecreaseOnServiceAndInterestCostComponents1": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Effect of One Percentage Point Decrease on Service and Interest Cost Components",
+      "description": "Amount of decrease in service and interest cost components of net periodic postretirement benefit cost from one-percentage-point decrease in assumed health care cost trend rate.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 1000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-20",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "DefinedBenefitPlanEffectOfOnePercentagePointIncreaseOnServiceAndInterestCostComponents": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Effect of One Percentage Point Increase on Service and Interest Cost Components",
+      "description": "Amount of increase in service and interest cost components of net periodic postretirement benefit cost from one-percentage-point increase in assumed health care cost trend rate.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": 1000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-20",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "DerivativeExcludedComponentGainLossRecognizedInEarnings": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative, Excluded Component, Gain (Loss), Recognized in Earnings",
+      "description": "Amount of gain (loss) from excluded component of derivative hedge, recognized in earnings. Excludes recognition under systematic and rational method.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 1373000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "EarningsPerShareBasic": {
+      "taxonomy": "us-gaap",
+      "label": "Earnings Per Share, Basic",
+      "description": "The amount of net income (loss) for the period per each share of common stock or unit outstanding during the reporting period.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 19.79,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "EffectiveIncomeTaxRateContinuingOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Percent",
+      "description": "Percentage of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 64,
+      "latest_value": {
+        "value": 0.221,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "ExtraordinaryItemNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Extraordinary Item, Gain (Loss), Net of Tax, Including Portion Attributable to Noncontrolling Interest (Deprecated 2019-01-31)",
+      "description": "Net of tax amount of gain (loss) classified as extraordinary item, including amount attributable to noncontrolling interests.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 0,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "FairValueOptionChangesInFairValueGainLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Fair Value, Option, Changes in Fair Value, Gain (Loss) (Deprecated 2012-01-31)",
+      "description": "This item represents, for each line item in the statement of financial position, the amounts of gains and losses from fair value changes included in earnings during the period and in which line in the income statement those gains and losses are reported. This item may also include amounts of gains and losses for other items measured at fair value, but for which the fair value option has not been elected (for instance, items required to be measured at fair value).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 23,
+      "latest_value": {
+        "value": -2188000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2012-06-30"
+      }
+    },
+    "FairValueOptionChangesInFairValueGainLoss1": {
+      "taxonomy": "us-gaap",
+      "label": "Fair Value, Option, Changes in Fair Value, Gain (Loss)",
+      "description": "For each line item in the statement of financial position, the amounts of gains and losses from fair value changes included in earnings.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 59,
+      "latest_value": {
+        "value": -172000000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2016-12-31"
+      }
+    },
+    "FeesAndCommissionsOther": {
+      "taxonomy": "us-gaap",
+      "label": "Fees and Commissions, Other (Deprecated 2018-01-31)",
+      "description": "Amount of fee and commission revenue classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 119,
+      "latest_value": {
+        "value": 1289000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2018-06-30"
+      }
+    },
+    "GainLossFromComponentsExcludedFromAssessmentOfFairValueHedgeEffectivenessNet": {
+      "taxonomy": "us-gaap",
+      "label": "Gain (Loss) from Components Excluded from Assessment of Fair Value Hedge Effectiveness, Net",
+      "description": "Net gain (loss) relating to components of the gain (loss) on the fair value hedging instrument excluded from the assessment of fair value hedge effectiveness. Recognized in earnings.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 103,
+      "latest_value": {
+        "value": 938000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "GainLossOnFairValueHedgeIneffectivenessNet": {
+      "taxonomy": "us-gaap",
+      "label": "Gain (Loss) on Fair Value Hedge Ineffectiveness, Net",
+      "description": "Amount of gain (loss)recognized in the income statement from the hedging ineffectiveness of a fair value hedge.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 105,
+      "latest_value": {
+        "value": 11000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "GainLossOnFairValueHedgesRecognizedInEarnings": {
+      "taxonomy": "us-gaap",
+      "label": "Gain (Loss) on Fair Value Hedges Recognized in Earnings",
+      "description": "Total amount of gain (loss) derived from fair value hedges recognized in earnings in the period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 192,
+      "latest_value": {
+        "value": 1004000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncomeLossBeforeExtraordinaryItemsAndCumulativeEffectOfChangeInAccountingPrinciple": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Operations before Extraordinary Items (Deprecated 2019-01-31)",
+      "description": "Income or Loss from continuing operations, net of taxes, including net Income or Loss from discontinued operations but before extraordinary items.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 18976000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "IncomeLossBeforeExtraordinaryItemsAndCumulativeEffectOfChangeInAccountingPrinciplePerBasicShare": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Operations before Extraordinary Items, Per Basic Share (Deprecated 2019-01-31)",
+      "description": "The amount of net Income or Loss before extraordinary items per each share of common stock or unit outstanding during the reporting period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 4.5,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "IncomeLossFromContinuingOperationsBeforeIncomeTaxesDomestic": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Continuing Operations before Income Taxes, Domestic",
+      "description": "The portion of earnings or loss from continuing operations before income taxes that is attributable to domestic operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 59472000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeLossFromContinuingOperationsBeforeIncomeTaxesForeign": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Continuing Operations before Income Taxes, Foreign",
+      "description": "The portion of earnings or loss from continuing operations before income taxes that is attributable to foreign operations, which is defined as Income or Loss generated from operations located outside the entity's country of domicile.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 15609000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeLossFromExtraordinaryItemsNetOfTaxPerBasicShare": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Extraordinary Items, Net of Tax, Per Basic Share (Deprecated 2019-01-31)",
+      "description": "The amount of net income (loss) from extraordinary items, net of related tax effect, per each share of common stock or unit outstanding during the reporting period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 11,
+      "latest_value": {
+        "value": 0,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "IncomeTaxExaminationPenaltiesAndInterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Income Tax Examination, Penalties and Interest Expense",
+      "description": "The sum of the amounts of estimated penalties and interest recognized in the period arising from income tax examinations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 39,
+      "latest_value": {
+        "value": 288000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Income Tax Expense (Benefit)",
+      "description": "Amount of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 16610000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncomeTaxExpenseBenefitContinuingOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Income Tax Expense (Benefit), Continuing Operations (Deprecated 2013-01-31)",
+      "description": "The sum of the current income tax expense or benefit and the deferred income tax expense or benefit pertaining to pretax Income or Loss from continuing operations; income tax expense or benefit may include interest and penalties on tax uncertainties based on the entity's accounting policy.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 7489000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "InterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Expense",
+      "description": "Amount of the cost of borrowed funds accounted for as interest expense.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 206,
+      "latest_value": {
+        "value": 81321000000,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2024-03-31"
+      }
+    },
+    "InterestExpenseBeneficialInterestsIssuedByConsolidatedVariableInterestEntities": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Expense, Beneficial Interests Issued by Consolidated Variable Interest Entities",
+      "description": "Interest expense on beneficial interests issued by consolidated variable interest entities.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 210,
+      "latest_value": {
+        "value": 1383000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "InterestIncomeExpenseNet": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Income (Expense), Net",
+      "description": "The net amount of operating interest income (expense).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 92583000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "InterestRevenueExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Segment Reporting Information, Interest Income or Expense, Net (Deprecated 2012-01-31)",
+      "description": "Amount of interest revenue net of interest expense for the reportable segment. Reporting interest revenue net of interest expense is permitted only when a majority of the segment's revenues are from interest and the chief operating decision maker relies primarily on net interest revenue to assess the performance of the segment and make decisions about resources to be allocated to the segment.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 11,
+      "latest_value": {
+        "value": 47689000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2012-06-30"
+      }
+    },
+    "LegalFees": {
+      "taxonomy": "us-gaap",
+      "label": "Legal Fees",
+      "description": "The amount of expense provided in the period for legal costs incurred on or before the balance sheet date pertaining to resolved, pending or threatened litigation, including arbitration and mediation proceedings.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 5200000000,
+        "date": "2010-09-30",
+        "fiscal_year": 2010,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2010-11-09",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2009-06-30",
+        "latest": "2010-09-30"
+      }
+    },
+    "LitigationSettlementExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Litigation Settlement, Expense",
+      "description": "Amount of litigation expense, including but not limited to legal, forensic, accounting, and investigative fees.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 97,
+      "latest_value": {
+        "value": 740000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "LossContingencyLossInPeriod": {
+      "taxonomy": "us-gaap",
+      "label": "Loss Contingency, Loss in Period",
+      "description": "The amount of loss pertaining to the specified contingency that was charged against earnings in the period, including the effects of revisions in previously reported estimates.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 28,
+      "latest_value": {
+        "value": -35000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2018-03-31"
+      }
+    },
+    "NetIncomeLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Net Income (Loss) Attributable to Parent",
+      "description": "The portion of profit or loss for the period, net of income taxes, which is attributable to the parent.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 58471000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NewAccountingPronouncementOrChangeInAccountingPrincipleEffectOfChangeOnNetIncome": {
+      "taxonomy": "us-gaap",
+      "label": "New Accounting Pronouncement or Change in Accounting Principle, Effect of Change on Net Income (Deprecated 2020-01-31)",
+      "description": "Amount of the effect of a change in accounting principle on net income.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 0,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "NewAccountingPronouncementOrChangeInAccountingPrincipleEffectOfChangeOnNetRevenue": {
+      "taxonomy": "us-gaap",
+      "label": "New Accounting Pronouncement or Change in Accounting Principle, Effect of Change on Net Revenue (Deprecated 2016-01-31)",
+      "description": "Amount of the effect of a change in accounting principle on net revenue.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 907000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "NoninterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Noninterest Expense",
+      "description": "Total aggregate amount of all noninterest expense.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 91797000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeDefinedBenefitPlansAdjustmentNetOfTaxPortionAttributableToParent": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive (Income) Loss, Defined Benefit Plan, after Tax and Reclassification Adjustment, Attributable to Parent",
+      "description": "Amount, after tax and reclassification adjustment, of (increase) decrease in accumulated other comprehensive income for defined benefit plan, attributable to parent.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 113,
+      "latest_value": {
+        "value": 63000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossBeforeTaxPortionAttributableToParent": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), before Tax, Portion Attributable to Parent",
+      "description": "Amount before tax of other comprehensive income (loss) attributable to parent entity.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 100,
+      "latest_value": {
+        "value": -1631000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossDerivativeExcludedComponentIncreaseDecreaseAdjustmentsBeforeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Derivative, Excluded Component, Increase (Decrease), Adjustments, before Tax",
+      "description": "Amount, before tax, of adjustments from accumulated other comprehensive income (AOCI) for gain (loss) from increase (decrease) in value of excluded component of derivative designated and qualifying as hedge. Adjustments include, but are not limited to, reclassifications for sale and settlement, and amounts recognized under systematic and rational method.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": -866000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossDerivativeExcludedComponentIncreaseDecreaseAfterAdjustmentsAndTaxParent": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Derivative, Excluded Component, Increase (Decrease), after Adjustments and Tax, Parent",
+      "description": "Amount, after tax and adjustments, of gain (loss) from increase (decrease) in value of excluded component of derivative designated and qualifying as hedge, attributable to parent. Adjustments include, but are not limited to, reclassifications for sale and settlement, and amounts recognized under systematic and rational method.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 86,
+      "latest_value": {
+        "value": -87000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossDerivativeExcludedComponentIncreaseDecreaseBeforeAdjustmentsAndTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Derivative, Excluded Component, Increase (Decrease), before Adjustments and Tax",
+      "description": "Amount, before tax and adjustments, of gain (loss) from increase (decrease) in value of excluded component of derivative designated and qualifying as hedge. Adjustments include, but are not limited to, reclassifications for sale and settlement, and amounts recognized under systematic and rational method.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 86,
+      "latest_value": {
+        "value": -115000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Net of Tax",
+      "description": "Amount after tax and reclassification adjustments of other comprehensive income (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 52,
+      "latest_value": {
+        "value": -1997000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2016-09-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossNetOfTaxPortionAttributableToParent": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Net of Tax, Portion Attributable to Parent",
+      "description": "Amount after tax of other comprehensive income (loss) attributable to parent entity.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 113,
+      "latest_value": {
+        "value": -2013000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentBeforeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive (Income) Loss, Defined Benefit Plan, after Reclassification Adjustment, before Tax",
+      "description": "Amount, before tax, after reclassification adjustment, of (increase) decrease in accumulated other comprehensive income for defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 15,
+      "latest_value": {
+        "value": 131000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive (Income) Loss, Defined Benefit Plan, after Reclassification Adjustment, after Tax",
+      "description": "Amount, after tax and reclassification adjustment, of (increase) decrease in accumulated other comprehensive income for defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 52,
+      "latest_value": {
+        "value": -111000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2016-09-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Tax",
+      "description": "Amount of tax expense (benefit) allocated to other comprehensive income (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": -736000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossTaxPortionAttributableToParent1": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Tax, Portion Attributable to Parent",
+      "description": "Amount of tax expense (benefit) allocated to other comprehensive income (loss) attributable to parent entity.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 100,
+      "latest_value": {
+        "value": 382000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherInterestAndDividendIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Other Interest and Dividend Income",
+      "description": "Amount, after discount, accretion and premium amortization, of interest income and dividend income classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 41,
+      "latest_value": {
+        "value": 606000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2012-06-30"
+      }
+    },
+    "OtherNoninterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Other Noninterest Expense",
+      "description": "Amount of noninterest expense classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 9552000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PreferredStockRedemptionPricePerShare": {
+      "taxonomy": "us-gaap",
+      "label": "Preferred Stock, Redemption Price Per Share",
+      "description": "The price per share at which the preferred stock of an entity that has priority over common stock in the distribution of dividends and in the event of liquidation of the entity is redeemed or may be called at. The redemption features of this preferred stock are solely within the control of the issuer.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 29,
+      "latest_value": {
+        "value": 10000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ProceedsFromIssuanceOfPreferredStockAndPreferenceStock": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from Issuance of Preferred Stock and Preference Stock",
+      "description": "Proceeds from issuance of capital stock which provides for a specific dividend that is paid to the shareholders before any dividends to common stockholders and which takes precedence over common stockholders in the event of liquidation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 101,
+      "latest_value": {
+        "value": 2500000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ProfitLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+      "description": "The consolidated profit or loss for the period, net of income taxes, including the portion attributable to the noncontrolling interest.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 30,
+      "latest_value": {
+        "value": 17923000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-20",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "RetainedEarningsAccumulatedDeficit": {
+      "taxonomy": "us-gaap",
+      "label": "Retained Earnings (Accumulated Deficit)",
+      "description": "The cumulative amount of the reporting entity's undistributed earnings or deficit.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 138,
+      "latest_value": {
+        "value": 376166000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "SegmentReportingInformationExtraordinaryItems": {
+      "taxonomy": "us-gaap",
+      "label": "Segment Reporting Information, Extraordinary Items (Deprecated 2011-01-31)",
+      "description": "Amount of income or loss from extraordinary items recognized by the reportable segment. Such disclosure is presented if the amount is: (a) included in the measure of segment profit or loss reviewed by the chief operating decision maker or (b) otherwise regularly provided to the chief operating decision maker, even if not included in that measure of segment profit or loss.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "SegmentReportingInformationIncomeLossBeforeIncomeTaxes": {
+      "taxonomy": "us-gaap",
+      "label": "Segment Reporting Information, Income (Loss) before Income Taxes (Deprecated 2011-01-31)",
+      "description": "Amount of income or loss for the reportable segment before income taxes and extraordinary items.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 24859000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-03-31"
+      }
+    },
+    "SegmentReportingInformationIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Segment Reporting Information, Income Tax Expense (Benefit) (Deprecated 2011-01-31)",
+      "description": "Amount of income tax expense or benefit attributed to a reportable segment.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 3523000000,
+        "date": "2010-06-30",
+        "fiscal_year": 2010,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2010-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2009-06-30",
+        "latest": "2010-06-30"
+      }
+    },
+    "SegmentReportingInformationInterestIncomeExpenseNet": {
+      "taxonomy": "us-gaap",
+      "label": "Segment Reporting Information, Interest Income (Expense), Net (Deprecated 2011-01-31)",
+      "description": "Amount of interest revenue net of interest expense for the reportable segment. Reporting interest revenue net of interest expense is permitted only when a majority of the segment's revenues are from interest and the chief operating decision maker relies primarily on net interest revenue to assess the performance of the segment and make decisions about resources to be allocated to the segment. In all other segment disclosure situations, interest revenue must be reported separately from interest expense.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 26397000000,
+        "date": "2010-06-30",
+        "fiscal_year": 2010,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2010-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2009-06-30",
+        "latest": "2010-06-30"
+      }
+    },
+    "SegmentReportingInformationNoninterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Segment Reporting Information, Noninterest Expense (Deprecated 2011-01-31)",
+      "description": "Total amount of expenses, other than interest, for the reportable segment. Must be disclosed if the amount (a) is included in the measure of segment profit or loss reviewed by the chief operating decision maker or (b) is otherwise regularly provided to the chief operating decision maker, even if not included in that measure of segment profit or loss.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 61196000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-03-31"
+      }
+    },
+    "SegmentReportingInformationNoninterestIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Segment Reporting Information, Noninterest Income (Deprecated 2011-01-31)",
+      "description": "Total amount of noninterest income for the reportable segment. Must be disclosed if the amount (a) is included in the measure of segment profit or loss reviewed by the chief operating decision maker or (b) is otherwise regularly provided to the chief operating decision maker, even if not included in that measure of segment profit or loss.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 26375000000,
+        "date": "2010-06-30",
+        "fiscal_year": 2010,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2010-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2009-06-30",
+        "latest": "2010-06-30"
+      }
+    },
+    "SegmentReportingInformationProfitLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Segment Reporting Information, Profit (Loss) (Deprecated 2011-01-31)",
+      "description": "Amount of profit or loss recognized by the reportable segment.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 8121000000,
+        "date": "2010-06-30",
+        "fiscal_year": 2010,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2010-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2009-06-30",
+        "latest": "2010-06-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Fair Value Assumptions, Expected Dividend Rate",
+      "description": "The estimated dividend rate (a percentage of the share price) to be paid (expected dividends) to holders of the underlying shares over the option's term.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 0.0266,
+        "date": "2013-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-23",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedVolatilityRate": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Fair Value Assumptions, Expected Volatility Rate",
+      "description": "The estimated measure of the percentage by which a share price is expected to fluctuate during a period. Volatility also may be defined as a probability-weighted measure of the dispersion of returns about the mean. The volatility of a share price is the standard deviation of the continuously compounded rates of return on the share over a specified period. That is the same as the standard deviation of the differences in the natural logarithms of the stock prices plus dividends, if any, over the period.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 0.28,
+        "date": "2013-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-23",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRate": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Fair Value Assumptions, Risk Free Interest Rate",
+      "description": "The risk-free interest rate assumption that is used in valuing an option on its own shares.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 0.0118,
+        "date": "2013-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-23",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "TaxCutsAndJobsActOf2017IncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Tax Cuts and Jobs Act, Income Tax Expense (Benefit)",
+      "description": "Amount of income tax expense (benefit) from effect of Tax Cuts and Jobs Act.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": -302000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "UnderwritingIncomeLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Underwriting Income (Loss)",
+      "description": "The difference between the price paid by the public and the contract price less the related expenses. A broker-dealer may underwrite a security offering by contracting to buy the issue either at a fixed price or a price based on selling the offering on a best-effort basis.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 210,
+      "latest_value": {
+        "value": 5632000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "UndistributedEarningsOfForeignSubsidiaries": {
+      "taxonomy": "us-gaap",
+      "label": "Undistributed Earnings of Foreign Subsidiaries",
+      "description": "Amount of undistributed earnings of foreign subsidiaries intended to be permanently reinvested outside the country of domicile.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": 38400000000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2016-12-31"
+      }
+    },
+    "VariableInterestMaximumExposureToLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Variable Interest, Maximum Exposure to Loss (Deprecated 2009-01-31)",
+      "description": "Quantifies the entity's maximum exposure to loss.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 28600000000,
+        "date": "2011-03-31",
+        "fiscal_year": 2011,
+        "fiscal_period": "Q1",
+        "form": "10-Q",
+        "filed": "2011-05-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2011-03-31"
+      }
+    },
+    "WeightedAverageNumberOfDilutedSharesOutstanding": {
+      "taxonomy": "us-gaap",
+      "label": "Weighted Average Number of Shares Outstanding, Diluted",
+      "description": "The average number of shares or units issued and outstanding that are used in calculating diluted EPS or earnings per unit (EPU), determined based on the timing of issuance of shares or units in the period.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 2879000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossFinalizationOfPensionAndNonPensionPostretirementPlanValuationBeforeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Defined Benefit Plan, Settlement and Curtailment Gain (Loss), before Tax",
+      "description": "Amount, before tax, of increase (decrease) to other comprehensive income from settlement and curtailment gain (loss) of defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": -1400000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-09-30",
+        "latest": "2022-12-31"
+      }
+    },
+    "InterestExpenseOperating": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 17,
+      "latest_value": {
+        "value": 101350000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-14",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    }
+  }
+}

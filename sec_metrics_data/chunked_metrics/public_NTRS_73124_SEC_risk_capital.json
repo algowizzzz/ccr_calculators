@@ -1,0 +1,148 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "73124",
+    "data_type": "SEC",
+    "ticker": "NTRS",
+    "chunk_name": "Risk & Capital Management",
+    "chunk_id": "risk_capital",
+    "company_name": "NORTHERN TRUST CORPORATION",
+    "extraction_date": "2025-09-30T10:50:08.673307",
+    "metrics_count": 6,
+    "total_company_metrics": 0
+  },
+  "metrics": {
+    "AllocatedShareBasedCompensationExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Expense",
+      "description": "Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 199,
+      "latest_value": {
+        "value": 119400000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CapitalizedComputerSoftwareAmortization1": {
+      "taxonomy": "us-gaap",
+      "label": "Capitalized Computer Software, Amortization",
+      "description": "Amount of expense for amortization of capitalized computer software costs.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 339100000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2020-09-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all vested portions of options outstanding and currently exercisable (or convertible) under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "Year"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 3.4,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "Year",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures and Expirations in Period, Weighted Average Exercise Price",
+      "description": "Weighted average price of options that were either forfeited or expired.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 67.38,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriodWeightedAverageIntrinsicValue": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures and Expirations in Period, Weighted Average Intrinsic Value",
+      "description": "The combined weighted average of the accumulated differences between the fair values on underlying shares and exercises prices to acquire such shares as of the grant date on options that were either forfeited or lapsed.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 15.45,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term (Deprecated 2011-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all awards outstanding under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "Year"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 4.9,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "Year",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2010-12-31"
+      }
+    }
+  }
+}

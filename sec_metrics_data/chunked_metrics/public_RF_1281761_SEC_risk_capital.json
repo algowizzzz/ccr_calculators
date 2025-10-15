@@ -1,0 +1,239 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "1281761",
+    "data_type": "SEC",
+    "ticker": "RF",
+    "chunk_name": "Risk & Capital Management",
+    "chunk_id": "risk_capital",
+    "company_name": "Regions Financial Corporation",
+    "extraction_date": "2025-09-30T10:50:08.761062",
+    "metrics_count": 10,
+    "total_company_metrics": 0
+  },
+  "metrics": {
+    "Capital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Total Capital, Actual",
+      "description": "Amount of total capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 15070000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-17",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "CapitalizedComputerSoftwareGross": {
+      "taxonomy": "us-gaap",
+      "label": "Capitalized Computer Software, Gross",
+      "description": "Amount before accumulated amortization of capitalized costs for computer software, including but not limited to, acquired and internally developed computer software.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 440000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-17",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "EmployeeServiceShareBasedCompensationAllocationOfRecognizedPeriodCostsCapitalizedAmount": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Amount Capitalized",
+      "description": "Amount of cost capitalized for award under share-based payment arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 15,
+      "latest_value": {
+        "value": 0,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "EquipmentExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Equipment Expense",
+      "description": "This element represents equipment expense including depreciation, repairs, rentals, and service contract costs. This item also includes equipment purchases which do not qualify for capitalization in accordance with the entity's accounting policy. This item may also include furniture expenses.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 212,
+      "latest_value": {
+        "value": 406000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures and Expirations in Period, Weighted Average Exercise Price",
+      "description": "Weighted average price of options that were either forfeited or expired.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 78,
+      "latest_value": {
+        "value": 0,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-24",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term (Deprecated 2011-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all awards outstanding under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 4.76,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "fiscal_period": "FY",
+        "form": "10-K/A",
+        "filed": "2011-03-18",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestExercisableWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Vested and Expected to Vest, Exercisable, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted-average period between the balance sheet date and expiration date for fully vested and expected to vest options that are exercisable (or convertible) under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "pure",
+        "years"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 3.83,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "fiscal_period": "FY",
+        "form": "10-K/A",
+        "filed": "2011-03-18",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all awards outstanding under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "years"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 4.55,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "years",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "TierOneLeverageCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Leverage Capital, Actual",
+      "description": "Amount of Tier 1 leverage capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 12390000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-17",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "TierOneRiskBasedCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Risk-Based Capital, Actual",
+      "description": "Amount of Tier 1 risk-based capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 12390000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-17",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2014-12-31"
+      }
+    }
+  }
+}

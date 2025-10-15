@@ -1,0 +1,339 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "9631",
+    "data_type": "SEC",
+    "ticker": "BNS",
+    "chunk_name": "Liabilities & Deposits",
+    "chunk_id": "liabilities_deposits",
+    "company_name": "BANK OF NOVA SCOTIA",
+    "extraction_date": "2025-09-30T11:01:43.468140",
+    "metrics_count": 14,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "BorrowingsAdjustmentToInterestRateBasis": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 0.0455,
+        "date": "2020-06-04",
+        "fiscal_year": 2020,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2020-08-25",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2020-06-04"
+      }
+    },
+    "BorrowingsInterestRate": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 0.02836,
+        "date": "2024-07-03",
+        "fiscal_year": 2024,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2024-08-27",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2024-07-03"
+      }
+    },
+    "ContributionsToPlanByEmployerNetDefinedBenefitLiabilityAsset": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 449000000,
+        "date": "2022-10-31",
+        "fiscal_year": 2022,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2022-11-29",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2022-10-31"
+      }
+    },
+    "DeferredTaxLiabilityAsset": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 21,
+      "latest_value": {
+        "value": -1545000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-03",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "FinancialAssetsWithContractualCashFlowsModifiedDuringReportingPeriodWhileLossAllowanceMeasuredAtLifetimeExpectedCreditLossesAmortisedCostBeforeModification": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 205000000,
+        "date": "2019-10-31",
+        "fiscal_year": 2019,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2019-11-26",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2019-10-31"
+      }
+    },
+    "IncomeTaxRelatingToChangesInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiabilityOfOtherComprehensiveIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 109,
+      "latest_value": {
+        "value": -87000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-26",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "IncreaseDecreaseThroughLossOfControlOfSubsidiaryDeferredTaxLiabilityAsset": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 9000000,
+        "date": "2020-10-31",
+        "fiscal_year": 2021,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2021-11-30",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2020-10-31",
+        "latest": "2020-10-31"
+      }
+    },
+    "InterestPayable": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 7840000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-03",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "MinimumLeasePaymentsPayableUnderNoncancellableOperatingLease": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 2733000000,
+        "date": "2019-10-31",
+        "fiscal_year": 2019,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2019-11-26",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2019-10-31"
+      }
+    },
+    "OtherComprehensiveIncomeBeforeTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 109,
+      "latest_value": {
+        "value": -314000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-26",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "OtherComprehensiveIncomeNetOfTaxChangeInFairValueOfFinancialLiabilityAttributableToChangeInCreditRiskOfLiability": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 109,
+      "latest_value": {
+        "value": -227000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-26",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "TradeAndOtherPayables": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 798000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-03",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "WeightedAverageDurationOfDefinedBenefitObligation": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "Y"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 15.7,
+        "date": "2019-10-31",
+        "fiscal_year": 2019,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2019-11-26",
+        "unit": "Y",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2019-10-31"
+      }
+    },
+    "InterestIncomeOnLoansAndAdvancesToCustomers": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 33318000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-26",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2023-07-31",
+        "latest": "2025-07-31"
+      }
+    }
+  }
+}

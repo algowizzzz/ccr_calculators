@@ -1,0 +1,3314 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "831001",
+    "data_type": "SEC",
+    "ticker": "C",
+    "chunk_name": "Liabilities & Deposits",
+    "chunk_id": "liabilities_deposits",
+    "company_name": "Citigroup\u00a0Inc",
+    "extraction_date": "2025-09-30T11:01:43.628303",
+    "metrics_count": 149,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "PayablesToBrokerDealersAndClearingOrganizations": {
+      "taxonomy": "us-gaap",
+      "label": "Payables to Broker-Dealers and Clearing Organizations",
+      "description": "Amount payable to broker-dealers and clearing organizations, including, but not limited to, securities failed-to-receive, certain deposits received for securities loaned, open transactions, and floor-brokerage payables.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 68,
+      "latest_value": {
+        "value": 24298000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2019-03-31"
+      }
+    },
+    "AccumulatedOtherComprehensiveIncomeLossNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Accumulated Other Comprehensive Income (Loss), Net of Tax",
+      "description": "Accumulated change in equity from transactions and other events and circumstances from non-owner sources, net of tax effect, at period end. Excludes Net Income (Loss), and accumulated changes in equity from transactions resulting from investments by owners and distributions to owners. Includes foreign currency translation items, certain pension adjustments, unrealized gains and losses on certain investments in debt and equity securities, other than temporary impairment (OTTI) losses related to factors other than credit losses on available-for-sale and held-to-maturity debt securities that an entity does not intend to sell and it is not more likely than not that the entity will be required to sell before recovery of the amortized cost basis, as well as changes in the fair value of derivatives related to the effective portion of a designated cash flow hedge.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 192,
+      "latest_value": {
+        "value": -47852000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "AccumulatedOtherComprehensiveIncomeLossOtherThanTemporaryImpairmentNotCreditLossNetOfTaxHeldtomaturityDebtSecurities": {
+      "taxonomy": "us-gaap",
+      "label": "Accumulated Other Comprehensive Income (Loss), Other than Temporary Impairment, Not Credit Loss, Net of Tax, Held-to-maturity, Debt Securities",
+      "description": "Accumulated other comprehensive loss related to portion of other than temporary impairment (OTTI) due to factors other than credit losses on debt securities categorized as held-to-maturity that an entity does not intend to sell and which it is not more likely than not that the entity will be required to sell before recovery of the amortized cost basis of the debt security. The amount represented by this item is net of tax, as applicable.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 908000000,
+        "date": "2013-09-30",
+        "fiscal_year": 2013,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2013-11-01",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2013-09-30"
+      }
+    },
+    "AllowanceForLoanAndLeaseLossesProvisionForLossNet": {
+      "taxonomy": "us-gaap",
+      "label": "Allowance for Loan and Lease Losses, Provision for Loss, Net (Deprecated 2013-01-31)",
+      "description": "Reflects the amount charged against earnings during the period as bad debt expense, net of recoveries of previously expensed credit losses.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 24,
+      "latest_value": {
+        "value": 11773000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2013-09-30"
+      }
+    },
+    "AllowanceForLoanAndLeaseLossesRecoveriesOfBadDebts": {
+      "taxonomy": "us-gaap",
+      "label": "Allowance for Loan and Lease Losses, Recoveries of Bad Debts (Deprecated 2013-01-31)",
+      "description": "Reflects a reduction in bad debt expense attributable to collections of loans and lease receivables which had previously been fully or partially charged off as bad debts.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 23,
+      "latest_value": {
+        "value": -2902000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-03-01",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "AllowanceForLoanAndLeaseLossRecoveryOfBadDebts": {
+      "taxonomy": "us-gaap",
+      "label": "Allowance for Loan and Lease Loss, Recovery of Bad Debts",
+      "description": "Amount of recovery of loans and lease receivables which had previously been fully or partially written-off as bad debts.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 1573000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "CarryingValueOfFederalFundsPurchasedSecuritiesSoldUnderAgreementsToRepurchaseAndDepositsReceivedForSecuritiesLoaned": {
+      "taxonomy": "us-gaap",
+      "label": "Carrying Value of Federal Funds Purchased, Securities Sold under Agreements to Repurchase, and Deposits Received for Securities Loaned",
+      "description": "Carrying value of federal funds purchased and securities sold under repurchase agreements and deposits received for securities loaned.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 108,
+      "latest_value": {
+        "value": 254755000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CarryingValueOfSecuritiesSoldUnderRepurchaseAgreementsAndDepositsReceivedForSecuritiesLoaned": {
+      "taxonomy": "us-gaap",
+      "label": "Carrying Value of Securities Sold under Repurchase Agreements and Deposits Received for Securities Loaned",
+      "description": "Carrying value of securities sold under agreements to repurchase and deposits received for securities loaned.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 108,
+      "latest_value": {
+        "value": 254755000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CashAndDueFromBanks": {
+      "taxonomy": "us-gaap",
+      "label": "Cash and Due from Banks",
+      "description": "For banks and other depository institutions: Includes cash on hand (currency and coin), cash items in process of collection, noninterest bearing deposits due from other financial institutions (including corporate credit unions), and noninterest bearing balances with the Federal Reserve Banks, Federal Home Loan Banks and central banks.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 245,
+      "latest_value": {
+        "value": 22782000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CashProvidedByUsedInFinancingActivitiesDiscontinuedOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Cash Provided by (Used in) Financing Activities, Discontinued Operations",
+      "description": "Amount of cash inflow (outflow) of financing activities of discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on, and a return of, their investment; borrowing money and repaying amounts borrowed, or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 35,
+      "latest_value": {
+        "value": 0,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "CashProvidedByUsedInInvestingActivitiesDiscontinuedOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Cash Provided by (Used in) Investing Activities, Discontinued Operations",
+      "description": "Amount of cash inflow (outflow) of investing activities of discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property, plant, and equipment and other productive assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 35,
+      "latest_value": {
+        "value": 0,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "CertainLoansAcquiredInTransferNotAccountedForAsDebtSecuritiesAccretableYield": {
+      "taxonomy": "us-gaap",
+      "label": "Certain Loans Acquired in Transfer Not Accounted for as Debt Securities, Accretable Yield",
+      "description": "Amount of the excess of a loan's cash flows expected to be collected over the investor's initial investment in acquired loans not accounted for as debt securities with evidence of deterioration of credit quality.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 23,
+      "latest_value": {
+        "value": 33000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "CertainLoansAcquiredInTransferNotAccountedForAsDebtSecuritiesAccretableYieldAccretion": {
+      "taxonomy": "us-gaap",
+      "label": "Certain Loans Acquired in Transfer Not Accounted for as Debt Securities, Accretable Yield, Accretion",
+      "description": "Amount of accretion recognized for the excess of a loan's cash flows expected to be collected over the investor's initial investment in acquired loans not accounted for as debt securities, with evidence of deterioration of credit quality.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 11,
+      "latest_value": {
+        "value": 13000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "CertainLoansAcquiredInTransferNotAccountedForAsDebtSecuritiesAccretableYieldAdditions": {
+      "taxonomy": "us-gaap",
+      "label": "Certain Loans Acquired in Transfer Not Accounted for as Debt Securities, Accretable Yield, Additions",
+      "description": "Amount of additions to the excess of a loan's cash flows expected to be collected over the investor's initial investment in acquired loans not accounted for as debt securities with evidence of deterioration of credit quality.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 13,
+      "latest_value": {
+        "value": 3000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "CertainLoansAcquiredInTransferNotAccountedForAsDebtSecuritiesAccretableYieldDisposalsOfLoans": {
+      "taxonomy": "us-gaap",
+      "label": "Certain Loans Acquired in Transfer Not Accounted for as Debt Securities, Accretable Yield, Disposals of Loans",
+      "description": "Amount of reduction, resulting from a sale or transfer of a loan, in the excess of a loan's cash flows expected to be collected over the investor's initial investment in acquired loans not accounted for as debt securities with evidence of deterioration of credit quality.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 5000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "CertainLoansAcquiredInTransferNotAccountedForAsDebtSecuritiesCarryingAmountNet": {
+      "taxonomy": "us-gaap",
+      "label": "Certain Loans Acquired in Transfer Not Accounted for as Debt Securities, Carrying Amount, Net",
+      "description": "The recorded balance, net of any applicable reductions (for example, unamortized accretable yield and allowance for loan losses). This relates to loans not accounted for debt securities with evidence of deterioration of credit quality since origination that were acquired by completion of a transfer for which it is probable, at acquisition, that the investor will be unable to collect all contractually required payments receivable.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 250000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "CreditRiskDerivativeLiabilitiesAtFairValue": {
+      "taxonomy": "us-gaap",
+      "label": "Credit Risk Derivative Liabilities, at Fair Value",
+      "description": "Fair value of credit risk derivative liability.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 94,
+      "latest_value": {
+        "value": 7253000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleAllowanceForCreditLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Allowance for Credit Loss",
+      "description": "Amount of allowance for credit loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 50,
+      "latest_value": {
+        "value": 3000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleAllowanceForCreditLossNotPreviouslyRecorded": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Allowance for Credit Loss, Not Previously Recorded",
+      "description": "Amount of expense for credit loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), for which no credit loss was previously recorded.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 31,
+      "latest_value": {
+        "value": 2000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-06-30",
+        "latest": "2022-12-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleAllowanceForCreditLossPurchasedWithCreditDeteriorationIncrease": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Allowance for Credit Loss, Purchased with Credit Deterioration, Increase",
+      "description": "Amount of increase in allowance for credit loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale) and beneficial interest, purchased with credit deterioration.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 31,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-06-30",
+        "latest": "2022-12-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleAllowanceForCreditLossRecovery": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Allowance for Credit Loss, Recovery",
+      "description": "Amount of increase in allowance for credit loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), from recovery.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 31,
+      "latest_value": {
+        "value": 5000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-06-30",
+        "latest": "2022-12-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleAllowanceForCreditLossWriteoff": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Allowance for Credit Loss, Writeoff",
+      "description": "Amount of writeoff of allowance for credit loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 31,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-06-30",
+        "latest": "2022-12-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleChangeInPresentValueExpenseReversal": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Change in Present Value, Expense (Reversal)",
+      "description": "Amount of expense (reversal of expense) for expected credit loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), from change in present value of expected cash flows.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 24,
+      "latest_value": {
+        "value": 3000000,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLonger": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Continuous Unrealized Loss Position, 12 Months or Longer",
+      "description": "Amount of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), in continuous unrealized loss position for more than 12 months, without allowance for credit loss. Includes beneficial interest in securitized financial asset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": 33848000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPosition12MonthsOrLongerAccumulatedLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Continuous Unrealized Loss Position, 12 Months or Longer, Accumulated Loss",
+      "description": "Amount of accumulated unrealized loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), in continuous unrealized loss position for 12 months or longer, without allowance for credit loss. Includes beneficial interest in securitized financial asset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": 1495000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12Months": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Continuous Unrealized Loss Position, Less than 12 Months",
+      "description": "Amount of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), in continuous unrealized loss position for less than 12 months, without allowance for credit loss. Includes beneficial interest in securitized financial asset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": 82905000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Continuous Unrealized Loss Position, Less than 12 Months, Accumulated Loss",
+      "description": "Amount of accumulated unrealized loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), in continuous unrealized loss position for less than 12 months, without allowance for credit loss. Includes beneficial interest in securitized financial asset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": 1037000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleUnrealizedLossPosition": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Unrealized Loss Position",
+      "description": "Amount of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), in unrealized loss position without allowance for credit loss.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": 116753000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleUnrealizedLossPositionAccumulatedLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Available-for-sale, Unrealized Loss Position, Accumulated Loss",
+      "description": "Amount of accumulated unrealized loss on investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale), in unrealized loss position, without allowance for credit loss. Includes beneficial interest in securitized financial asset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": 2532000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityAllowanceForCreditLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Held-to-maturity, Allowance for Credit Loss",
+      "description": "Amount of allowance for credit loss for debt security measured at amortized cost (held-to-maturity).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 52,
+      "latest_value": {
+        "value": 120000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityAllowanceForCreditLossPurchasedWithCreditDeteriorationIncrease": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Held-to-maturity, Allowance for Credit Loss, Purchased with Credit Deterioration, Increase",
+      "description": "Amount of increase in allowance for credit loss on investment in debt security measured at amortized cost (held-to-maturity) and beneficial interest, purchased with credit deterioration.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 0,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-03-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityAllowanceForCreditLossRecovery": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Held-to-maturity, Allowance for Credit Loss, Recovery",
+      "description": "Amount of increase in allowance for credit loss on investment in debt security measured at amortized cost (held-to-maturity), from recovery.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 27,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-03-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityAllowanceForCreditLossWriteoff": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Held-to-maturity, Allowance for Credit Loss, Writeoff",
+      "description": "Amount of writeoff of investment in debt security, measured at amortized cost (held-to-maturity), charged against allowance for credit loss.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 27,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-03-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityCreditLossExpenseReversal": {
+      "taxonomy": "us-gaap",
+      "label": "Debt Securities, Held-to-maturity, Credit Loss Expense (Reversal)",
+      "description": "Amount of expense (reversal of expense) for expected credit loss on investment in debt security measured at amortized cost (held-to-maturity).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": -24000000,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2023-12-31"
+      }
+    },
+    "DeferredPolicyAcquisitionCostsAndPresentValueOfFutureProfitsAmortization": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Policy Acquisition Costs and Present Value of Future Profits, Amortization (Deprecated 2012-01-31)",
+      "description": "The amount of DAC and capitalized present value of future profits (also known as VOBA) that was amortized during the period, generally in proportion to related revenue earned, estimated gross profits, or over the customer relationship or some other period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 23,
+      "latest_value": {
+        "value": -250000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "DeferredTaxAssetsLiabilitiesNet": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Assets, Net",
+      "description": "Amount, after allocation of valuation allowances and deferred tax liability, of deferred tax asset attributable to deductible differences and carryforwards, without jurisdictional netting.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 40,
+      "latest_value": {
+        "value": 29845000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredTaxLiabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Liabilities, Net",
+      "description": "Amount, after deferred tax asset, of deferred tax liability attributable to taxable differences without jurisdictional netting.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 40,
+      "latest_value": {
+        "value": 4922000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredTaxLiabilitiesDeferredExpenseCapitalizedInterest": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Liabilities, Deferred Expense, Capitalized Interest",
+      "description": "Amount of deferred tax liability attributable to taxable temporary differences from capitalized interest.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 16,
+      "latest_value": {
+        "value": 113000000,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2023-12-31"
+      }
+    },
+    "DeferredTaxLiabilitiesDeferredExpenseDeferredFinancingCosts": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Liabilities, Deferred Expense, Debt Issuance Costs",
+      "description": "Amount of deferred tax liability attributable to taxable temporary differences from debt issuance costs.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 21,
+      "latest_value": {
+        "value": 50000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "DeferredTaxLiabilitiesGoodwillAndIntangibleAssetsIntangibleAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Liabilities, Intangible Assets",
+      "description": "Amount of deferred tax liability attributable to taxable temporary differences from intangible assets other than goodwill.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 975000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "DeferredTaxLiabilitiesOther": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Liabilities, Other",
+      "description": "Amount of deferred tax liability attributable to taxable temporary differences classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 40,
+      "latest_value": {
+        "value": 1689000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredTaxLiabilitiesUndistributedForeignEarnings": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Liabilities, Undistributed Foreign Earnings",
+      "description": "Amount of deferred tax liability attributable to taxable temporary differences from undistributed earnings of subsidiary and other recognized entity not within country of domicile. Includes, but is not limited to, other basis differences.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 893000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DefinedBenefitPlanActuarialGainLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Benefit Obligation, Actuarial Gain (Loss)",
+      "description": "Amount of gain (loss) from change in actuarial assumptions which (increases) decreases benefit obligation of defined benefit plan. Assumptions include, but are not limited to, interest, mortality, employee turnover, salary, and temporary deviation from substantive plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 17,
+      "latest_value": {
+        "value": -2000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2024-09-30"
+      }
+    },
+    "DefinedBenefitPlanAmountsRecognizedInBalanceSheet": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Amounts for Asset (Liability) Recognized in Statement of Financial Position",
+      "description": "Amount of asset (liability), recognized in statement of financial position, for defined benefit pension and other postretirement plans.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -2174000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "DefinedBenefitPlanForeignCurrencyExchangeRateChangesBenefitObligation": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Benefit Obligation, Foreign Currency Translation Gain (Loss)",
+      "description": "Amount of foreign currency translation gain (loss) which (increases) decreases benefit obligation of defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 28000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "DefinedBenefitPlanInterestCost": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Interest Cost",
+      "description": "Amount of cost recognized for passage of time related to defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 9,
+      "latest_value": {
+        "value": 2000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "DefinedBenefitPlanPrescriptionDrugBenefitAccumulatedPostretirementBenefitObligationDecreaseForSubsidy": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Prescription Drug Benefit, Accumulated Postretirement Benefit Obligation, Decrease for Subsidy",
+      "description": "Amount of decrease in accumulated postretirement benefit obligation for government subsidy related to prescription drug benefits attributed to past service.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 4000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "DepositsReceivedForSecuritiesLoanedAtCarryingValue": {
+      "taxonomy": "us-gaap",
+      "label": "Deposits Received for Securities Loaned, at Carrying Value",
+      "description": "The amount of cash received as security in return for loaning securities to another party.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 116,
+      "latest_value": {
+        "value": 14988000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeNetLiabilityPositionAggregateFairValue": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative, Net Liability Position, Aggregate Fair Value",
+      "description": "The aggregate fair value amounts of derivative instruments that contain credit-risk-related contingent features that are in a net liability position at the end of the reporting period. For nonderivative instruments that are designated and qualify as hedging instruments, the fair value amounts are the carrying value of the nonderivative hedging instrument, including the adjustment for the foreign currency transaction gain (loss) on that instrument.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 132,
+      "latest_value": {
+        "value": 15000000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FairValueMeasurementWithUnobservableInputsReconciliationLiabilityTransfersIntoLevel3": {
+      "taxonomy": "us-gaap",
+      "label": "Fair Value, Measurement with Unobservable Inputs Reconciliation, Liability, Transfers Into Level 3",
+      "description": "Amount of transfers of financial instrument classified as a liability into level 3 of the fair value hierarchy.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0,
+        "date": "2016-03-31",
+        "fiscal_year": 2017,
+        "fiscal_period": "Q1",
+        "form": "10-Q",
+        "filed": "2017-05-01",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2015-09-30",
+        "latest": "2016-03-31"
+      }
+    },
+    "FederalFundsPurchasedAndSecuritiesLoanedOrSoldUnderAgreementsToRepurchaseFairValueDisclosure": {
+      "taxonomy": "us-gaap",
+      "label": "Federal Funds Purchased and Securities Loaned or Sold under Agreements to Repurchase, Fair Value Disclosure",
+      "description": "Fair value portion of short term borrowing where a bank borrows, at the federal funds rate, from another bank and securities that an entity sells and agrees to repurchase at a specified date for a specified price.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 116689000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-03-01",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2013-09-30"
+      }
+    },
+    "FederalHomeLoanBankAdvancesLongTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Long-term Federal Home Loan Bank Advances",
+      "description": "Including both current and noncurrent portions, Federal Home Loan Bank borrowings initially due beyond one year or beyond the normal operating cycle if longer.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 18500000000,
+        "date": "2010-09-30",
+        "fiscal_year": 2010,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2010-11-05",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2010-09-30"
+      }
+    },
+    "FederalHomeLoanBankAdvancesMaturitiesSummaryDueWithinOneYearOfBalanceSheetDate": {
+      "taxonomy": "us-gaap",
+      "label": "Federal Home Loan Bank, Advance, Maturity, Year One",
+      "description": "Amount of advance from Federal Home Loan Bank (FHLBank) maturing in next fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 94,
+      "latest_value": {
+        "value": 5000000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FederalHomeLoanBankAdvancesShortTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Federal Home Loan Bank, Advances, Short-term (Deprecated 2014-01-31)",
+      "description": "Federal Home Loan Bank borrowings due within one year of the latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 36,
+      "latest_value": {
+        "value": 11000000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-03-03",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2014-06-30"
+      }
+    },
+    "FeesAndCommissions": {
+      "taxonomy": "us-gaap",
+      "label": "Fees and Commissions (Deprecated 2018-01-31)",
+      "description": "Amount of fees and commissions from financial services and banking activities and correspondent clearing. Includes fees from depositor accounts, credit cards, merchant discounts, and fiduciary and trust activities, guarantee fees, investment advisory, management, and administrative fees, transfer agent fees, and insurance commissions.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 125,
+      "latest_value": {
+        "value": 12939000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2018-03-31"
+      }
+    },
+    "FinancingReceivableAllowanceForCreditLossesRecoveries": {
+      "taxonomy": "us-gaap",
+      "label": "Financing Receivable, Allowance for Credit Losses, Recoveries (Deprecated 2012-01-31)",
+      "description": "Reduction to the allowance for credit losses related to collections on financing receivables which have been partially or fully charged off as bad debts.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 24000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "GuaranteeObligationsCurrentCarryingValue": {
+      "taxonomy": "us-gaap",
+      "label": "Guarantor Obligations, Current Carrying Value",
+      "description": "The current carrying amount of the liability for the freestanding or embedded guarantor's obligations under the guarantee or each group of similar guarantees.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 132,
+      "latest_value": {
+        "value": 964000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "GuaranteeObligationsMaximumExposure": {
+      "taxonomy": "us-gaap",
+      "label": "Guarantor Obligations, Maximum Exposure, Undiscounted",
+      "description": "Maximum potential amount of future payments (undiscounted) the guarantor could be required to make under the guarantee or each group of similar guarantees before reduction for potential recoveries under recourse or collateralization provisions.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 132,
+      "latest_value": {
+        "value": 523400000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "HedgedLiabilityDiscontinuedFairValueHedgeCumulativeIncreaseDecrease": {
+      "taxonomy": "us-gaap",
+      "label": "Hedged Liability, Discontinued Fair Value Hedge, Cumulative Increase (Decrease)",
+      "description": "Amount of cumulative increase (decrease) in fair value of hedged liability in fair value hedge, attributable to hedged risk, remaining after discontinued hedge.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": -4499000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "HedgedLiabilityFairValueHedge": {
+      "taxonomy": "us-gaap",
+      "label": "Hedged Liability, Fair Value Hedge",
+      "description": "Amount of liability hedged in fair value hedging relationship.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": 147910000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "HedgedLiabilityFairValueHedgeCumulativeIncreaseDecrease": {
+      "taxonomy": "us-gaap",
+      "label": "Hedged Liability, Fair Value Hedge, Cumulative Increase (Decrease)",
+      "description": "Amount of cumulative increase (decrease) in fair value of hedged liability in fair value hedge, attributable to hedged risk.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 57,
+      "latest_value": {
+        "value": -1051000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncreaseDecreaseInDeferredPolicyAcquisitionCosts": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Deferred Policy Acquisition Costs",
+      "description": "The increase (decrease) during the reporting period in the balance sheet value of capitalized sales costs that are associated with acquiring a new insurance customers.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 27,
+      "latest_value": {
+        "value": 41000000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-01-02",
+        "latest": "2016-12-31"
+      }
+    },
+    "InterestAndDividendIncomeOperating": {
+      "taxonomy": "us-gaap",
+      "label": "Interest and Dividend Income, Operating",
+      "description": "Represents the total of interest and dividend income, including any amortization and accretion (as applicable) of discounts and premiums, earned from (1) loans and leases whether held-for-sale or held-in-portfolio; (2) investment securities; (3) federal funds sold; (4) securities purchased under agreements to resell; (5) investments in banker's acceptances, commercial paper, or certificates of deposit; (6) dividend income; or (7) other investments not otherwise specified herein.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 143713000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "InterestExpenseShortTermBorrowingsExcludingFederalFundsAndSecuritiesSoldUnderAgreementsToRepurchase": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Expense, Short-term Borrowings Excluding Federal Funds and Securities Sold under Agreements to Repurchase",
+      "description": "The aggregate interest expense incurred on short-term borrowings including commercial paper, Federal Home Loan Bank and Federal Reserve Bank advances and other short term borrowings.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 214,
+      "latest_value": {
+        "value": 7703000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityPaymentsDue": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, to be Paid",
+      "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 3459000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityPaymentsDueAfterYearFive": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, to be Paid, after Year Five",
+      "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease due after fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 865000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityPaymentsDueNextTwelveMonths": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, to be Paid, Year One",
+      "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in next fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 709000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityPaymentsDueYearFive": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, to be Paid, Year Five",
+      "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 317000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityPaymentsDueYearFour": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, to be Paid, Year Four",
+      "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in fourth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 418000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityPaymentsDueYearThree": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, to be Paid, Year Three",
+      "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in third fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 514000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityPaymentsDueYearTwo": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, to be Paid, Year Two",
+      "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease to be paid in second fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 636000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityPaymentsRemainderOfFiscalYear": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, to be Paid, Remainder of Fiscal Year",
+      "description": "Amount of lessee's undiscounted obligation for lease payment for operating lease having initial or remaining lease term in excess of one year to be paid in remainder of current fiscal year.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 241000000,
+        "date": "2019-09-30",
+        "fiscal_year": 2019,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2019-11-01",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2019-09-30"
+      }
+    },
+    "LesseeOperatingLeaseLiabilityUndiscountedExcessAmount": {
+      "taxonomy": "us-gaap",
+      "label": "Lessee, Operating Lease, Liability, Undiscounted Excess Amount",
+      "description": "Amount of lessee's undiscounted obligation for lease payments in excess of discounted obligation for lease payments for operating lease.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 446000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "LettersOfCreditOutstandingAmount": {
+      "taxonomy": "us-gaap",
+      "label": "Letters of Credit Outstanding, Amount",
+      "description": "The total amount of the contingent obligation under letters of credit outstanding as of the reporting date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 286000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-03-01",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "LoansReceivableHeldForSaleReconciliationToCashFlowAdditionsToHeldForSale": {
+      "taxonomy": "us-gaap",
+      "label": "Loans Receivable Held-for-sale, Reconciliation to Cash Flow, Additions to Held-for-sale",
+      "description": "Amount, after allowance for bad debt, of additions to loan receivables held-for-sale that are not part of a disposal group.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 28,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "LongTermDebt": {
+      "taxonomy": "us-gaap",
+      "label": "Long-term Debt",
+      "description": "Amount, after unamortized (discount) premium and debt issuance costs, of long-term debt. Includes, but not limited to, notes payable, bonds payable, debentures, mortgage loans and commercial paper. Excludes capital lease obligations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 138,
+      "latest_value": {
+        "value": 287300000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NetCashProvidedByUsedInFinancingActivities": {
+      "taxonomy": "us-gaap",
+      "label": "Net Cash Provided by (Used in) Financing Activities",
+      "description": "Amount of cash inflow (outflow) from financing activities, including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on, and a return of, their investment; borrowing money and repaying amounts borrowed, or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 46,
+      "latest_value": {
+        "value": -38304000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NetCashProvidedByUsedInFinancingActivitiesContinuingOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Net Cash Provided by (Used in) Financing Activities, Continuing Operations",
+      "description": "Amount of cash inflow (outflow) of financing activities, excluding discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on, and a return of, their investment; borrowing money and repaying amounts borrowed, or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 113,
+      "latest_value": {
+        "value": 42933000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2020-09-30"
+      }
+    },
+    "NetCashProvidedByUsedInInvestingActivities": {
+      "taxonomy": "us-gaap",
+      "label": "Net Cash Provided by (Used in) Investing Activities",
+      "description": "Amount of cash inflow (outflow) from investing activities, including discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property, plant, and equipment and other productive assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 46,
+      "latest_value": {
+        "value": 86250000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NetCashProvidedByUsedInInvestingActivitiesContinuingOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Net Cash Provided by (Used in) Investing Activities, Continuing Operations",
+      "description": "Amount of cash inflow (outflow) of investing activities, excluding discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property, plant, and equipment and other productive assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 113,
+      "latest_value": {
+        "value": -23374000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2020-09-30"
+      }
+    },
+    "OffBalanceSheetCreditLossLiability": {
+      "taxonomy": "us-gaap",
+      "label": "Off-Balance Sheet, Credit Loss, Liability",
+      "description": "Amount of expected credit loss for credit exposure on off-balance-sheet commitment, including but not limited to, loan commitment, standby letter of credit, financial guarantee not accounted for as insurance. Excludes off-balance sheet credit exposure accounted for as insurance and instrument accounted for under derivatives and hedging.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 114,
+      "latest_value": {
+        "value": 1601000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OffBalanceSheetCreditLossLiabilityCreditLossExpenseReversal": {
+      "taxonomy": "us-gaap",
+      "label": "Off-Balance Sheet, Credit Loss, Liability, Credit Loss Expense (Reversal)",
+      "description": "Amount of expense (reversal of expense) for expected credit loss for off-balance sheet credit exposure. Excludes off-balance sheet credit exposure accounted for as insurance and instrument accounted for under derivatives and hedging.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 74,
+      "latest_value": {
+        "value": -119000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OperatingLeaseCost": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Lease, Cost",
+      "description": "Amount of single lease cost, calculated by allocation of remaining cost of lease over remaining lease term. Includes, but is not limited to, single lease cost, after impairment of right-of-use asset, calculated by amortization of remaining right-of-use asset and accretion of lease liability.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 842000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "OperatingLeaseLiability": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Lease, Liability",
+      "description": "Present value of lessee's discounted obligation for lease payments from operating lease.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": 3013000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OperatingLeasesFutureMinimumPaymentsDue": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Leases, Future Minimum Payments Due",
+      "description": "Amount of required minimum rental payments for leases having an initial or remaining non-cancelable letter-terms in excess of one year.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 5139000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OperatingLeasesFutureMinimumPaymentsDueCurrent": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Leases, Future Minimum Payments Due, Next Twelve Months",
+      "description": "Amount of required minimum rental payments for operating leases having an initial or remaining non-cancelable lease term in excess of one year due in the next fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 925000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OperatingLeasesFutureMinimumPaymentsDueInFiveYears": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Leases, Future Minimum Payments, Due in Five Years",
+      "description": "Amount of required minimum rental payments for operating leases having an initial or remaining non-cancelable lease term in excess of one year due in the fifth fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 394000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OperatingLeasesFutureMinimumPaymentsDueInFourYears": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Leases, Future Minimum Payments, Due in Four Years",
+      "description": "Amount of required minimum rental payments for operating leases having an initial or remaining non-cancelable lease term in excess of one year due in the fourth fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 525000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OperatingLeasesFutureMinimumPaymentsDueInThreeYears": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Leases, Future Minimum Payments, Due in Three Years",
+      "description": "Amount of required minimum rental payments for operating leases having an initial or remaining non-cancelable lease term in excess of one year due in the third fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 657000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OperatingLeasesFutureMinimumPaymentsDueInTwoYears": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Leases, Future Minimum Payments, Due in Two Years",
+      "description": "Amount of required minimum rental payments for operating leases having an initial or remaining non-cancelable lease term in excess of one year due in the second fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 748000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OperatingLeasesFutureMinimumPaymentsDueThereafter": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Leases, Future Minimum Payments, Due Thereafter",
+      "description": "Amount of required minimum rental payments for operating leases having an initial or remaining non-cancelable lease term in excess of one year due after the fifth fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 1890000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OperatingLeaseWeightedAverageDiscountRatePercent": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Lease, Weighted Average Discount Rate, Percent",
+      "description": "Weighted average discount rate for operating lease calculated at point in time.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 0.03,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-28",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossFinancialLiabilityFairValueOptionReclassificationAdjustmentFromAociForDerecognitionAfterTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Financial Liability, Fair Value Option, Reclassification Adjustment from AOCI for Derecognition, after Tax",
+      "description": "Amount, after tax, of reclassification adjustment from accumulated other comprehensive income (loss) for unrealized gain (loss) from increase (decrease) in instrument-specific credit risk, realized upon derecognition of financial liability measured under fair value option.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": -573000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecrease": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Net of Tax (Deprecated 2012-01-31)",
+      "description": "This element represents Other Comprehensive Income or Loss, Net of Tax, for the period. Includes deferred gains or losses on qualifying hedges, unrealized holding gains or losses on available-for-sale securities, minimum pension liability, and cumulative translation adjustment. While for technical reasons this element has no balance attribute, the default assumption is a credit balance consistent with its label.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 6715000000,
+        "date": "2009-12-31",
+        "fiscal_year": 2009,
+        "form": "10-K",
+        "filed": "2010-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2009-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeMinimumPensionLiabilityNetAdjustmentTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Minimum Pension Liability Net Adjustment, Tax (Deprecated 2012-01-31)",
+      "description": "The tax effect of the amount of the change in the additional minimum pension liability not yet recognized pursuant to FAS 87 as a net periodic pension cost. If the additional pension liability required to be recognized exceeds the unrecognized prior service costs, then the excess (which is the net loss not yet recognized as net periodic pension cost) is to be recorded as a separate component in other comprehensive income, before adjusting for tax effects. In a subsequent measurement, the elimination or adjustment to the amount of the minimum pension liability recorded in accumulated other comprehensive income is included in this line. Eliminated upon adoption of FAS 158.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": -235000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "OtherThanTemporaryImpairmentLossesInvestmentsPortionRecognizedInEarningsNet": {
+      "taxonomy": "us-gaap",
+      "label": "Other than Temporary Impairment Losses, Investments, Portion Recognized in Earnings, Net",
+      "description": "The amount of other than temporary impairment (OTTI) losses on equity securities, OTTI related to credit losses on debt securities, and OTTI losses on debt securities when the entity intends to sell the securities or it is more likely than not that the entity will be required to sell the securities before recovery of its amortized cost basis. Additionally, this item includes OTTI losses recognized during the period on investments accounted for under the cost method of accounting.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 4971000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-03-01",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2013-09-30"
+      }
+    },
+    "OtherThanTemporaryImpairmentLossesInvestmentsPortionRecognizedInEarningsNetAvailableforsaleSecurities": {
+      "taxonomy": "us-gaap",
+      "label": "Other than Temporary Impairment Losses, Investments, Portion Recognized in Earnings, Net, Available-for-sale Securities",
+      "description": "The amount of other than temporary impairment losses on investments in debt and equity securities categorized as Available-for-sale which have been recognized in earnings during the period. Such impairment losses consist of other than temporary impairments (OTTI) on equity securities, credit losses on investments in debt securities, and when the entity intends to sell an impaired debt security or it is more likely than not that the entity will be required to sell the impaired debt security before recovery of its amortized cost basis.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 40,
+      "latest_value": {
+        "value": 426000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2015-03-31"
+      }
+    },
+    "PostemploymentBenefitsLiabilityCurrentAndNoncurrent": {
+      "taxonomy": "us-gaap",
+      "label": "Postemployment Benefits Liability",
+      "description": "The carrying amount as of the balance sheet date of the obligations recognized for the various benefits provided to former or inactive employees, their beneficiaries, and covered dependents after employment but before retirement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 38000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "PreferredStockDividends": {
+      "taxonomy": "us-gaap",
+      "label": "Preferred Stock Dividends (Deprecated 2011-01-31)",
+      "description": "The amount of dividends declared or paid in the period to preferred shareholders, or the amount for which the obligation to pay them dividends arose in the period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 9000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-09-30"
+      }
+    },
+    "RetainedEarningsCorrectionOfErrorNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Retained Earnings, Correction of Error, Net of Tax (Deprecated 2011-01-31)",
+      "description": "Cumulative effect, net of tax, of correction of an error in prior periods on retained earnings. An error in recognition, measurement, presentation or disclosure resulting from mathematical mistakes, mistakes in the application of GAAP, oversight or misuse of facts that existed at the time the financial statements were prepared are considered to be errors that require a correction. A change from the application of an accounting principle that is non GAAP to one that is consistent with GAAP is considered to be an error correction.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 518000000,
+        "date": "2009-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-03-31",
+        "latest": "2009-12-31"
+      }
+    },
+    "RightOfUseAssetObtainedInExchangeForOperatingLeaseLiability": {
+      "taxonomy": "us-gaap",
+      "label": "Right-of-Use Asset Obtained in Exchange for Operating Lease Liability",
+      "description": "Amount of increase in right-of-use asset obtained in exchange for operating lease liability.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 777000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "SecuredBorrowingsGrossIncludingNotSubjectToMasterNettingArrangement": {
+      "taxonomy": "us-gaap",
+      "label": "Secured Borrowings, Gross Including Not Subject to Master Netting Arrangement",
+      "description": "Amount, before effects of master netting arrangements, of financial assets loaned to entities in exchange for collateral and funds outstanding borrowed in the form of a financial asset repurchase agreement between the entity and another party for the sale and repurchase of identical or substantially the same financial assets at a date certain for a specified price. Includes liabilities not subject to a master netting arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 65,
+      "latest_value": {
+        "value": 597854000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "SecuritiesPurchasedUnderAgreementsToResellAmountOffsetAgainstCollateral": {
+      "taxonomy": "us-gaap",
+      "label": "Securities Purchased under Agreements to Resell, Amount Offset Against Collateral",
+      "description": "Amount, after effects of master netting arrangements, of funds outstanding loaned in the form of a security resale agreement between the entity and another party for the purchase and resale of identical or substantially the same securities at a date certain for a specified price offset against an obligation to return collateral. Includes assets not subject to a master netting arrangement and not elected to be offset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 102,
+      "latest_value": {
+        "value": 6829000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "SecuritiesPurchasedUnderAgreementsToResellLiability": {
+      "taxonomy": "us-gaap",
+      "label": "Securities Purchased under Agreements to Resell, Liability",
+      "description": "Amount of liability associated with funds outstanding loaned in the form of a security resale agreement between the entity and another party for the purchase and resale of identical or substantially the same securities at a date certain for a specified price.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 102,
+      "latest_value": {
+        "value": 323772000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "SecuritiesReceivedAsCollateral": {
+      "taxonomy": "us-gaap",
+      "label": "Securities Received as Collateral",
+      "description": "The carrying value as of the balance sheet date of the assets received as collateral against securities loaned to other broker-dealers. Borrowers of securities generally are required to provide collateral to the lenders of securities, commonly cash but sometimes other securities or standby letters of credit, with a value slightly higher than that of the securities borrowed. In instances where the entity is permitted to sell or re-pledge these securities, the entity reports the fair value of the collateral received and the related obligation to return the collateral as a liability.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 132,
+      "latest_value": {
+        "value": 5200000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures in Period, Weighted Average Exercise Price (Deprecated 2012-01-31)",
+      "description": "The weighted average price at which grantees could have acquired the underlying shares with respect to stock options that were terminated during the reporting period due to noncompliance with plan terms during the reporting period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 176.41,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "WeightedAverageNumberOfSharesOutstandingBasic": {
+      "taxonomy": "us-gaap",
+      "label": "Weighted Average Number of Shares Outstanding, Basic",
+      "description": "Number of [basic] shares or units, after adjustment for contingently issuable shares or units and other shares or units not deemed outstanding, determined by relating the portion of time within a reporting period that common shares or units have been outstanding to the total time in that period.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 223,
+      "latest_value": {
+        "value": 1901400000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeAssetFairValueGrossLiability": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset, Fair Value, Gross Liability",
+      "description": "Fair value of liability associated with financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 334900000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeFairValueOfDerivativeLiabilityAmountOffsetAgainstCollateral": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Liability, Fair Value, Amount Offset Against Collateral",
+      "description": "Fair value, after effects of master netting arrangements, of financial liability or contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset offset against the right to receive collateral. Includes liabilities not subject to a master netting arrangement and not elected to be offset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 51243000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeLiabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Liability",
+      "description": "Fair value, after the effects of master netting arrangements, of a financial liability or contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset. Includes liabilities not subject to a master netting arrangement and not elected to be offset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 48298000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeLiabilityFairValueGrossAsset": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Liability, Fair Value, Gross Asset",
+      "description": "Fair value of asset associated with financial liability or contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 334900000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeLiabilityFairValueGrossLiabilityIncludingNotSubjectToMasterNettingArrangement": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Liability, Fair Value, Gross Liability Including Not Subject to Master Netting Arrangement",
+      "description": "Fair value, before effects of master netting arrangements, of a financial liability or contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset. Includes liabilities not subject to a master netting arrangement and elected not to be offset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 411768000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeLiabilityFairValueOffsetAgainstCollateralNetOfNotSubjectToMasterNettingArrangementPolicyElection": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Liability, Fair Value, Offset Against Collateral, Net of Not Subject to Master Netting Arrangement, Policy Election",
+      "description": "Fair value, after effects of master netting arrangements, deduction of liabilities not subject to a master netting arrangement and elected not to be offset, of financial liability or contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset, offset against the right to receive collateral.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 44870000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "FinancingReceivableAccruedInterestAfterAllowanceForCreditLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Financing Receivable, Accrued Interest, after Allowance for Credit Loss",
+      "description": "Amount, after allowance for credit loss, of accrued interest on financing receivable.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 1000000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "TimeDepositMaturitiesAfterYearFive": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposit Maturities, after Year Five",
+      "description": "Amount of time deposit maturing after fifth fiscal year following current fiscal year. Time deposit includes, but is not limited to, certificate of deposit. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 129000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TimeDepositMaturitiesYearFive": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposit Maturities, Year Five",
+      "description": "Amount of time deposit maturing in fifth fiscal year following current fiscal year. Time deposit includes, but is not limited to, certificate of deposit. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 211000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TimeDepositMaturitiesYearFour": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposit Maturities, Year Four",
+      "description": "Amount of time deposit maturing in fourth fiscal year following current fiscal year. Time deposit includes, but is not limited to, certificate of deposit. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 239000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TimeDepositMaturitiesYearOne": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposit Maturities, Year One",
+      "description": "Amount of time deposit maturing in next fiscal year following current fiscal year. Time deposit includes, but is not limited to, certificate of deposit. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 232536000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TimeDepositMaturitiesYearThree": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposit Maturities, Year Three",
+      "description": "Amount of time deposit maturing in third fiscal year following current fiscal year. Time deposit includes, but is not limited to, certificate of deposit. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 401000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TimeDepositMaturitiesYearTwo": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposit Maturities, Year Two",
+      "description": "Amount of time deposit maturing in second fiscal year following current fiscal year. Time deposit includes, but is not limited to, certificate of deposit. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 2784000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleAmortizedCostAllowanceForCreditLossExcludingAccruedInterest": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 6000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-03-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleExcludingAccruedInterestAllowanceForCreditLossNotPreviouslyRecorded": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 1000000,
+        "date": "2023-03-31",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q1",
+        "form": "10-Q",
+        "filed": "2023-05-05",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2023-03-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleExcludingAccruedInterestAllowanceForCreditLossRecovery": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0,
+        "date": "2023-03-31",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q1",
+        "form": "10-Q",
+        "filed": "2023-05-05",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2023-03-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleExcludingAccruedInterestAllowanceForCreditLossWriteoff": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0,
+        "date": "2023-03-31",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q1",
+        "form": "10-Q",
+        "filed": "2023-05-05",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2023-03-31"
+      }
+    },
+    "DebtSecuritiesAvailableForSaleExcludingAccruedInterestPurchasedWithCreditDeteriorationAllowanceForCreditLossAtAcquisitionDate": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0,
+        "date": "2023-03-31",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q1",
+        "form": "10-Q",
+        "filed": "2023-05-05",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2023-03-31"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityAllowanceForCreditLossExcludingAccruedInterest": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 35,
+      "latest_value": {
+        "value": 137000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityExcludingAccruedInterestAfterAllowanceForCreditLoss": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 242382000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityExcludingAccruedInterestAllowanceForCreditLossRecovery": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2023-06-30",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2023-08-04",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2023-06-30"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityExcludingAccruedInterestAllowanceForCreditLossWriteoff": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2023-06-30",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2023-08-04",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2023-06-30"
+      }
+    },
+    "DebtSecuritiesHeldToMaturityExcludingAccruedInterestCreditLossExpenseReversal": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 29,
+      "latest_value": {
+        "value": 50000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableAllowanceForCreditLossExcludingAccruedInterest": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 50,
+      "latest_value": {
+        "value": 18574000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestAfterAllowanceForCreditLoss": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 675914000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossForeignCurrencyTranslation": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": -233000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossRecovery": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 956000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoff": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 5649000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestAllowanceForCreditLossWriteoffAfterRecovery": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 4693000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestBeforeAllowanceForCreditLoss": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 694488000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestCreditLossExpenseReversal": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 32,
+      "latest_value": {
+        "value": 9726000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestTransferToHeldForSaleAllowanceForCreditLossExpenseReversal": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 29000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-06",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2022-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "LiabilityForFuturePolicyBenefitAfterReinsurance": {
+      "taxonomy": "us-gaap",
+      "label": "Liability for Future Policy Benefit, after Reinsurance",
+      "description": "Amount, after effect of reinsurance, of liability for future policy benefit.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 16,
+      "latest_value": {
+        "value": 413000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2023-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OciLiabilityForFuturePolicyBenefitGainLossAfterReclassificationAdjustmentAndTaxParent": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 32,
+      "latest_value": {
+        "value": 18000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DeferredTaxLiabilitiesDerivatives": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Liabilities, Derivatives",
+      "description": "Amount of deferred tax liability attributable to taxable temporary differences from derivatives.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "VariableLeaseCost": {
+      "taxonomy": "us-gaap",
+      "label": "Variable Lease, Cost",
+      "description": "Amount of variable lease cost, excluded from lease liability, recognized when obligation for payment is incurred for finance and operating leases.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 204000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "RestructuringReserveAccrualAdjustment1": {
+      "taxonomy": "us-gaap",
+      "label": "Restructuring Reserve, Accrual Adjustment",
+      "description": "Amount of expense (reversal of expense) which increases (decreases) the restructuring reserve from an adjustment to a previously accrued restructuring liability.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": -25000000,
+        "date": "2024-09-30",
+        "fiscal_year": 2024,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2024-11-07",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2024-03-31",
+        "latest": "2024-09-30"
+      }
+    },
+    "UnrecordedUnconditionalPurchaseObligationBalanceSheetAmount": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecorded Unconditional Purchase Obligation",
+      "description": "Amount of the unrecorded obligation to transfer funds in the future for fixed or minimum amounts or quantities of goods or services at fixed or minimum prices (for example, as in take-or-pay contracts or throughput contracts).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": 255000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2024-03-31",
+        "latest": "2025-03-31"
+      }
+    },
+    "NetPeriodicDefinedBenefitsExpenseReversalOfExpenseExcludingServiceCostComponent": {
+      "taxonomy": "us-gaap",
+      "label": "Net Periodic Defined Benefits Expense (Reversal of Expense), Excluding Service Cost Component",
+      "description": "Amount of expense (reversal of expense) for net periodic benefit cost components, excluding service cost component, of defined benefit plan. Amount includes, but is not limited to, interest cost, expected (return) loss on plan asset, amortization of prior service cost (credit), amortization of (gain) loss, amortization of transition (asset) obligation, settlement (gain) loss, curtailment (gain) loss and certain termination benefits.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 18000000,
+        "date": "2024-09-30",
+        "fiscal_year": 2024,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2024-11-07",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2023-06-30",
+        "latest": "2024-09-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossFinancialLiabilityFairValueOptionAfterTaxAndReclassificationAdjustmentAttributableToParent": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Financial Liability, Fair Value Option, after Tax and Reclassification Adjustment, Attributable to Parent",
+      "description": "Amount, after tax and reclassification adjustment, of gain (loss) from increase (decrease) in instrument-specific credit risk of financial liability measured under fair value option, attributable to parent.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 17,
+      "latest_value": {
+        "value": -412000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FinancingReceivableExcludingAccruedInterestPurchasedWithCreditDeteriorationAllowanceForCreditLossAtAcquisitionDate": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 23000000,
+        "date": "2024-09-30",
+        "fiscal_year": 2024,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2024-11-07",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2023-09-30",
+        "latest": "2024-09-30"
+      }
+    },
+    "ProfessionalFees": {
+      "taxonomy": "us-gaap",
+      "label": "Professional Fees",
+      "description": "A fee charged for services from professionals such as doctors, lawyers and accountants. The term is often expanded to include other professions, for example, pharmacists charging to maintain a medicinal profile of a client or customer.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 9,
+      "latest_value": {
+        "value": 2016000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    }
+  }
+}

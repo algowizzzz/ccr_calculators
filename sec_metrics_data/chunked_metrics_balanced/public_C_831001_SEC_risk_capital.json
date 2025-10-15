@@ -1,0 +1,171 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "831001",
+    "data_type": "SEC",
+    "ticker": "C",
+    "chunk_name": "Risk & Capital Management",
+    "chunk_id": "risk_capital",
+    "company_name": "Citigroup\u00a0Inc",
+    "extraction_date": "2025-09-30T11:01:43.638356",
+    "metrics_count": 7,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "AllocatedShareBasedCompensationExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Expense",
+      "description": "Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 1665000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-03-01",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "Capital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Total Capital, Actual",
+      "description": "Amount of total capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": 181958000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-03-03",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "OperatingExpenses": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Expenses",
+      "description": "Generally recurring costs associated with normal operations except for the portion of these expenses which can be clearly related to production and included in cost of sales or services. Includes selling, general and administrative expense.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 144,
+      "latest_value": {
+        "value": 55051000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2015-09-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExpirationsInPeriod": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Expirations in Period",
+      "description": "Number of options or other stock instruments for which the right to exercise has lapsed under the terms of the plan agreements.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 48,
+      "latest_value": {
+        "value": 0,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-28",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExpirationsInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Expirations in Period, Weighted Average Exercise Price (Deprecated 2012-01-31)",
+      "description": "The weighted average price at which grantees could have acquired the underlying shares with respect to stock options of the plan that lapsed during the reporting period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 487.24,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsExpirationsInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangements by Share-based Payment Award, Options, Expirations in Period, Weighted Average Exercise Price",
+      "description": "Weighted average price at which grantees could have acquired the underlying shares with respect to stock options of the plan that expired.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 0,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "TierOneRiskBasedCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Risk-Based Capital, Actual",
+      "description": "Amount of Tier 1 risk-based capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": 149444000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-03-03",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2013-12-31"
+      }
+    }
+  }
+}

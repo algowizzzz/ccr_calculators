@@ -1,0 +1,434 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "759944",
+    "data_type": "SEC",
+    "ticker": "CFG",
+    "chunk_name": "Risk & Capital Management",
+    "chunk_id": "risk_capital",
+    "company_name": "CITIZENS FINANCIAL GROUP INC/RI",
+    "extraction_date": "2025-09-30T10:50:08.303725",
+    "metrics_count": 19,
+    "total_company_metrics": 0
+  },
+  "metrics": {
+    "AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue": {
+      "taxonomy": "us-gaap",
+      "label": "APIC, Share-based Payment Arrangement, Increase for Cost Recognition",
+      "description": "Amount of increase to additional paid-in capital (APIC) for recognition of cost for award under share-based payment arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 119,
+      "latest_value": {
+        "value": 90000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-09-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "AllocatedShareBasedCompensationExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Expense",
+      "description": "Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 109,
+      "latest_value": {
+        "value": 97000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "Capital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Total Capital, Actual",
+      "description": "Amount of total capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 50,
+      "latest_value": {
+        "value": 23232000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CapitalizedComputerSoftwareAccumulatedAmortization": {
+      "taxonomy": "us-gaap",
+      "label": "Capitalized Computer Software, Accumulated Amortization",
+      "description": "For each balance sheet presented, the amount of accumulated amortization for capitalized computer software costs.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 1700000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CapitalizedComputerSoftwareAmortization1": {
+      "taxonomy": "us-gaap",
+      "label": "Capitalized Computer Software, Amortization",
+      "description": "Amount of expense for amortization of capitalized computer software costs.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 47,
+      "latest_value": {
+        "value": 268000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CapitalizedComputerSoftwareGross": {
+      "taxonomy": "us-gaap",
+      "label": "Capitalized Computer Software, Gross",
+      "description": "Amount before accumulated amortization of capitalized costs for computer software, including but not limited to, acquired and internally developed computer software.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 2500000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CapitalizedComputerSoftwareNet": {
+      "taxonomy": "us-gaap",
+      "label": "Capitalized Computer Software, Net",
+      "description": "The carrying amount of capitalized computer software costs net of accumulated amortization as of the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 754000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-03-03",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "CapitalRequiredForCapitalAdequacy": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Total Risk-Based Capital, Capital Adequacy, Minimum",
+      "description": "Amount of minimum total risk-based capital required for capital adequacy as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 50,
+      "latest_value": {
+        "value": 20712000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CapitalRequiredToBeWellCapitalized": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Total Risk-Based Capital, Well Capitalized, Minimum",
+      "description": "Amount of minimum total risk-based capital categorized as well capitalized as defined by regulatory framework for prompt corrective action.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 34,
+      "latest_value": {
+        "value": 12769000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2018-06-30"
+      }
+    },
+    "EquipmentExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Equipment Expense",
+      "description": "This element represents equipment expense including depreciation, repairs, rentals, and service contract costs. This item also includes equipment purchases which do not qualify for capitalization in accordance with the entity's accounting policy. This item may also include furniture expenses.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 147,
+      "latest_value": {
+        "value": 769000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "TierOneLeverageCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Leverage Capital, Actual",
+      "description": "Amount of Tier 1 leverage capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 50,
+      "latest_value": {
+        "value": 20013000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TierOneLeverageCapitalRequiredForCapitalAdequacy": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Leverage Capital, Capital Adequacy, Minimum",
+      "description": "Amount of minimum Tier 1 leverage capital required for capital adequacy as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 50,
+      "latest_value": {
+        "value": 8502000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TierOneLeverageCapitalRequiredToBeWellCapitalized": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Leverage Capital, Well Capitalized, Minimum",
+      "description": "Amount of minimum Tier 1 leverage capital categorized as well capitalized as defined by regulatory framework for prompt corrective action.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 34,
+      "latest_value": {
+        "value": 7280000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2018-06-30"
+      }
+    },
+    "TierOneRiskBasedCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Risk-Based Capital, Actual",
+      "description": "Amount of Tier 1 risk-based capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 50,
+      "latest_value": {
+        "value": 20013000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TierOneRiskBasedCapitalRequiredForCapitalAdequacy": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Risk-Based Capital, Capital Adequacy, Minimum",
+      "description": "Amount of minimum Tier 1 risk-based capital required for capital adequacy as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 50,
+      "latest_value": {
+        "value": 17398000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TierOneRiskBasedCapitalRequiredToBeWellCapitalized": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Risk-Based Capital, Well Capitalized, Minimum",
+      "description": "Amount of minimum Tier 1 risk-based capital categorized as well capitalized as defined by regulatory framework for prompt corrective action.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 34,
+      "latest_value": {
+        "value": 10215000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2018-06-30"
+      }
+    },
+    "EmployeeServiceShareBasedCompensationAllocationOfRecognizedPeriodCostsCapitalizedAmount": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Amount Capitalized",
+      "description": "Amount of cost capitalized for award under share-based payment arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 0,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresAndExpirationsInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures and Expirations in Period, Weighted Average Exercise Price",
+      "description": "Weighted average price of options that were either forfeited or expired.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 0,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-23",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOtherIncreasesDecreasesInPeriod": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Other Increases (Decreases) in Period",
+      "description": "The addition or reduction in the number of reserved shares that could potentially be issued under the option plan attributable to reasons other than grants, exercises, forfeitures, and expirations during the reporting period.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 249861,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-23",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2021-12-31"
+      }
+    }
+  }
+}

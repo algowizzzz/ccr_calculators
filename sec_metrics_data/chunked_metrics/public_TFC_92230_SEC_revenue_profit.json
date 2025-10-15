@@ -1,0 +1,1625 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "92230",
+    "data_type": "SEC",
+    "ticker": "TFC",
+    "chunk_name": "Revenue & Profitability",
+    "chunk_id": "revenue_profit",
+    "company_name": "TRUIST FINANCIAL CORPORATION",
+    "extraction_date": "2025-09-30T10:50:08.924760",
+    "metrics_count": 73,
+    "total_company_metrics": 0
+  },
+  "metrics": {
+    "AdjustmentsToReconcileToIncomeLossFromContinuingOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Adjustments to Reconcile to Income (Loss) from Continuing Operations Attributable to Parent (Deprecated 2009-01-31)",
+      "description": "Nonspecific addition or subtraction to net income that are used to calculate Income or Loss from continuing operations. This element captures any adjustment that is not included elsewhere in the taxonomy.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 58000000,
+        "date": "2009-06-30",
+        "fiscal_year": 2009,
+        "fiscal_period": "Q2",
+        "form": "10-Q/A",
+        "filed": "2009-08-13",
+        "unit": "USD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2008-06-30",
+        "latest": "2009-06-30"
+      }
+    },
+    "BusinessAcquisitionsProFormaNetIncomeLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Business Acquisition, Pro Forma Net Income (Loss)",
+      "description": "The pro forma net Income or Loss for the period as if the business combination or combinations had been completed at the beginning of a period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 251000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-03-03",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "CapitalizedComputerSoftwareAmortization": {
+      "taxonomy": "us-gaap",
+      "label": "Capitalized Computer Software, Amortization (Deprecated 2016-01-31)",
+      "description": "For each income statement presented, the amount charged to expense for amortization of capitalized computer software costs.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": -192000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple": {
+      "taxonomy": "us-gaap",
+      "label": "Cumulative Effect of Initial Adoption of New Accounting Principle (Deprecated 2011-01-31)",
+      "description": "Cumulative effect of initial adoption of new accounting principle on beginning retained earnings, net of tax. This element can be used, generally, for the adjustment to retained earnings of a new accounting principle.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": -8000000,
+        "date": "2008-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2008-12-31"
+      }
+    },
+    "CurrentFederalTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Current Federal Tax Expense (Benefit)",
+      "description": "Amount of current federal tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": -514000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CurrentForeignTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Current Foreign Tax Expense (Benefit)",
+      "description": "Amount of current foreign income tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 11,
+      "latest_value": {
+        "value": 3000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "CurrentIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Current Income Tax Expense (Benefit)",
+      "description": "Amount of current income tax expense (benefit) pertaining to taxable income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": -529000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "CurrentStateAndLocalTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Current State and Local Tax Expense (Benefit)",
+      "description": "Amount of current state and local tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": -15000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredFederalIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Federal Income Tax Expense (Benefit)",
+      "description": "Amount of deferred federal income tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": 45000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Income Tax Expense (Benefit)",
+      "description": "Amount of deferred income tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": -27000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredStateAndLocalIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred State and Local Income Tax Expense (Benefit)",
+      "description": "Amount of deferred state and local tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": -72000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DefinedBenefitPlanAmountsRecognizedInOtherComprehensiveIncomeLossNetGainLossBeforeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Defined Benefit Plan, Gain (Loss), after Reclassification Adjustment, before Tax",
+      "description": "Amount, before tax, after reclassification adjustment, of increase (decrease) in accumulated other comprehensive income from gain (loss) of defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 39,
+      "latest_value": {
+        "value": -551000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DefinedBenefitPlanAmountsRecognizedInOtherComprehensiveIncomeNetGainLossBeforeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Amounts Recognized in Other Comprehensive Income (Loss), Net Gain (Loss), before Tax (Deprecated 2012-01-31)",
+      "description": "The aggregate net gain (loss) recognized in other comprehensive income, including amounts arising during the period and reclassification adjustments of other comprehensive income as a result of being recognized as components of net periodic benefit cost for the period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 9,
+      "latest_value": {
+        "value": 194000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-03-01",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "DepreciationPremisesAndEquipment": {
+      "taxonomy": "us-gaap",
+      "label": "Depreciation Premises and Equipment (Deprecated 2011-01-31)",
+      "description": "The amount of expense charged against earnings in the period to allocate the cost, net of salvage value, of premises and equipment over their remaining estimated productive lives.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 260000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2011-03-31"
+      }
+    },
+    "EffectiveIncomeTaxRateContinuingOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Percent",
+      "description": "Percentage of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 177,
+      "latest_value": {
+        "value": 0.925,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, at Federal Statutory Income Tax Rate, Percent",
+      "description": "Percentage of domestic federal statutory tax rate applicable to pretax income (loss).",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 30,
+      "latest_value": {
+        "value": 0.21,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationOtherAdjustments": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Other Adjustments, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to other adjustments.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 21,
+      "latest_value": {
+        "value": -0.082,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, State and Local Income Taxes, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations applicable to state and local income tax expense (benefit), net of federal tax expense (benefit).",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 21,
+      "latest_value": {
+        "value": 0.115,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationTaxCutsAndJobsActOf2017Percent": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Cuts and Jobs Act, Percent",
+      "description": "Percentage of reported income tax expense (benefit) in excess of (less than) expected income tax expense (benefit) computed by applying domestic federal statutory income tax rate to pretax income (loss) from continuing operations, attributable to Tax Cuts and Jobs Act.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-24",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationTaxExemptIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Exempt Income, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to income (loss) exempt from income taxes.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 21,
+      "latest_value": {
+        "value": -0.268,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "FeesAndCommissionsDebitCards": {
+      "taxonomy": "us-gaap",
+      "label": "Fees and Commissions, Debit Cards (Deprecated 2018-01-31)",
+      "description": "Amount of income earned from debit card services, including interchange fees, annual fees and other fees.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 70,
+      "latest_value": {
+        "value": 214000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2018-03-31"
+      }
+    },
+    "FeesAndCommissionsOther": {
+      "taxonomy": "us-gaap",
+      "label": "Fees and Commissions, Other (Deprecated 2018-01-31)",
+      "description": "Amount of fee and commission revenue classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 34,
+      "latest_value": {
+        "value": 270000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2011-09-30"
+      }
+    },
+    "GainLossOnInterestRateDerivativeInstrumentsNotDesignatedAsHedgingInstruments": {
+      "taxonomy": "us-gaap",
+      "label": "Gain (Loss) on Interest Rate Derivative Instruments Not Designated as Hedging Instruments",
+      "description": "Amount of gain (loss) included in earnings for the period from the increase (decrease) in fair value of interest rate derivatives not designated as hedging instruments.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": 32000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2016-09-30"
+      }
+    },
+    "IncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Income Tax Expense (Benefit)",
+      "description": "Amount of current income tax expense (benefit) and deferred income tax expense (benefit) pertaining to continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 218,
+      "latest_value": {
+        "value": -556000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation at Federal Statutory Income Tax Rate, Amount",
+      "description": "The amount of income tax expense or benefit for the period computed by applying the domestic federal statutory tax rates to pretax income from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": -126000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationOtherAdjustments": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Other Adjustments, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to other adjustments.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": 49000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationStateAndLocalIncomeTaxes": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, State and Local Income Taxes, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to state and local income tax expense (benefit).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": -69000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationTaxContingenciesDomestic": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Contingency, Domestic, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to increase (decrease) in domestic income tax contingency.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 24,
+      "latest_value": {
+        "value": 0,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "IncomeTaxReconciliationTaxExemptIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Exempt Income, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to income (loss) exempt from income taxes.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": 161000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncreaseDecreaseInOperatingLiabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Operating Liabilities",
+      "description": "The increase (decrease) during the reporting period in the aggregate amount of liabilities that result from activities that generate operating income.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 77,
+      "latest_value": {
+        "value": 186000000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2017-06-30"
+      }
+    },
+    "InsuranceCommissionsAndFees": {
+      "taxonomy": "us-gaap",
+      "label": "Insurance Commissions and Fees",
+      "description": "Income from agency and brokerage operations (includes sales of annuities and supplemental contracts); service charges, commissions, and fees from the sale of insurance and related services; and management fees from separate accounts, deferred annuities, and universal life products.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 120,
+      "latest_value": {
+        "value": 1754000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2018-03-31"
+      }
+    },
+    "InterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Expense",
+      "description": "Amount of the cost of borrowed funds accounted for as interest expense.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 205,
+      "latest_value": {
+        "value": 9856000000,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2024-06-30"
+      }
+    },
+    "InterestIncomeExpenseNet": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Income (Expense), Net",
+      "description": "The net amount of operating interest income (expense).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 218,
+      "latest_value": {
+        "value": 14091000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NetIncomeLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Net Income (Loss) Attributable to Parent",
+      "description": "The portion of profit or loss for the period, net of income taxes, which is attributable to the parent.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 526000000,
+        "date": "2009-06-30",
+        "fiscal_year": 2009,
+        "fiscal_period": "Q2",
+        "form": "10-Q/A",
+        "filed": "2009-08-13",
+        "unit": "USD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2008-06-30",
+        "latest": "2009-06-30"
+      }
+    },
+    "NetIncomeLossAttributableToNoncontrollingInterest": {
+      "taxonomy": "us-gaap",
+      "label": "Net Income (Loss) Attributable to Noncontrolling Interest",
+      "description": "Amount of Net Income (Loss) attributable to noncontrolling interest.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 211,
+      "latest_value": {
+        "value": 22000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NewAccountingPronouncementOrChangeInAccountingPrincipleEffectOfChangeOnDilutedEarningsPerShare": {
+      "taxonomy": "us-gaap",
+      "label": "New Accounting Pronouncement or Change in Accounting Principle, Effect of Change on Diluted Earnings Per Share (Deprecated 2020-01-31)",
+      "description": "Amount of the effect of a change in accounting principle on diluted earnings per share.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": -0.03,
+        "date": "2014-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "NewAccountingPronouncementOrChangeInAccountingPrincipleEffectOfChangeOnNetIncome": {
+      "taxonomy": "us-gaap",
+      "label": "New Accounting Pronouncement or Change in Accounting Principle, Effect of Change on Net Income (Deprecated 2020-01-31)",
+      "description": "Amount of the effect of a change in accounting principle on net income.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": -20000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "NewAccountingPronouncementOrChangeInAccountingPrincipleEffectOfChangeOnNetRevenue": {
+      "taxonomy": "us-gaap",
+      "label": "New Accounting Pronouncement or Change in Accounting Principle, Effect of Change on Net Revenue (Deprecated 2016-01-31)",
+      "description": "Amount of the effect of a change in accounting principle on net revenue.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 141000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "NoninterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Noninterest Expense",
+      "description": "Total aggregate amount of all noninterest expense.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 218,
+      "latest_value": {
+        "value": 12009000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NoninterestIncomeOtherOperatingIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Noninterest Income, Other Operating Income",
+      "description": "Amount of revenue earned, classified as other, excluding interest income.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 120,
+      "latest_value": {
+        "value": 467000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2018-03-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Net of Tax",
+      "description": "Amount after tax and reclassification adjustments of other comprehensive income (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 168,
+      "latest_value": {
+        "value": 4293000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansAdjustmentNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive (Income) Loss, Defined Benefit Plan, after Reclassification Adjustment, after Tax",
+      "description": "Amount, after tax and reclassification adjustment, of (increase) decrease in accumulated other comprehensive income for defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 168,
+      "latest_value": {
+        "value": -431000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossPensionAndOtherPostretirementBenefitPlansTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive (Income) Loss, Defined Benefit Plan, after Reclassification Adjustment, Tax",
+      "description": "Amount, after reclassification adjustment, of tax (expense) benefit for (increase) decrease in accumulated other comprehensive income of defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 168,
+      "latest_value": {
+        "value": -133000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIPensionAndOtherPostretirementBenefitPlansForNetGainLossBeforeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Defined Benefit Plan, Gain (Loss), Reclassification Adjustment from AOCI, before Tax",
+      "description": "Amount, before tax, of reclassification adjustment from accumulated other comprehensive income (loss) for gain (loss) of defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 36,
+      "latest_value": {
+        "value": 1000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Tax",
+      "description": "Amount of tax expense (benefit) allocated to other comprehensive income (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 47,
+      "latest_value": {
+        "value": 289000000,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2024-03-31"
+      }
+    },
+    "OtherComprehensiveIncomeOtherNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income, Other, Net of Tax",
+      "description": "Amount of increase (decrease) in other comprehensive income, after tax, from changes classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 136,
+      "latest_value": {
+        "value": -4000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeReclassificationOfDefinedBenefitPlansNetGainLossRecognizedInNetPeriodicBenefitCostBeforeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Reclassification, Pension and Other Postretirement Benefit Plans, Net Gain (Loss) Recognized in Net Periodic Benefit Cost, before Tax (Deprecated 2013-01-31)",
+      "description": "Before tax amount of the income statement impact of the reclassification adjustment for actuarial gain (loss) recognized as a component of net periodic benefit cost.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 9,
+      "latest_value": {
+        "value": 91000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "OtherInterestAndDividendIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Other Interest and Dividend Income",
+      "description": "Amount, after discount, accretion and premium amortization, of interest income and dividend income classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 218,
+      "latest_value": {
+        "value": 2330000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherNoninterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Other Noninterest Expense",
+      "description": "Amount of noninterest expense classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 189,
+      "latest_value": {
+        "value": 742000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2023-06-30"
+      }
+    },
+    "ProfitLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+      "description": "The consolidated profit or loss for the period, net of income taxes, including the portion attributable to the noncontrolling interest.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 214,
+      "latest_value": {
+        "value": 4840000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "RetainedEarningsAccumulatedDeficit": {
+      "taxonomy": "us-gaap",
+      "label": "Retained Earnings (Accumulated Deficit)",
+      "description": "The cumulative amount of the reporting entity's undistributed earnings or deficit.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 134,
+      "latest_value": {
+        "value": 23777000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsExpectedDividendRate": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Fair Value Assumptions, Expected Dividend Rate",
+      "description": "The estimated dividend rate (a percentage of the share price) to be paid (expected dividends) to holders of the underlying shares over the option's term.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 40,
+      "latest_value": {
+        "value": 0.036,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-26",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2014-09-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardFairValueAssumptionsRiskFreeInterestRate": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Fair Value Assumptions, Risk Free Interest Rate",
+      "description": "The risk-free interest rate assumption that is used in valuing an option on its own shares.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 40,
+      "latest_value": {
+        "value": 0.013,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-26",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2014-09-30"
+      }
+    },
+    "TaxCutsAndJobsActOf2017IncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Tax Cuts and Jobs Act, Income Tax Expense (Benefit)",
+      "description": "Amount of income tax expense (benefit) from effect of Tax Cuts and Jobs Act.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "UnrecognizedTaxBenefitsIncomeTaxPenaltiesExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits, Income Tax Penalties Expense",
+      "description": "Amount of expense for penalties related to a tax position claimed or expected to be claimed in the tax return.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": -29000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "UnrecognizedTaxBenefitsInterestOnIncomeTaxesExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits, Interest on Income Taxes Expense",
+      "description": "Amount of interest expense for an underpayment of income taxes.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 1000000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "WeightedAverageNumberOfDilutedSharesOutstanding": {
+      "taxonomy": "us-gaap",
+      "label": "Weighted Average Number of Shares Outstanding, Diluted",
+      "description": "The average number of shares or units issued and outstanding that are used in calculating diluted EPS or earnings per unit (EPU), determined based on the timing of issuance of shares or units in the period.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 218,
+      "latest_value": {
+        "value": 1331087000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "LossContingencyDamagesSoughtValue": {
+      "taxonomy": "us-gaap",
+      "label": "Loss Contingency, Damages Sought, Value",
+      "description": "The value (monetary amount) of the award the plaintiff seeks in the legal matter.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 9,
+      "latest_value": {
+        "value": 452000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2023-09-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "LossContingencyEstimateOfPossibleLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Loss Contingency, Estimate of Possible Loss",
+      "description": "Reflects the estimated amount of loss from the specified contingency as of the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 460000000,
+        "date": "2023-09-30",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2023-10-31",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2023-09-30",
+        "latest": "2023-09-30"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationNondeductibleExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Nondeductible Expense, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to nondeductible expenses.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 9,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationNondeductibleExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Nondeductible Expense, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to nondeductible expenses.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 9,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DiscontinuedOperationTaxEffectOfDiscontinuedOperation": {
+      "taxonomy": "us-gaap",
+      "label": "Discontinued Operation, Tax Effect of Discontinued Operation",
+      "description": "Amount of tax expense (benefit) related to a discontinued operation. Includes, but is not limited to, tax expense (benefit) related to income (loss) from operations during the phase-out period, tax expense (benefit) related to gain (loss) on disposal, tax expense (benefit) related to gain (loss) for reversal of write-down (write-down) to fair value, less cost to sell, and tax expense (benefit) related to adjustments of a prior period gain (loss) on disposal.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 2155000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DisposalGroupIncludingDiscontinuedOperationInterestIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Disposal Group, Including Discontinued Operation, Interest Income",
+      "description": "Amount of interest income attributable to disposal group, including, but not limited to, discontinued operation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 31000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DisposalGroupIncludingDiscontinuedOperationOtherIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Disposal Group, Including Discontinued Operation, Other Income",
+      "description": "Amount of other income attributable to disposal group, including, but not limited to, discontinued operation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 9000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeLossFromContinuingOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Continuing Operations, Net of Tax, Attributable to Parent",
+      "description": "Amount after tax of income (loss) from continuing operations attributable to the parent.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": -45000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToNoncontrollingInterest": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Discontinued Operations, Net of Tax, Attributable to Noncontrolling Interest",
+      "description": "Amount after tax of income (loss) from a discontinued operation attributable to the noncontrolling interest. Includes, but is not limited to, the income (loss) from operations during the phase-out period, gain (loss) on disposal, gain (loss) for reversal of write-down (write-down) to fair value, less cost to sell, and adjustments to a prior period gain (loss) on disposal.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 4863000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeLossFromDiscontinuedOperationsNetOfTaxAttributableToReportingEntity": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Discontinued Operations, Net of Tax, Attributable to Parent",
+      "description": "Amount after tax of income (loss) from a discontinued operation attributable to the parent. Includes, but is not limited to, the income (loss) from operations during the phase-out period, gain (loss) on disposal, gain (loss) for reversal of write-down (write-down) to fair value, less cost to sell, and adjustments to a prior period gain (loss) on disposal.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 4885000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncomeLossFromDiscontinuedOperationsNetOfTaxPerBasicShare": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Discontinued Operations and Disposal of Discontinued Operations, Net of Tax, Per Basic Share",
+      "description": "Per basic share amount, after tax, of income (loss) from the day-to-day business activities of the discontinued operation and gain (loss) from the disposal of the discontinued operation.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 3.66,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncomeLossFromDiscontinuedOperationsNetOfTaxPerDilutedShare": {
+      "taxonomy": "us-gaap",
+      "label": "Income (Loss) from Discontinued Operations and Disposal of Discontinued Operations, Net of Tax, Per Diluted Share",
+      "description": "Per diluted share amount, after tax, of income (loss) from the day-to-day business activities of the discontinued operation and gain (loss) from the disposal of the discontinued operation.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 3.66,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DiscontinuedOperationGainLossFromDisposalOfDiscontinuedOperationBeforeIncomeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Discontinued Operation, Gain (Loss) from Disposal of Discontinued Operation, before Income Tax",
+      "description": "Amount before tax of gain (loss) not previously recognized resulting from the disposal of a discontinued operation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 13,
+      "latest_value": {
+        "value": 6939000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DiscontinuedOperationGainLossOnDisposalOfDiscontinuedOperationNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Discontinued Operation, Gain (Loss) on Disposal of Discontinued Operation, Net of Tax",
+      "description": "Amount after tax of gain (loss) not previously recognized resulting from the disposal of a discontinued operation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 9,
+      "latest_value": {
+        "value": 4841000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DiscontinuedOperationTaxEffectOfIncomeLossFromDisposalOfDiscontinuedOperation": {
+      "taxonomy": "us-gaap",
+      "label": "Discontinued Operation, Tax Effect of Gain (Loss) from Disposal of Discontinued Operation",
+      "description": "Amount of tax expense (benefit) on gain (loss) not previously recognized resulting from the disposal of a discontinued operation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": -2098000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2024-06-30",
+        "latest": "2024-12-31"
+      }
+    },
+    "InterestExpenseOperating": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 13,
+      "latest_value": {
+        "value": 10975000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    }
+  }
+}

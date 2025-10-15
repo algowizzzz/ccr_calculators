@@ -1,0 +1,348 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "36104",
+    "data_type": "SEC",
+    "ticker": "USB",
+    "chunk_name": "Risk & Capital Management",
+    "chunk_id": "risk_capital",
+    "company_name": "US BANCORP \\DE\\",
+    "extraction_date": "2025-09-30T11:01:44.361054",
+    "metrics_count": 15,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "AdditionalPaidInCapitalCommonStock": {
+      "taxonomy": "us-gaap",
+      "label": "Additional Paid in Capital, Common Stock",
+      "description": "Value received from shareholders in common stock-related transactions that are in excess of par value or stated value and amounts received from other stock-related transactions. Includes only common stock transactions (excludes preferred stock transactions). May be called contributed capital, capital in excess of par, capital surplus, or paid-in capital.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 130,
+      "latest_value": {
+        "value": 8715000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue": {
+      "taxonomy": "us-gaap",
+      "label": "APIC, Share-based Payment Arrangement, Increase for Cost Recognition",
+      "description": "Amount of increase to additional paid-in capital (APIC) for recognition of cost for award under share-based payment arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 172,
+      "latest_value": {
+        "value": 241000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "AllocatedShareBasedCompensationExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Expense",
+      "description": "Amount of expense for award under share-based payment arrangement. Excludes amount capitalized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": 232000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "BankingRegulationSupplementaryLeverageRatioCapitalAdequacyMinimum": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Supplementary Leverage Ratio, Capital Adequacy, Minimum",
+      "description": "Ratio of minimum Tier 1 risk-based capital to total leverage exposure required for capital adequacy as defined by regulatory framework.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 0.03,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-20",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-12-31",
+        "latest": "2023-12-31"
+      }
+    },
+    "BankingRegulationSupplementaryLeverageRatioWellCapitalizedMinimum": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Supplementary Leverage Ratio, Well Capitalized, Minimum",
+      "description": "Ratio of minimum Tier 1 risk-based capital to total leverage exposure categorized as well capitalized as defined by regulatory framework for prompt corrective action.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 0.03,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-20",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-12-31",
+        "latest": "2023-12-31"
+      }
+    },
+    "Capital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Total Capital, Actual",
+      "description": "Amount of total capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 39340000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "CommonStockCapitalSharesReservedForFutureIssuance": {
+      "taxonomy": "us-gaap",
+      "label": "Common Stock, Capital Shares Reserved for Future Issuance",
+      "description": "Aggregate number of common shares reserved for future issuance.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 16,
+      "latest_value": {
+        "value": 59000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "PreferredStockIncludingAdditionalPaidInCapitalNetOfDiscount": {
+      "taxonomy": "us-gaap",
+      "label": "Preferred Stock, Including Additional Paid in Capital, Net of Discount",
+      "description": "Aggregate par value plus amounts in excess of par or issuance value (in cases of no-par value stock) for nonredeemable preferred stock (or preferred stock redeemable solely at the option of the issuer) issued and outstanding, net of discount on shares. Aggregate for preferred stock issued and outstanding.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 98,
+      "latest_value": {
+        "value": 6808000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all vested portions of options outstanding and currently exercisable (or convertible) under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "pure",
+        "Y"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 4.4,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term (Deprecated 2011-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all awards outstanding under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 5.5,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "ShareBasedCompensationSharesAuthorizedUnderStockOptionPlansExercisePriceRangeOutstandingOptionsWeightedAverageRemainingContractualTerm": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation, Shares Authorized under Stock Option Plans, Exercise Price Range, Outstanding Options, Weighted Average Remaining Contractual Term (Deprecated 2011-01-31)",
+      "description": "The weighted-average period remaining as of the balance sheet date until option expiration pertaining to the outstanding stock options for all option plans in the customized range of exercise prices, which may be expressed in a variety of ways (for example, years, months).",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 5.5,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsOutstandingWeightedAverageRemainingContractualTerm1": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted average period between the balance sheet date and expiration for all awards outstanding under the plan, which may be expressed in a decimal value for number of years.",
+      "available_units": [
+        "Y"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 5.2,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-23",
+        "unit": "Y",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "SharebasedCompensationSharesAuthorizedUnderStockOptionPlansExercisePriceRangeOutstandingOptionsWeightedAverageRemainingContractualTerm1": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation, Shares Authorized under Stock Option Plans, Exercise Price Range, Outstanding Options, Weighted Average Remaining Contractual Term (Deprecated 2012-01-31)",
+      "description": "The weighted-average period remaining as of the balance sheet date until option expiration pertaining to the outstanding stock options for all option plans in the customized range of exercise prices, which may be expressed in a variety of ways (for example, years, months).",
+      "available_units": [
+        "Y"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 5.2,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-23",
+        "unit": "Y",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "TierOneRiskBasedCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier One Risk-Based Capital, Actual",
+      "description": "Amount of Tier 1 risk-based capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 33386000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "TierTwoRiskBasedCapital": {
+      "taxonomy": "us-gaap",
+      "label": "Banking Regulation, Tier Two Risk-Based Capital, Actual",
+      "description": "Amount of Tier 2 risk-based capital as defined by regulatory framework.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 5954000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2013-12-31"
+      }
+    }
+  }
+}

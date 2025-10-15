@@ -1,0 +1,628 @@
+{
+  "company_info": {
+    "cik": 316709,
+    "entity_name": "SCHWAB CHARLES CORP",
+    "extraction_date": "2025-09-30T09:49:47.720092"
+  },
+  "metrics": {
+    "revenue": {
+      "description": "Total Revenue",
+      "category": "Income Statement",
+      "sec_key": "Revenues",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 19606000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 11450000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Revenues",
+      "sec_description": "Amount of revenue recognized from goods sold, services rendered, insurance premiums, or other activities that constitute an earning process. Includes, but is not limited to, investment and interest income before deduction of interest expense when recognized as a component of revenue, and sales and trading gain (loss)."
+    },
+    "cost_of_revenue": {
+      "description": "Cost of Goods/Services Sold",
+      "category": "Income Statement",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    },
+    "gross_profit": {
+      "description": "Gross Profit",
+      "category": "Income Statement",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    },
+    "operating_income": {
+      "description": "Operating Income",
+      "category": "Income Statement",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    },
+    "net_income": {
+      "description": "Net Income",
+      "category": "Income Statement",
+      "sec_key": "NetIncomeLoss",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 5942000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 4035000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Net Income (Loss) Attributable to Parent",
+      "sec_description": "The portion of profit or loss for the period, net of income taxes, which is attributable to the parent."
+    },
+    "earnings_per_share_basic": {
+      "description": "Earnings Per Share (Basic)",
+      "category": "Income Statement",
+      "sec_key": "EarningsPerShareBasic",
+      "unit": "USD/shares",
+      "available_units": [
+        "USD/shares"
+      ],
+      "annual": {
+        "value": 3,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 2.07,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Earnings Per Share, Basic",
+      "sec_description": "The amount of net income (loss) for the period per each share of common stock or unit outstanding during the reporting period."
+    },
+    "earnings_per_share_diluted": {
+      "description": "Earnings Per Share (Diluted)",
+      "category": "Income Statement",
+      "sec_key": "EarningsPerShareDiluted",
+      "unit": "USD/shares",
+      "available_units": [
+        "USD/shares"
+      ],
+      "annual": {
+        "value": 2.99,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 2.07,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Earnings Per Share, Diluted",
+      "sec_description": "The amount of net income (loss) for the period available to each share of common stock or common unit outstanding during the reporting period and to each share or unit that would have been outstanding assuming the issuance of common shares or units for all dilutive potential common shares or units outstanding during the reporting period."
+    },
+    "total_assets": {
+      "description": "Total Assets",
+      "category": "Balance Sheet",
+      "sec_key": "Assets",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 479843000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 458936000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Assets",
+      "sec_description": "Sum of the carrying amounts as of the balance sheet date of all assets that are recognized. Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events."
+    },
+    "current_assets": {
+      "description": "Current Assets",
+      "category": "Balance Sheet",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    },
+    "cash_and_equivalents": {
+      "description": "Cash and Cash Equivalents",
+      "category": "Balance Sheet",
+      "sec_key": "CashAndCashEquivalentsAtCarryingValue",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 42083000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 32195000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Cash and Cash Equivalents, at Carrying Value",
+      "sec_description": "Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation."
+    },
+    "marketable_securities": {
+      "description": "Marketable Securities",
+      "category": "Balance Sheet",
+      "sec_key": "AvailableForSaleSecuritiesDebtSecurities",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 337400000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-24"
+      },
+      "quarterly": {
+        "value": 342006000000,
+        "date": "2021-03-31",
+        "fiscal_year": 2021,
+        "fiscal_period": "Q1",
+        "form": "10-Q",
+        "filed": "2021-05-07"
+      },
+      "label": "Debt Securities, Available-for-sale",
+      "sec_description": "Amount of investment in debt security measured at fair value with change in fair value recognized in other comprehensive income (available-for-sale)."
+    },
+    "accounts_receivable": {
+      "description": "Accounts Receivable",
+      "category": "Balance Sheet",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    },
+    "inventory": {
+      "description": "Inventory",
+      "category": "Balance Sheet",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    },
+    "property_plant_equipment": {
+      "description": "Property, Plant & Equipment (Net)",
+      "category": "Balance Sheet",
+      "sec_key": "PropertyPlantAndEquipmentNet",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 2883000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-24"
+      },
+      "quarterly": {
+        "value": 3730000000,
+        "date": "2023-09-30",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2023-11-08"
+      },
+      "label": "Property, Plant and Equipment, Net",
+      "sec_description": "Amount after accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business to produce goods and services and not intended for resale. Examples include, but are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures."
+    },
+    "total_liabilities": {
+      "description": "Total Liabilities",
+      "category": "Balance Sheet",
+      "sec_key": "Liabilities",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 431468000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 409485000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Liabilities",
+      "sec_description": "Sum of the carrying amounts as of the balance sheet date of all liabilities that are recognized. Liabilities are probable future sacrifices of economic benefits arising from present obligations of an entity to transfer assets or provide services to other entities in the future."
+    },
+    "current_liabilities": {
+      "description": "Current Liabilities",
+      "category": "Balance Sheet",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    },
+    "accounts_payable": {
+      "description": "Accounts Payable",
+      "category": "Balance Sheet",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    },
+    "short_term_debt": {
+      "description": "Short-Term Debt",
+      "category": "Balance Sheet",
+      "sec_key": "ShortTermBorrowings",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 17050000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-24"
+      },
+      "quarterly": {
+        "value": 500000000,
+        "date": "2022-09-30",
+        "fiscal_year": 2022,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2022-11-08"
+      },
+      "label": "Short-term Debt",
+      "sec_description": "Reflects the total carrying amount as of the balance sheet date of debt having initial terms less than one year or the normal operating cycle, if longer."
+    },
+    "long_term_debt": {
+      "description": "Long-Term Debt",
+      "category": "Balance Sheet",
+      "sec_key": "LongTermDebt",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 18914000000,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-24"
+      },
+      "quarterly": {
+        "value": 19530000000,
+        "date": "2021-09-30",
+        "fiscal_year": 2021,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2021-11-08"
+      },
+      "label": "Long-term Debt",
+      "sec_description": "Amount, after unamortized (discount) premium and debt issuance costs, of long-term debt. Includes, but not limited to, notes payable, bonds payable, debentures, mortgage loans and commercial paper. Excludes capital lease obligations."
+    },
+    "commercial_paper": {
+      "description": "Commercial Paper",
+      "category": "Balance Sheet",
+      "sec_key": "CommercialPaper",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 2000000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Commercial Paper",
+      "sec_description": "Carrying value as of the balance sheet date of short-term borrowings using unsecured obligations issued by banks, corporations and other borrowers to investors. The maturities of these money market securities generally do not exceed 270 days."
+    },
+    "stockholders_equity": {
+      "description": "Stockholders Equity",
+      "category": "Balance Sheet",
+      "sec_key": "StockholdersEquity",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 48375000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 49451000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Stockholders' Equity Attributable to Parent",
+      "sec_description": "Total of all stockholders' equity (deficit) items, net of receivables from officers, directors, owners, and affiliates of the entity which are attributable to the parent. The amount of the economic entity's stockholders' equity attributable to the parent excludes the amount of stockholders' equity which is allocable to that ownership interest in subsidiary equity which is not attributable to the parent (noncontrolling interest, minority interest). This excludes temporary equity and is sometimes called permanent equity."
+    },
+    "retained_earnings": {
+      "description": "Retained Earnings",
+      "category": "Balance Sheet",
+      "sec_key": "RetainedEarningsAccumulatedDeficit",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 37568000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 40374000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Retained Earnings (Accumulated Deficit)",
+      "sec_description": "The cumulative amount of the reporting entity's undistributed earnings or deficit."
+    },
+    "shares_outstanding": {
+      "description": "Common Stock Shares Outstanding",
+      "category": "Share Information",
+      "sec_key": "EntityCommonStockSharesOutstanding",
+      "unit": "shares",
+      "available_units": [
+        "shares"
+      ],
+      "annual": {
+        "value": 1813567665,
+        "date": "2025-02-12",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 1815219300,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Entity Common Stock, Shares Outstanding",
+      "sec_description": "Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests, if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member], Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings, Instrument."
+    },
+    "weighted_average_shares_basic": {
+      "description": "Weighted Average Shares Outstanding (Basic)",
+      "category": "Share Information",
+      "sec_key": "WeightedAverageNumberOfSharesOutstandingBasic",
+      "unit": "shares",
+      "available_units": [
+        "shares"
+      ],
+      "annual": {
+        "value": 1828000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 1819000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Weighted Average Number of Shares Outstanding, Basic",
+      "sec_description": "Number of [basic] shares or units, after adjustment for contingently issuable shares or units and other shares or units not deemed outstanding, determined by relating the portion of time within a reporting period that common shares or units have been outstanding to the total time in that period."
+    },
+    "weighted_average_shares_diluted": {
+      "description": "Weighted Average Shares Outstanding (Diluted)",
+      "category": "Share Information",
+      "sec_key": "WeightedAverageNumberOfDilutedSharesOutstanding",
+      "unit": "shares",
+      "available_units": [
+        "shares"
+      ],
+      "annual": {
+        "value": 1834000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 1825000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Weighted Average Number of Shares Outstanding, Diluted",
+      "sec_description": "The average number of shares or units issued and outstanding that are used in calculating diluted EPS or earnings per unit (EPU), determined based on the timing of issuance of shares or units in the period."
+    },
+    "operating_cash_flow": {
+      "description": "Net Cash from Operating Activities",
+      "category": "Cash Flow",
+      "sec_key": "NetCashProvidedByUsedInOperatingActivities",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 2670000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 9536000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Net Cash Provided by (Used in) Operating Activities",
+      "sec_description": "Amount of cash inflow (outflow) from operating activities, including discontinued operations. Operating activity cash flows include transactions, adjustments, and changes in value not defined as investing or financing activities."
+    },
+    "investing_cash_flow": {
+      "description": "Net Cash from Investing Activities",
+      "category": "Cash Flow",
+      "sec_key": "NetCashProvidedByUsedInInvestingActivities",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": 35431000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": 19546000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Net Cash Provided by (Used in) Investing Activities",
+      "sec_description": "Amount of cash inflow (outflow) from investing activities, including discontinued operations. Investing activity cash flows include making and collecting loans and acquiring and disposing of debt or equity instruments and property, plant, and equipment and other productive assets."
+    },
+    "financing_cash_flow": {
+      "description": "Net Cash from Financing Activities",
+      "category": "Cash Flow",
+      "sec_key": "NetCashProvidedByUsedInFinancingActivities",
+      "unit": "USD",
+      "available_units": [
+        "USD"
+      ],
+      "annual": {
+        "value": -47060000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-26"
+      },
+      "quarterly": {
+        "value": -39027000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-08"
+      },
+      "label": "Net Cash Provided by (Used in) Financing Activities",
+      "sec_description": "Amount of cash inflow (outflow) from financing activities, including discontinued operations. Financing activity cash flows include obtaining resources from owners and providing them with a return on, and a return of, their investment; borrowing money and repaying amounts borrowed, or settling the obligation; and obtaining and paying for other resources obtained from creditors on long-term credit."
+    },
+    "free_cash_flow": {
+      "description": "Free Cash Flow",
+      "category": "Cash Flow",
+      "sec_key": null,
+      "unit": null,
+      "available_units": [],
+      "annual": null,
+      "quarterly": null,
+      "label": null,
+      "sec_description": "Metric not found in SEC data"
+    }
+  }
+}

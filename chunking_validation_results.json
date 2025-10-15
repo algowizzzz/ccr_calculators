@@ -1,0 +1,1000 @@
+{
+  "validation_summary": {
+    "total_files": 28,
+    "valid_files": 28,
+    "invalid_files": 0,
+    "chunking_feasible": false
+  },
+  "category_statistics": {
+    "metrics_distribution": {
+      "revenue_profit": {
+        "min": 65,
+        "max": 149,
+        "avg": 108.14285714285714,
+        "total": 3028
+      },
+      "metadata_other": {
+        "min": 40,
+        "max": 87,
+        "avg": 59.17857142857143,
+        "total": 1657
+      },
+      "risk_capital": {
+        "min": 7,
+        "max": 38,
+        "avg": 21.5,
+        "total": 602
+      },
+      "financial_position": {
+        "min": 84,
+        "max": 742,
+        "avg": 527.1785714285714,
+        "total": 14761
+      },
+      "operations": {
+        "min": 14,
+        "max": 54,
+        "avg": 36.964285714285715,
+        "total": 1035
+      }
+    },
+    "token_distribution": {
+      "revenue_profit": {
+        "min": 8068.0,
+        "max": 28270.0,
+        "avg": 18899.5
+      },
+      "metadata_other": {
+        "min": 6108.0,
+        "max": 14909.0,
+        "avg": 9688.464285714286
+      },
+      "risk_capital": {
+        "min": 848.0,
+        "max": 6593.0,
+        "avg": 3708.75
+      },
+      "financial_position": {
+        "min": 10241.0,
+        "max": 147110.0,
+        "avg": 100841.89285714286
+      },
+      "operations": {
+        "min": 1706.0,
+        "max": 9656.0,
+        "avg": 6255.571428571428
+      }
+    }
+  },
+  "file_details": [
+    {
+      "valid": true,
+      "company": "BANK OF MONTREAL",
+      "file": "BANK_OF_MONTREAL_all_metrics.json",
+      "total_metrics": 277,
+      "taxonomies": [
+        "dei",
+        "ifrs-full"
+      ],
+      "categorization": {
+        "revenue_profit": 65,
+        "metadata_other": 70,
+        "risk_capital": 17,
+        "financial_position": 110,
+        "operations": 15
+      },
+      "char_counts": {
+        "revenue_profit": 28241,
+        "metadata_other": 29907,
+        "risk_capital": 7259,
+        "financial_position": 46988,
+        "operations": 6402
+      },
+      "token_estimates": {
+        "revenue_profit": 8068.0,
+        "metadata_other": 8544.0,
+        "risk_capital": 2074.0,
+        "financial_position": 13425.0,
+        "operations": 1829.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "BANK OF NOVA SCOTIA",
+      "file": "BANK_OF_NOVA_SCOTIA_all_metrics.json",
+      "total_metrics": 260,
+      "taxonomies": [
+        "dei",
+        "ifrs-full",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 86,
+        "financial_position": 95,
+        "risk_capital": 15,
+        "metadata_other": 50,
+        "operations": 14
+      },
+      "char_counts": {
+        "revenue_profit": 37639,
+        "financial_position": 40569,
+        "risk_capital": 6403,
+        "metadata_other": 21381,
+        "operations": 5971
+      },
+      "token_estimates": {
+        "revenue_profit": 10754.0,
+        "financial_position": 11591.0,
+        "risk_capital": 1829.0,
+        "metadata_other": 6108.0,
+        "operations": 1706.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "Bank of America Corporation",
+      "file": "Bank_of_America_Corporation_all_metrics.json",
+      "total_metrics": 878,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 149,
+        "operations": 41,
+        "financial_position": 616,
+        "metadata_other": 49,
+        "risk_capital": 23
+      },
+      "char_counts": {
+        "revenue_profit": 98948,
+        "operations": 24205,
+        "financial_position": 429312,
+        "metadata_other": 29293,
+        "risk_capital": 14315
+      },
+      "token_estimates": {
+        "revenue_profit": 28270.0,
+        "operations": 6915.0,
+        "financial_position": 122660.0,
+        "metadata_other": 8369.0,
+        "risk_capital": 4090.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "CANADIAN IMPERIAL BANK OF COMMERCE",
+      "file": "CANADIAN_IMPERIAL_BANK_OF_COMMERCE_all_metrics.json",
+      "total_metrics": 241,
+      "taxonomies": [
+        "dei",
+        "ifrs-full"
+      ],
+      "categorization": {
+        "revenue_profit": 71,
+        "financial_position": 84,
+        "operations": 15,
+        "metadata_other": 60,
+        "risk_capital": 11
+      },
+      "char_counts": {
+        "revenue_profit": 30791,
+        "financial_position": 35846,
+        "operations": 6408,
+        "metadata_other": 25624,
+        "risk_capital": 4696
+      },
+      "token_estimates": {
+        "revenue_profit": 8797.0,
+        "financial_position": 10241.0,
+        "operations": 1830.0,
+        "metadata_other": 7321.0,
+        "risk_capital": 1341.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "CAPITAL\u00a0ONE\u00a0FINANCIAL\u00a0CORP",
+      "file": "CAPITALONEFINANCIALCORP_all_metrics.json",
+      "total_metrics": 1003,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 144,
+        "operations": 36,
+        "financial_position": 742,
+        "risk_capital": 29,
+        "metadata_other": 52
+      },
+      "char_counts": {
+        "revenue_profit": 92490,
+        "operations": 21783,
+        "financial_position": 514888,
+        "risk_capital": 18120,
+        "metadata_other": 31973
+      },
+      "token_estimates": {
+        "revenue_profit": 26425.0,
+        "operations": 6223.0,
+        "financial_position": 147110.0,
+        "risk_capital": 5177.0,
+        "metadata_other": 9135.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "CITIZENS FINANCIAL GROUP INC/RI",
+      "file": "CITIZENS_FINANCIAL_GROUP_INCRI_all_metrics.json",
+      "total_metrics": 750,
+      "taxonomies": [
+        "dei",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 105,
+        "operations": 33,
+        "financial_position": 530,
+        "risk_capital": 35,
+        "metadata_other": 47
+      },
+      "char_counts": {
+        "revenue_profit": 66892,
+        "operations": 18475,
+        "financial_position": 349270,
+        "risk_capital": 21261,
+        "metadata_other": 28588
+      },
+      "token_estimates": {
+        "revenue_profit": 19112.0,
+        "operations": 5278.0,
+        "financial_position": 99791.0,
+        "risk_capital": 6074.0,
+        "metadata_other": 8168.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "Citigroup\u00a0Inc",
+      "file": "CitigroupInc_all_metrics.json",
+      "total_metrics": 774,
+      "taxonomies": [
+        "dei",
+        "srt",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 126,
+        "operations": 36,
+        "financial_position": 546,
+        "risk_capital": 24,
+        "metadata_other": 42
+      },
+      "char_counts": {
+        "revenue_profit": 80099,
+        "operations": 21861,
+        "financial_position": 366870,
+        "risk_capital": 15128,
+        "metadata_other": 26440
+      },
+      "token_estimates": {
+        "revenue_profit": 22885.0,
+        "operations": 6246.0,
+        "financial_position": 104820.0,
+        "risk_capital": 4322.0,
+        "metadata_other": 7554.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "Comerica Incorporated",
+      "file": "Comerica_Incorporated_all_metrics.json",
+      "total_metrics": 735,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 122,
+        "operations": 30,
+        "financial_position": 507,
+        "risk_capital": 25,
+        "metadata_other": 51
+      },
+      "char_counts": {
+        "revenue_profit": 78116,
+        "operations": 18358,
+        "financial_position": 350897,
+        "risk_capital": 15037,
+        "metadata_other": 30350
+      },
+      "token_estimates": {
+        "revenue_profit": 22318.0,
+        "operations": 5245.0,
+        "financial_position": 100256.0,
+        "risk_capital": 4296.0,
+        "metadata_other": 8671.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "FIRST CITIZENS BANCSHARES INC /DE/",
+      "file": "FIRST_CITIZENS_BANCSHARES_INC_DE_all_metrics.json",
+      "total_metrics": 925,
+      "taxonomies": [
+        "dei",
+        "us-gaap"
+      ],
+      "categorization": {
+        "operations": 33,
+        "financial_position": 717,
+        "risk_capital": 19,
+        "revenue_profit": 107,
+        "metadata_other": 49
+      },
+      "char_counts": {
+        "operations": 18903,
+        "financial_position": 481146,
+        "risk_capital": 11535,
+        "revenue_profit": 67269,
+        "metadata_other": 29825
+      },
+      "token_estimates": {
+        "operations": 5400.0,
+        "financial_position": 137470.0,
+        "risk_capital": 3295.0,
+        "revenue_profit": 19219.0,
+        "metadata_other": 8521.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "Fifth Third Bancorp",
+      "file": "Fifth_Third_Bancorp_all_metrics.json",
+      "total_metrics": 1009,
+      "taxonomies": [
+        "dei",
+        "us-gaap",
+        "srt"
+      ],
+      "categorization": {
+        "revenue_profit": 121,
+        "operations": 54,
+        "financial_position": 727,
+        "risk_capital": 20,
+        "metadata_other": 87
+      },
+      "char_counts": {
+        "revenue_profit": 75061,
+        "operations": 33797,
+        "financial_position": 487443,
+        "risk_capital": 12488,
+        "metadata_other": 52182
+      },
+      "token_estimates": {
+        "revenue_profit": 21446.0,
+        "operations": 9656.0,
+        "financial_position": 139269.0,
+        "risk_capital": 3568.0,
+        "metadata_other": 14909.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "Huntington Bancshares Incorporated",
+      "file": "Huntington_Bancshares_Incorporated_all_metrics.json",
+      "total_metrics": 855,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 126,
+        "operations": 48,
+        "financial_position": 595,
+        "risk_capital": 21,
+        "metadata_other": 65
+      },
+      "char_counts": {
+        "revenue_profit": 81281,
+        "operations": 29472,
+        "financial_position": 401507,
+        "risk_capital": 13292,
+        "metadata_other": 39312
+      },
+      "token_estimates": {
+        "revenue_profit": 23223.0,
+        "operations": 8420.0,
+        "financial_position": 114716.0,
+        "risk_capital": 3797.0,
+        "metadata_other": 11232.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "JPMorgan Chase & Co",
+      "file": "JPMorgan_Chase__Co_all_metrics.json",
+      "total_metrics": 896,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "srt",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 128,
+        "operations": 41,
+        "financial_position": 655,
+        "metadata_other": 52,
+        "risk_capital": 20
+      },
+      "char_counts": {
+        "revenue_profit": 82528,
+        "operations": 24943,
+        "financial_position": 456088,
+        "metadata_other": 31883,
+        "risk_capital": 13022
+      },
+      "token_estimates": {
+        "revenue_profit": 23579.0,
+        "operations": 7126.0,
+        "financial_position": 130310.0,
+        "metadata_other": 9109.0,
+        "risk_capital": 3720.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "KeyCorp",
+      "file": "KeyCorp_all_metrics.json",
+      "total_metrics": 802,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "categorization": {
+        "revenue_profit": 102,
+        "operations": 50,
+        "financial_position": 577,
+        "risk_capital": 20,
+        "metadata_other": 53
+      },
+      "char_counts": {
+        "revenue_profit": 64589,
+        "operations": 31606,
+        "financial_position": 384270,
+        "risk_capital": 12865,
+        "metadata_other": 32126
+      },
+      "token_estimates": {
+        "revenue_profit": 18454.0,
+        "operations": 9030.0,
+        "financial_position": 109791.0,
+        "risk_capital": 3675.0,
+        "metadata_other": 9178.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "MORGAN STANLEY",
+      "file": "MORGAN_STANLEY_all_metrics.json",
+      "total_metrics": 904,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "categorization": {
+        "revenue_profit": 142,
+        "operations": 47,
+        "financial_position": 628,
+        "risk_capital": 22,
+        "metadata_other": 65
+      },
+      "char_counts": {
+        "revenue_profit": 90400,
+        "operations": 28569,
+        "financial_position": 426727,
+        "risk_capital": 13847,
+        "metadata_other": 39350
+      },
+      "token_estimates": {
+        "revenue_profit": 25828.0,
+        "operations": 8162.0,
+        "financial_position": 121922.0,
+        "risk_capital": 3956.0,
+        "metadata_other": 11242.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "M&T BANK CORPORATION",
+      "file": "MT_BANK_CORPORATION_all_metrics.json",
+      "total_metrics": 857,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 123,
+        "operations": 44,
+        "financial_position": 619,
+        "risk_capital": 16,
+        "metadata_other": 55
+      },
+      "char_counts": {
+        "revenue_profit": 75660,
+        "operations": 25189,
+        "financial_position": 425580,
+        "risk_capital": 10414,
+        "metadata_other": 33820
+      },
+      "token_estimates": {
+        "revenue_profit": 21617.0,
+        "operations": 7196.0,
+        "financial_position": 121594.0,
+        "risk_capital": 2975.0,
+        "metadata_other": 9662.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "NORTHERN TRUST CORPORATION",
+      "file": "NORTHERN_TRUST_CORPORATION_all_metrics.json",
+      "total_metrics": 756,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "categorization": {
+        "revenue_profit": 106,
+        "operations": 38,
+        "financial_position": 538,
+        "risk_capital": 17,
+        "metadata_other": 57
+      },
+      "char_counts": {
+        "revenue_profit": 67117,
+        "operations": 22441,
+        "financial_position": 352292,
+        "risk_capital": 11319,
+        "metadata_other": 33252
+      },
+      "token_estimates": {
+        "revenue_profit": 19176.0,
+        "operations": 6411.0,
+        "financial_position": 100654.0,
+        "risk_capital": 3234.0,
+        "metadata_other": 9500.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "PNC Financial Services Group, Inc.",
+      "file": "PNC_Financial_Services_Group_Inc_all_metrics.json",
+      "total_metrics": 941,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 106,
+        "operations": 41,
+        "financial_position": 700,
+        "risk_capital": 21,
+        "metadata_other": 73
+      },
+      "char_counts": {
+        "revenue_profit": 68345,
+        "operations": 25255,
+        "financial_position": 479930,
+        "risk_capital": 13894,
+        "metadata_other": 45021
+      },
+      "token_estimates": {
+        "revenue_profit": 19527.0,
+        "operations": 7215.0,
+        "financial_position": 137122.0,
+        "risk_capital": 3969.0,
+        "metadata_other": 12863.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "Regions Financial Corporation",
+      "file": "Regions_Financial_Corporation_all_metrics.json",
+      "total_metrics": 909,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "categorization": {
+        "revenue_profit": 139,
+        "operations": 48,
+        "financial_position": 615,
+        "risk_capital": 24,
+        "metadata_other": 83
+      },
+      "char_counts": {
+        "revenue_profit": 89670,
+        "operations": 29737,
+        "financial_position": 411147,
+        "risk_capital": 14809,
+        "metadata_other": 51330
+      },
+      "token_estimates": {
+        "revenue_profit": 25620.0,
+        "operations": 8496.0,
+        "financial_position": 117470.0,
+        "risk_capital": 4231.0,
+        "metadata_other": 14665.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "Royal Bank of Canada",
+      "file": "Royal_Bank_of_Canada_all_metrics.json",
+      "total_metrics": 298,
+      "taxonomies": [
+        "dei",
+        "ifrs-full",
+        "invest"
+      ],
+      "categorization": {
+        "revenue_profit": 76,
+        "financial_position": 113,
+        "metadata_other": 83,
+        "operations": 19,
+        "risk_capital": 7
+      },
+      "char_counts": {
+        "revenue_profit": 32930,
+        "financial_position": 48266,
+        "metadata_other": 35526,
+        "operations": 8227,
+        "risk_capital": 2971
+      },
+      "token_estimates": {
+        "revenue_profit": 9408.0,
+        "financial_position": 13790.0,
+        "metadata_other": 10150.0,
+        "operations": 2350.0,
+        "risk_capital": 848.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "SCHWAB CHARLES CORP",
+      "file": "SCHWAB_CHARLES_CORP_all_metrics.json",
+      "total_metrics": 771,
+      "taxonomies": [
+        "dei",
+        "srt",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 77,
+        "operations": 36,
+        "risk_capital": 37,
+        "financial_position": 565,
+        "metadata_other": 56
+      },
+      "char_counts": {
+        "revenue_profit": 47713,
+        "operations": 21964,
+        "risk_capital": 22884,
+        "financial_position": 379292,
+        "metadata_other": 35307
+      },
+      "token_estimates": {
+        "revenue_profit": 13632.0,
+        "operations": 6275.0,
+        "risk_capital": 6538.0,
+        "financial_position": 108369.0,
+        "metadata_other": 10087.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "STATE STREET CORPORATION",
+      "file": "STATE_STREET_CORPORATION_all_metrics.json",
+      "total_metrics": 835,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 105,
+        "operations": 40,
+        "financial_position": 613,
+        "risk_capital": 19,
+        "metadata_other": 58
+      },
+      "char_counts": {
+        "revenue_profit": 66394,
+        "operations": 23835,
+        "financial_position": 408727,
+        "risk_capital": 11732,
+        "metadata_other": 34809
+      },
+      "token_estimates": {
+        "revenue_profit": 18969.0,
+        "operations": 6810.0,
+        "financial_position": 116779.0,
+        "risk_capital": 3352.0,
+        "metadata_other": 9945.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "THE BANK OF NEW YORK MELLON CORPORATION",
+      "file": "THE_BANK_OF_NEW_YORK_MELLON_CORPORATION_all_metrics.json",
+      "total_metrics": 940,
+      "taxonomies": [
+        "dei",
+        "srt",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 126,
+        "operations": 41,
+        "financial_position": 688,
+        "metadata_other": 67,
+        "risk_capital": 18
+      },
+      "char_counts": {
+        "revenue_profit": 80683,
+        "operations": 25262,
+        "financial_position": 469463,
+        "metadata_other": 40779,
+        "risk_capital": 11184
+      },
+      "token_estimates": {
+        "revenue_profit": 23052.0,
+        "operations": 7217.0,
+        "financial_position": 134132.0,
+        "metadata_other": 11651.0,
+        "risk_capital": 3195.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "TORONTO DOMINION BANK",
+      "file": "TORONTO_DOMINION_BANK_all_metrics.json",
+      "total_metrics": 239,
+      "taxonomies": [
+        "dei",
+        "ifrs-full",
+        "invest"
+      ],
+      "categorization": {
+        "revenue_profit": 65,
+        "operations": 19,
+        "financial_position": 87,
+        "risk_capital": 11,
+        "metadata_other": 57
+      },
+      "char_counts": {
+        "revenue_profit": 28258,
+        "operations": 8218,
+        "financial_position": 37155,
+        "risk_capital": 4697,
+        "metadata_other": 24381
+      },
+      "token_estimates": {
+        "revenue_profit": 8073.0,
+        "operations": 2348.0,
+        "financial_position": 10615.0,
+        "risk_capital": 1342.0,
+        "metadata_other": 6966.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "TRUIST FINANCIAL CORPORATION",
+      "file": "TRUIST_FINANCIAL_CORPORATION_all_metrics.json",
+      "total_metrics": 834,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "categorization": {
+        "revenue_profit": 112,
+        "operations": 47,
+        "financial_position": 593,
+        "risk_capital": 20,
+        "metadata_other": 62
+      },
+      "char_counts": {
+        "revenue_profit": 71358,
+        "operations": 29067,
+        "financial_position": 399559,
+        "risk_capital": 12904,
+        "metadata_other": 38427
+      },
+      "token_estimates": {
+        "revenue_profit": 20388.0,
+        "operations": 8304.0,
+        "financial_position": 114159.0,
+        "risk_capital": 3686.0,
+        "metadata_other": 10979.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "The Goldman Sachs Group, Inc.",
+      "file": "The_Goldman_Sachs_Group_Inc_all_metrics.json",
+      "total_metrics": 613,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "srt",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 67,
+        "operations": 33,
+        "financial_position": 447,
+        "risk_capital": 26,
+        "metadata_other": 40
+      },
+      "char_counts": {
+        "revenue_profit": 40783,
+        "operations": 19825,
+        "financial_position": 304816,
+        "risk_capital": 16032,
+        "metadata_other": 24459
+      },
+      "token_estimates": {
+        "revenue_profit": 11652.0,
+        "operations": 5664.0,
+        "financial_position": 87090.0,
+        "risk_capital": 4580.0,
+        "metadata_other": 6988.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "US BANCORP \\DE\\",
+      "file": "US_BANCORP_DE_all_metrics.json",
+      "total_metrics": 882,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "categorization": {
+        "revenue_profit": 84,
+        "operations": 45,
+        "financial_position": 663,
+        "risk_capital": 27,
+        "metadata_other": 63
+      },
+      "char_counts": {
+        "revenue_profit": 52733,
+        "operations": 27892,
+        "financial_position": 453327,
+        "risk_capital": 15621,
+        "metadata_other": 36975
+      },
+      "token_estimates": {
+        "revenue_profit": 15066.0,
+        "operations": 7969.0,
+        "financial_position": 129522.0,
+        "risk_capital": 4463.0,
+        "metadata_other": 10564.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "WELLS FARGO & COMPANY/MN",
+      "file": "WELLS_FARGO__COMPANYMN_all_metrics.json",
+      "total_metrics": 908,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "srt",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 130,
+        "operations": 43,
+        "financial_position": 675,
+        "risk_capital": 20,
+        "metadata_other": 40
+      },
+      "char_counts": {
+        "revenue_profit": 83372,
+        "operations": 26227,
+        "financial_position": 465719,
+        "risk_capital": 12689,
+        "metadata_other": 24284
+      },
+      "token_estimates": {
+        "revenue_profit": 23820.0,
+        "operations": 7493.0,
+        "financial_position": 133062.0,
+        "risk_capital": 3625.0,
+        "metadata_other": 6938.0
+      },
+      "structure_consistent": true
+    },
+    {
+      "valid": true,
+      "company": "ZIONS BANCORPORATION, NATIONAL ASSOCIATION",
+      "file": "ZIONS_BANCORPORATION_NATIONAL_ASSOCIATION_all_metrics.json",
+      "total_metrics": 991,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "categorization": {
+        "revenue_profit": 118,
+        "operations": 48,
+        "financial_position": 716,
+        "risk_capital": 38,
+        "metadata_other": 71
+      },
+      "char_counts": {
+        "revenue_profit": 72831,
+        "operations": 29197,
+        "financial_position": 475451,
+        "risk_capital": 23076,
+        "metadata_other": 42903
+      },
+      "token_estimates": {
+        "revenue_profit": 20808.0,
+        "operations": 8342.0,
+        "financial_position": 135843.0,
+        "risk_capital": 6593.0,
+        "metadata_other": 12258.0
+      },
+      "structure_consistent": true
+    }
+  ]
+}

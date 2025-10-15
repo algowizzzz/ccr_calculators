@@ -1,0 +1,1782 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "1390777",
+    "data_type": "SEC",
+    "ticker": "BK",
+    "chunk_name": "Operations & Metadata",
+    "chunk_id": "operations_metadata",
+    "company_name": "THE BANK OF NEW YORK MELLON CORPORATION",
+    "extraction_date": "2025-09-30T11:01:44.223542",
+    "metrics_count": 80,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "StockRepurchaseProgramAuthorizedAmount1": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Repurchase Program, Authorized Amount",
+      "description": "Amount of stock repurchase plan authorized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 5000000000,
+        "date": "2023-01-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-03-14",
+        "latest": "2023-01-31"
+      }
+    },
+    "CommonStockParOrStatedValuePerShare": {
+      "taxonomy": "us-gaap",
+      "label": "Common Stock, Par or Stated Value Per Share",
+      "description": "Face amount or stated value per share of common stock.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 130,
+      "latest_value": {
+        "value": 0.01,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CommonStockSharesAuthorized": {
+      "taxonomy": "us-gaap",
+      "label": "Common Stock, Shares Authorized",
+      "description": "The maximum number of common shares permitted to be issued by an entity's charter and bylaws.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 130,
+      "latest_value": {
+        "value": 3500000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "Communication": {
+      "taxonomy": "us-gaap",
+      "label": "Communication",
+      "description": "The amount of expense incurred in the period for communication, which is the exchange of information by several methods.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 21,
+      "latest_value": {
+        "value": 87000000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2016-12-31"
+      }
+    },
+    "DecreaseInUnrecognizedTaxBenefitsIsReasonablyPossible": {
+      "taxonomy": "us-gaap",
+      "label": "Decrease in Unrecognized Tax Benefits is Reasonably Possible",
+      "description": "Amount of decrease reasonably possible in the next twelve months for the unrecognized tax benefit.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 40,
+      "latest_value": {
+        "value": 25000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DefinedBenefitPlanHealthCareCostTrendRateAssumedNextFiscalYear": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Health Care Cost Trend Rate Assumed, Next Fiscal Year",
+      "description": "Assumed rate, for next fiscal year, based on annual change in cost of health care cost benefits used to measure expected cost of benefits covered by defined benefit postretirement plan. Factors include, but are not limited to, estimate of health care inflation, change in health care utilization or delivery pattern, technological advances, and change in health status of participant. Excludes factors for change in composition of plan population by age and dependency status.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 0.0625,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-28",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "DefinedBenefitPlanUltimateHealthCareCostTrendRate": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Ultimate Health Care Cost Trend Rate (Deprecated 2017-01-31)",
+      "description": "The ultimate trend rate for health care costs.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0.0475,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "DefinedBenefitPlanUltimateHealthCareCostTrendRate1": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Ultimate Health Care Cost Trend Rate",
+      "description": "Ultimate trend rate for health care cost for defined benefit postretirement plan.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0.0475,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-27",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "DefinedContributionPlanCostRecognized": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Contribution Plan, Cost",
+      "description": "Amount of cost for defined contribution plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": 264000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EmployeeServiceShareBasedCompensationNonvestedAwardsTotalCompensationCostNotYetRecognized": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Nonvested Award, Cost Not yet Recognized, Amount",
+      "description": "Amount of cost not yet recognized for nonvested award under share-based payment arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": 238000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "EmployeeServiceShareBasedCompensationTaxBenefitFromExerciseOfStockOptions": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Exercise of Option, Tax Benefit",
+      "description": "Amount of tax benefit from exercise of option under share-based payment arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 21,
+      "latest_value": {
+        "value": 3000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "EmployeeServiceShareBasedCompensationTaxBenefitRealizedFromExerciseOfStockOptions": {
+      "taxonomy": "us-gaap",
+      "label": "Employee Service Share-based Compensation, Tax Benefit Realized from Exercise of Stock Options (Deprecated 2017-01-31)",
+      "description": "Disclosure of the aggregate tax benefit realized from the exercise of stock options and the conversion of similar instruments during the annual period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 3000000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2016-12-31"
+      }
+    },
+    "EmployeeStockOwnershipPlanESOPCompensationExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Employee Stock Ownership Plan (ESOP), Compensation Expense",
+      "description": "The amount of plan compensation cost recognized during the period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 0,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "EmployeeStockOwnershipPlanESOPNumberOfAllocatedShares": {
+      "taxonomy": "us-gaap",
+      "label": "Employee Stock Ownership Plan (ESOP), Number of Allocated Shares",
+      "description": "The shares or units in an ESOP trust that have been assigned to individual participant accounts based on a known formula. IRS rules require allocations to be nondiscriminatory generally based on compensation, length of service, or a combination of both. For any particular participant such shares or units may be vested, unvested, or partially vested.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 30,
+      "latest_value": {
+        "value": 3100000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "ForeignCurrencyExchangeRateTranslation": {
+      "taxonomy": "us-gaap",
+      "label": "Foreign Currency Exchange Rate, Translation (Deprecated 2012-01-31)",
+      "description": "The foreign exchange rate used to translate amounts denominated in the functional currency to the reporting currency.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 1.54,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "ForeignCurrencyExchangeRateTranslation1": {
+      "taxonomy": "us-gaap",
+      "label": "Foreign Currency Exchange Rate, Translation",
+      "description": "Foreign exchange rate used to translate amounts denominated in functional currency to reporting currency.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 1.23,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2016-12-31"
+      }
+    },
+    "FutureAmortizationExpenseYearFive": {
+      "taxonomy": "us-gaap",
+      "label": "Future Amortization Expense, Year Five (Deprecated 2012-01-31)",
+      "description": "The amount of amortization expense expected to be recognized during year five of the five succeeding fiscal years.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 236000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-06-30",
+        "latest": "2012-03-31"
+      }
+    },
+    "FutureAmortizationExpenseYearFour": {
+      "taxonomy": "us-gaap",
+      "label": "Future Amortization Expense, Year Four (Deprecated 2012-01-31)",
+      "description": "The amount of amortization expense expected to be recognized during year four of the five succeeding fiscal years.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 266000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-06-30",
+        "latest": "2012-03-31"
+      }
+    },
+    "FutureAmortizationExpenseYearOne": {
+      "taxonomy": "us-gaap",
+      "label": "Future Amortization Expense, Year One (Deprecated 2012-01-31)",
+      "description": "The amount of amortization expense expected to be recognized during year one of the five succeeding fiscal years.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 383000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-06-30",
+        "latest": "2012-03-31"
+      }
+    },
+    "FutureAmortizationExpenseYearThree": {
+      "taxonomy": "us-gaap",
+      "label": "Future Amortization Expense, Year Three (Deprecated 2012-01-31)",
+      "description": "The amount of amortization expense expected to be recognized during year three of the five succeeding fiscal years.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 297000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-06-30",
+        "latest": "2012-03-31"
+      }
+    },
+    "FutureAmortizationExpenseYearTwo": {
+      "taxonomy": "us-gaap",
+      "label": "Future Amortization Expense, Year Two (Deprecated 2012-01-31)",
+      "description": "The amount of amortization expense expected to be recognized during year two of the five succeeding fiscal years.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 333000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-06-30",
+        "latest": "2012-03-31"
+      }
+    },
+    "IncreaseDecreaseInOtherOperatingLiabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Other Operating Liabilities",
+      "description": "Amount of increase (decrease) in operating liabilities classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 146,
+      "latest_value": {
+        "value": 188000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "InformationTechnologyAndDataProcessing": {
+      "taxonomy": "us-gaap",
+      "label": "Information Technology and Data Processing",
+      "description": "The amount of expenses incurred in the period for information technology and data processing products and services.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 243,
+      "latest_value": {
+        "value": 1962000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "LifeInsuranceCorporateOrBankOwnedAmount": {
+      "taxonomy": "us-gaap",
+      "label": "Life Insurance, Corporate or Bank Owned, Amount",
+      "description": "This item represents the amount that could be realized under a life insurance contract or contracts owned by the Entity as of the date of the statement of financial position. Such Entity-owned life insurance policies are commonly known as corporate-owned life insurance (COLI) or bank-owned life insurance (BOLI).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 118,
+      "latest_value": {
+        "value": 5552000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NotionalAmountOfNonderivativeInstruments": {
+      "taxonomy": "us-gaap",
+      "label": "Notional Amount of Nonderivative Instruments",
+      "description": "Nominal or face amount used to calculate payments on a nonderivative instrument.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 47,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-06-30",
+        "latest": "2024-12-31"
+      }
+    },
+    "NumberOfReportableSegments": {
+      "taxonomy": "us-gaap",
+      "label": "Number of Reportable Segments",
+      "description": "Number of segments reported by the entity. A reportable segment is a component of an entity for which there is an accounting requirement to report separate financial information on that component in the entity's financial statements.",
+      "available_units": [
+        "reporting_unit",
+        "Segment",
+        "segment"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 3,
+        "date": "2017-06-30",
+        "fiscal_year": 2017,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2017-08-03",
+        "unit": "reporting_unit",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2012-09-30",
+        "latest": "2021-09-30"
+      }
+    },
+    "OtherLaborRelatedExpenses": {
+      "taxonomy": "us-gaap",
+      "label": "Other Labor-related Expenses",
+      "description": "Amount of labor-related expenses classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 842000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "OtherLiabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Other Liabilities",
+      "description": "Amount of liabilities classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 49,
+      "latest_value": {
+        "value": 9124000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherLiabilitiesFairValueDisclosure": {
+      "taxonomy": "us-gaap",
+      "label": "Other Liabilities, Fair Value Disclosure",
+      "description": "Fair value portion of other liabilities.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 36,
+      "latest_value": {
+        "value": 422000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PreferredStockParOrStatedValuePerShare": {
+      "taxonomy": "us-gaap",
+      "label": "Preferred Stock, Par or Stated Value Per Share",
+      "description": "Face amount or stated value per share of preferred stock nonredeemable or redeemable solely at the option of the issuer.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 112,
+      "latest_value": {
+        "value": 0.01,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PreferredStockSharesAuthorized": {
+      "taxonomy": "us-gaap",
+      "label": "Preferred Stock, Shares Authorized",
+      "description": "The maximum number of nonredeemable preferred shares (or preferred stock redeemable solely at the option of the issuer) permitted to be issued by an entity's charter and bylaws.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 112,
+      "latest_value": {
+        "value": 100000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "SalariesWagesAndOfficersCompensation": {
+      "taxonomy": "us-gaap",
+      "label": "Salary and Wage, Excluding Cost of Good and Service Sold",
+      "description": "Amount of expense for salary and wage arising from service rendered by nonofficer and officer employees. Excludes allocated cost, labor-related nonsalary expense, and direct and overhead labor cost included in cost of good and service sold.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 3580000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardNumberOfSharesAuthorized": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Number of Shares Authorized",
+      "description": "Number of shares authorized for issuance under share-based payment arrangement.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 23524349,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableNumber": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Number",
+      "description": "The number of shares into which fully or partially vested stock options outstanding as of the balance sheet date can be currently converted under the option plan.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 407905,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-25",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisableWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Weighted Average Exercise Price",
+      "description": "The weighted-average price as of the balance sheet date at which grantees can acquire the shares reserved for issuance on vested portions of options outstanding and currently exercisable under the stock option plan.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 22.03,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-25",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriod": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercises in Period (Deprecated 2011-01-31)",
+      "description": "The decrease in the number of reserved shares that could potentially be issued attributable to the exercise or conversion during the reporting period of previously issued stock options under the option plan.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": -1459030,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-28",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2010-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodTotalIntrinsicValue": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercises in Period, Intrinsic Value",
+      "description": "Amount of accumulated difference between fair value of underlying shares on dates of exercise and exercise price on options exercised (or share units converted) into shares.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 42,
+      "latest_value": {
+        "value": 15000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsExercisesInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercises in Period, Weighted Average Exercise Price (Deprecated 2012-01-31)",
+      "description": "The weighted average price at which option holders acquired shares when converting their stock options into shares under the plan during the reporting period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 21.11,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsForfeituresInPeriod": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Forfeitures in Period",
+      "description": "The number of shares under options that were cancelled during the reporting period as a result of occurrence of a terminating event specified in contractual agreements pertaining to the stock option plan.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 13,
+      "latest_value": {
+        "value": 10614,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriod": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Grants in Period, Net of Forfeitures",
+      "description": "Net number of share options (or share units) granted during the period.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 8739395,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodGross": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Grants in Period, Gross",
+      "description": "Gross number of share options (or share units) granted during the period.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 32,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Grants in Period, Weighted Average Exercise Price (Deprecated 2012-01-31)",
+      "description": "The weighted average price as of the balance sheet date at which grantees can acquire the shares reserved for issuance on stock options awarded under the plan during the reporting period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 29.98,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageGrantDateFairValue": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Grants in Period, Weighted Average Grant Date Fair Value",
+      "description": "The weighted average grant-date fair value of options granted during the reporting period as calculated by applying the disclosed option pricing methodology.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 5.5,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingIntrinsicValue": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Intrinsic Value",
+      "description": "Amount by which the current fair value of the underlying stock exceeds the exercise price of options outstanding.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 40,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingNumber": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Number",
+      "description": "Number of options outstanding, including both vested and non-vested options.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 30,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsOutstandingWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Outstanding, Weighted Average Exercise Price",
+      "description": "Weighted average price at which grantees can acquire the shares reserved for issuance under the stock option plan.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestOutstandingNumber": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Vested and Expected to Vest, Outstanding, Number",
+      "description": "Number of fully vested and expected to vest options outstanding that can be converted into shares under option plan. Includes, but is not limited to, unvested options for which requisite service period has not been rendered but that are expected to vest based on achievement of performance condition, if forfeitures are recognized when they occur.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 407905,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-25",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementByShareBasedPaymentAwardOptionsVestedAndExpectedToVestOutstandingWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Vested and Expected to Vest, Outstanding, Weighted Average Exercise Price",
+      "description": "Weighted-average exercise price, at which grantee can acquire shares reserved for issuance, for fully vested and expected to vest options outstanding. Includes, but is not limited to, unvested options for which requisite service period has not been rendered but that are expected to vest based on achievement of performance condition, if forfeitures are recognized when they occur.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 22.03,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-25",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsExercisesInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangements by Share-based Payment Award, Options, Exercises in Period, Weighted Average Exercise Price",
+      "description": "Weighted average price at which option holders acquired shares when converting their stock options into shares.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 11,
+      "latest_value": {
+        "value": 22.03,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsForfeituresInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangements by Share-based Payment Award, Options, Forfeitures in Period, Weighted Average Exercise Price",
+      "description": "Weighted average price at which grantees could have acquired the underlying shares with respect to stock options that were terminated.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 11,
+      "latest_value": {
+        "value": 22.03,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "ShareBasedCompensationArrangementsByShareBasedPaymentAwardOptionsGrantsInPeriodWeightedAverageExercisePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangements by Share-based Payment Award, Options, Grants in Period, Weighted Average Exercise Price",
+      "description": "Weighted average per share amount at which grantees can acquire shares of common stock by exercise of options.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 11,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "ShareBasedCompensationSharesAuthorizedUnderStockOptionPlansExercisePriceRangeLowerRangeLimit": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Option, Exercise Price Range, Lower Range Limit",
+      "description": "The floor of a customized range of exercise prices for purposes of disclosing shares potentially issuable under outstanding stock option awards on all stock option plans and other required information pertaining to awards in the customized range.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 18,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "ShareBasedCompensationSharesAuthorizedUnderStockOptionPlansExercisePriceRangeNumberOfExercisableOptions": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Option, Exercise Price Range, Shares Exercisable",
+      "description": "The number of shares reserved for issuance pertaining to the outstanding exercisable stock options as of the balance sheet date in the customized range of exercise prices for which the market and performance vesting condition has been satisfied.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 32,
+      "latest_value": {
+        "value": 407905,
+        "date": "2021-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "ShareBasedCompensationSharesAuthorizedUnderStockOptionPlansExercisePriceRangeNumberOfOutstandingOptions": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Option, Exercise Price Range, Shares Outstanding",
+      "description": "The number of shares reserved for issuance pertaining to the outstanding stock options as of the balance sheet date for all option plans in the customized range of exercise prices.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 9302140,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-28",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "ShareBasedCompensationSharesAuthorizedUnderStockOptionPlansExercisePriceRangeUpperRangeLimit": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Option, Exercise Price Range, Upper Range Limit",
+      "description": "The ceiling of a customized range of exercise prices for purposes of disclosing shares potentially issuable under outstanding stock option awards on all stock option plans and other required information pertaining to awards in the customized range.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 51,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "SharebasedCompensationArrangementBySharebasedPaymentAwardOptionsExercisableIntrinsicValue1": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercisable, Intrinsic Value",
+      "description": "Amount of difference between fair value of the underlying shares reserved for issuance and exercise price of vested portions of options outstanding and currently exercisable.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 36,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "SharebasedCompensationSharesAuthorizedUnderStockOptionPlansExercisePriceRangeOutstandingOptionsWeightedAverageExercisePriceBeginningBalance1": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Payment Arrangement, Option, Exercise Price Range, Outstanding, Weighted Average Exercise Price",
+      "description": "The weighted average price as of the balance sheet date at which grantees could acquire the underlying shares with respect to all outstanding stock options which are in the customized range of exercise prices.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 27.27,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "SharePrice": {
+      "taxonomy": "us-gaap",
+      "label": "Share Price",
+      "description": "Price of a single share of a number of saleable stocks of a company.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 34.94,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-28",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "SignificantChangeInUnrecognizedTaxBenefitsIsReasonablyPossibleAmountOfUnrecordedBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Significant Change in Unrecognized Tax Benefits is Reasonably Possible, Amount of Unrecorded Benefit",
+      "description": "The amount of the unrecognized tax benefit of a position taken for which it is reasonably possible that the total amount thereof will significantly increase or decrease within twelve months of the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 13,
+      "latest_value": {
+        "value": -270000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-09-30",
+        "latest": "2014-09-30"
+      }
+    },
+    "SignificantChangeInUnrecognizedTaxBenefitsIsReasonablyPossibleEstimatedRangeOfChangeUpperBound": {
+      "taxonomy": "us-gaap",
+      "label": "Significant (Increase) Decrease in Unrecognized Tax Benefits is Reasonably Possible, Estimated Range of Change, Upper Bound (Deprecated 2015-01-31)",
+      "description": "Amount of (increase) decrease reasonably possible in the estimated upper bound of the unrecognized tax benefit for a tax position taken or expected to be taken.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": -38000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "StockIssuedDuringPeriodSharesStockOptionsExercised": {
+      "taxonomy": "us-gaap",
+      "label": "Share-based Compensation Arrangement by Share-based Payment Award, Options, Exercises in Period",
+      "description": "Number of share options (or share units) exercised during the current period.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 397291,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "StockIssuedDuringPeriodValueEmployeeBenefitPlan": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Issued During Period, Value, Employee Benefit Plan",
+      "description": "Value of shares issued during the period to an employee benefit plan, such as a defined contribution or defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 147,
+      "latest_value": {
+        "value": 22000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "StockIssuedDuringPeriodValueStockOptionsExercised": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Issued During Period, Value, Stock Options Exercised",
+      "description": "Value of stock issued as a result of the exercise of stock options.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 140,
+      "latest_value": {
+        "value": 423000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "StockRepurchaseProgramAuthorizedAmount": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Repurchase Program, Authorized Amount (Deprecated 2014-01-31)",
+      "description": "Amount of a stock repurchase plan authorized by an entity's Board of Directors.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 1350000000,
+        "date": "2013-03-14",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-03-13",
+        "latest": "2013-03-14"
+      }
+    },
+    "StockRepurchaseProgramNumberOfSharesAuthorizedToBeRepurchased": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Repurchase Program, Number of Shares Authorized to be Repurchased",
+      "description": "The number of shares authorized to be repurchased by an entity's Board of Directors under a stock repurchase plan.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 35000000,
+        "date": "2007-12-18",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-02-28",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-18",
+        "latest": "2007-12-18"
+      }
+    },
+    "StockRepurchaseProgramRemainingAuthorizedRepurchaseAmount": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Repurchase Program, Remaining Authorized Repurchase Amount (Deprecated 2014-01-31)",
+      "description": "Amount remaining of a stock repurchase plan authorized by an entity's Board of Directors.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 385000000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "StockRepurchaseProgramRemainingAuthorizedRepurchaseAmount1": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Repurchase Program, Remaining Authorized Repurchase Amount",
+      "description": "Amount remaining of a stock repurchase plan authorized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 2750000000,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2021-12-31"
+      }
+    },
+    "StockRepurchaseProgramRemainingNumberOfSharesAuthorizedToBeRepurchased": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Repurchase Program, Remaining Number of Shares Authorized to be Repurchased",
+      "description": "The remaining number of shares authorized to be repurchased by an entity's Board of Directors under a stock repurchase plan.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 6800000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-02-28",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "UnrecognizedTaxBenefits": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits",
+      "description": "Amount of unrecognized tax benefits.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 152,
+      "latest_value": {
+        "value": 109000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "UnrecognizedTaxBenefitsDecreasesResultingFromPriorPeriodTaxPositions": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits, Decrease Resulting from Prior Period Tax Positions",
+      "description": "Amount of decrease in unrecognized tax benefits resulting from tax positions taken in prior period tax returns.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": 2000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "UnrecognizedTaxBenefitsDecreasesResultingFromSettlementsWithTaxingAuthorities": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits, Decrease Resulting from Settlements with Taxing Authorities",
+      "description": "Amount of decrease in unrecognized tax benefits resulting from settlements with taxing authorities.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "UnrecognizedTaxBenefitsIncreasesResultingFromCurrentPeriodTaxPositions": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits, Increase Resulting from Current Period Tax Positions",
+      "description": "Amount of increase in unrecognized tax benefits resulting from tax positions that have been or will be taken in current period tax return.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": 8000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "UnrecognizedTaxBenefitsIncreasesResultingFromPriorPeriodTaxPositions": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits, Increase Resulting from Prior Period Tax Positions",
+      "description": "Amount of increase in unrecognized tax benefits resulting from tax positions taken in prior period tax returns.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": 2000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "UnrecognizedTaxBenefitsReductionsResultingFromLapseOfApplicableStatuteOfLimitations": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits, Reduction Resulting from Lapse of Applicable Statute of Limitations",
+      "description": "Amount of decrease in unrecognized tax benefits resulting from lapses of applicable statutes of limitations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 31,
+      "latest_value": {
+        "value": 8000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate": {
+      "taxonomy": "us-gaap",
+      "label": "Unrecognized Tax Benefits that Would Impact Effective Tax Rate",
+      "description": "The total amount of unrecognized tax benefits that, if recognized, would affect the effective tax rate.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 30,
+      "latest_value": {
+        "value": 109000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "WeightedAverageNumberDilutedSharesOutstandingAdjustment": {
+      "taxonomy": "us-gaap",
+      "label": "Weighted Average Number Diluted Shares Outstanding Adjustment",
+      "description": "The sum of dilutive potential common shares or units used in the calculation of the diluted per-share or per-unit computation.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 257,
+      "latest_value": {
+        "value": 5513000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "SecurityBorrowedAfterOffsetAndDeductionSubjectToMasterNettingArrangement": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 814000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2023-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ShareRepurchaseProgramExciseTax": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 26000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2023-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "SecurityPurchasedUnderAgreementToResellAfterOffsetAndDeductionSubjectToMasterNettingArrangement": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 23000000,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-01",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2024-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "SecuritySoldUnderAgreementToRepurchaseAfterOffsetAndDeductionSubjectToMasterNettingArrangement": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 0,
+        "date": "2025-06-30",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2025-08-01",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2024-12-31",
+        "latest": "2025-06-30"
+      }
+    }
+  }
+}

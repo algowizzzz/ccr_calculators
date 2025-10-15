@@ -1,0 +1,500 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "947263",
+    "data_type": "SEC",
+    "ticker": "TD",
+    "chunk_name": "Loans & Credit",
+    "chunk_id": "loans_credit",
+    "company_name": "TORONTO DOMINION BANK",
+    "extraction_date": "2025-09-30T11:01:44.243877",
+    "metrics_count": 21,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "AdditionalAllowanceRecognisedInProfitOrLossAllowanceAccountForCreditLossesOfFinancialAssets": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 72000000,
+        "date": "2022-01-31",
+        "fiscal_year": 2022,
+        "fiscal_period": "Q1",
+        "form": "6-K",
+        "filed": "2022-03-03",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2020-07-31",
+        "latest": "2022-01-31"
+      }
+    },
+    "AdditionalProvisionsOtherProvisions": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 5289000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-06",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 88,
+      "latest_value": {
+        "value": 3524000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "AllowanceAccountForCreditLossesOfFinancialAssets": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 97,
+      "latest_value": {
+        "value": 9705000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "CashFlowsFromUsedInFinancingActivities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 88,
+      "latest_value": {
+        "value": -11909000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ConsumerLoans": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 56,
+      "latest_value": {
+        "value": 245935000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "CreditrelatedFeeAndCommissionIncome": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 88,
+      "latest_value": {
+        "value": 1261000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "DividendsPaidClassifiedAsFinancingActivities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 84,
+      "latest_value": {
+        "value": 5693000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "DividendsPaidToNoncontrollingInterestsClassifiedAsFinancingActivities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 11000000,
+        "date": "2019-10-31",
+        "fiscal_year": 2019,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2019-12-05",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2019-10-31"
+      }
+    },
+    "ExpectedCreditLossRate": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 47,
+      "latest_value": {
+        "value": 0.038,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "pure",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "IncreaseDecreaseInAllowanceAccountForCreditLossesOfFinancialAssets": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 88,
+      "latest_value": {
+        "value": -3524000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "IncreaseDecreaseThroughNetExchangeDifferencesOtherProvisions": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": -244000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-06",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "InterestExpenseOnLeaseLiabilities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 151000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-06",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2020-01-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "InterestIncomeOnLoansAndReceivables": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 88,
+      "latest_value": {
+        "value": 38940000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2016-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "LeaseLiabilities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 46,
+      "latest_value": {
+        "value": 5089000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2019-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "OtherProvisions": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 56,
+      "latest_value": {
+        "value": 1651000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 32,
+      "latest_value": {
+        "value": 156000000,
+        "date": "2023-01-31",
+        "fiscal_year": 2023,
+        "fiscal_period": "Q1",
+        "form": "6-K",
+        "filed": "2023-03-02",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2020-01-31",
+        "latest": "2023-01-31"
+      }
+    },
+    "ProvisionsForEmployeeBenefits": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 56,
+      "latest_value": {
+        "value": 5713000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2017-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    "ProvisionUsedOtherProvisions": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 4753000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-06",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "UnusedProvisionReversedOtherProvisions": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 32000000,
+        "date": "2024-10-31",
+        "fiscal_year": 2024,
+        "fiscal_period": "FY",
+        "form": "40-F",
+        "filed": "2024-12-06",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2018-10-31",
+        "latest": "2024-10-31"
+      }
+    },
+    "CreditCardLoans": {
+      "taxonomy": "ifrs-full",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "CAD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 41596000000,
+        "date": "2025-07-31",
+        "fiscal_year": 2025,
+        "fiscal_period": "Q3",
+        "form": "6-K",
+        "filed": "2025-08-28",
+        "unit": "CAD",
+        "type": "other"
+      },
+      "date_range": {
+        "earliest": "2024-10-31",
+        "latest": "2025-07-31"
+      }
+    }
+  }
+}

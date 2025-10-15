@@ -1,0 +1,40 @@
+{
+  "T001": {
+    "trade_id": "T001",
+    "counterparty": "RBC",
+    "legal_entity": "BMO",
+    "facility": "RBC-FAC-001",
+    "sub_product": "Reverse Repo - Bond",
+    "product": "Reverse Repo",
+    "family": "SFT",
+    "agreement": "NS-RBC-MASTER",
+    "country": "CA",
+    "connection": "RBC-CONN",
+    "csa": "N",
+    "netted": "Y",
+    "state": "confirmed",
+    "method": "SIM",
+    "notional": 1000000,
+    "mtm": 15000,
+    "tenor_bd": 30
+  },
+  "T002": {
+    "trade_id": "T002",
+    "counterparty": "RBC",
+    "legal_entity": "BMO", 
+    "facility": "RBC-FAC-002",
+    "sub_product": "Repo - Bond",
+    "product": "Repo",
+    "family": "SFT",
+    "agreement": "NS-RBC-MASTER",
+    "country": "CA",
+    "connection": "RBC-CONN",
+    "csa": "N",
+    "netted": "Y",
+    "state": "confirmed",
+    "method": "QUICK",
+    "notional": 750000,
+    "mtm": -8000,
+    "tenor_bd": 45
+  }
+}

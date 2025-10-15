@@ -1,0 +1,1538 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "73124",
+    "data_type": "SEC",
+    "ticker": "NTRS",
+    "chunk_name": "Other Assets",
+    "chunk_id": "other_assets",
+    "company_name": "NORTHERN TRUST CORPORATION",
+    "extraction_date": "2025-09-30T11:01:43.999581",
+    "metrics_count": 69,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment": {
+      "taxonomy": "us-gaap",
+      "label": "Accumulated Depreciation, Depletion and Amortization, Property, Plant, and Equipment",
+      "description": "Amount of accumulated depreciation, depletion and amortization for physical assets used in the normal conduct of business to produce goods and services.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 840800000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "Assets": {
+      "taxonomy": "us-gaap",
+      "label": "Assets",
+      "description": "Sum of the carrying amounts as of the balance sheet date of all assets that are recognized. Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 150,
+      "latest_value": {
+        "value": 155508400000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "AssetsFairValueDisclosure": {
+      "taxonomy": "us-gaap",
+      "label": "Assets, Fair Value Disclosure",
+      "description": "Fair value portion of probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 37300000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-09-30",
+        "latest": "2013-03-31"
+      }
+    },
+    "CapitalLeasesFutureMinimumPaymentsReceivableCurrent": {
+      "taxonomy": "us-gaap",
+      "label": "Capital Leases, Future Minimum Payments Receivable, Next Twelve Months",
+      "description": "Amount of minimum lease payments to be received by the lessor for capital leases in the next fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 3700000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "CapitalLeasesFutureMinimumPaymentsReceivableInFiveYears": {
+      "taxonomy": "us-gaap",
+      "label": "Capital Leases, Future Minimum Payments, Receivable in Five Years",
+      "description": "Amount of minimum lease payments to be received by the lessor for capital leases in the fifth fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 0,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "CapitalLeasesFutureMinimumPaymentsReceivableInFourYears": {
+      "taxonomy": "us-gaap",
+      "label": "Capital Leases, Future Minimum Payments, Receivable in Four Years",
+      "description": "Amount of minimum lease payments to be received by the lessor for capital leases in the fourth fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 0,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "CapitalLeasesFutureMinimumPaymentsReceivableInThreeYears": {
+      "taxonomy": "us-gaap",
+      "label": "Capital Leases, Future Minimum Payments, Receivable in Three Years",
+      "description": "Amount of minimum lease payments to be received by the lessor for capital leases in the third fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 2100000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "CapitalLeasesFutureMinimumPaymentsReceivableInTwoYears": {
+      "taxonomy": "us-gaap",
+      "label": "Capital Leases, Future Minimum Payments, Receivable in Two Years",
+      "description": "Amount of minimum lease payments to be received by the lessor for capital leases in the second fiscal year following the latest fiscal year. Excludes interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 3700000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "DeferredTaxAssetsGross": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Assets, Gross",
+      "description": "Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences and carryforwards.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 38,
+      "latest_value": {
+        "value": 500000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredTaxAssetsNet": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Assets, Net of Valuation Allowance",
+      "description": "Amount after allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences and carryforwards.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 38,
+      "latest_value": {
+        "value": 342100000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredTaxAssetsOther": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Assets, Other",
+      "description": "Amount, before allocation of valuation allowance, of deferred tax asset attributable to deductible temporary differences, classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 38,
+      "latest_value": {
+        "value": 117200000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredTaxAssetsTaxDeferredExpenseCompensationAndBenefits": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Assets, Tax Deferred Expense, Compensation and Benefits",
+      "description": "Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences from compensation and benefits costs.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "DeferredTaxAssetsValuationAllowance": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Assets, Valuation Allowance",
+      "description": "Amount of deferred tax assets for which it is more likely than not that a tax benefit will not be realized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 29,
+      "latest_value": {
+        "value": 157900000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DefinedBenefitPlanAssumptionsUsedCalculatingNetPeriodicBenefitCostExpectedLongTermReturnOnAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Assumptions Used Calculating Net Periodic Benefit Cost, Expected Long-term Rate of Return on Plan Assets",
+      "description": "Weighted average rate of return on plan assets, reflecting average rate of earnings expected on existing plan assets and expected contributions, used to determine net periodic benefit cost of defined benefit plan.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 8,
+      "latest_value": {
+        "value": 0.0725,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DepreciationNonproduction": {
+      "taxonomy": "us-gaap",
+      "label": "Depreciation, Nonproduction",
+      "description": "The expense recognized in the current period that allocates the cost of nonproduction tangible assets over their useful lives.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 100,
+      "latest_value": {
+        "value": 110000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DepreciationPremisesAndEquipment": {
+      "taxonomy": "us-gaap",
+      "label": "Depreciation Premises and Equipment (Deprecated 2011-01-31)",
+      "description": "The amount of expense charged against earnings in the period to allocate the cost, net of salvage value, of premises and equipment over their remaining estimated productive lives.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 93500000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2011-03-31"
+      }
+    },
+    "DerivativeAssetFairValueGrossAssetIncludingNotSubjectToMasterNettingArrangement": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset, Fair Value, Gross Asset Including Not Subject to Master Netting Arrangement",
+      "description": "Fair value, before effects of master netting arrangements, of a financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset. Includes assets not subject to a master netting arrangement and elected not to be offset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 74,
+      "latest_value": {
+        "value": 5358500000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeAssetFairValueOffsetAgainstCollateralNetOfNotSubjectToMasterNettingArrangementPolicyElection": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset, Fair Value, Offset Against Collateral, Net of Not Subject to Master Netting Arrangement, Policy Election",
+      "description": "Fair value, after effects of master netting arrangements, deduction of assets not subject to a master netting arrangement and elected not to be offset, of financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset, offset against an obligation to return collateral.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 44,
+      "latest_value": {
+        "value": 916700000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2023-09-30"
+      }
+    },
+    "DerivativeAssetNotSubjectToMasterNettingArrangement": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset, Not Subject to Master Netting Arrangement",
+      "description": "Fair value of financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset, not subject to a master netting arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 74,
+      "latest_value": {
+        "value": 1195700000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeAssetNotSubjectToMasterNettingArrangementDeduction": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset, Not Subject to Master Netting Arrangement Deduction",
+      "description": "Fair value of financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset, not subject to a master netting arrangement, deducted from derivative assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 44,
+      "latest_value": {
+        "value": 0,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2023-09-30"
+      }
+    },
+    "DerivativeAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset",
+      "description": "Fair value, after the effects of master netting arrangements, of a financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset. Includes assets not subject to a master netting arrangement and not elected to be offset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 74,
+      "latest_value": {
+        "value": 3448100000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeFairValueOfDerivativeAsset": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset, Fair Value, Gross Asset",
+      "description": "Fair value, before effects of master netting arrangements, of a financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset. Includes assets elected not to be offset. Excludes assets not subject to a master netting arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 74,
+      "latest_value": {
+        "value": 4162800000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeFairValueOfDerivativeAssetAmountOffsetAgainstCollateral": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset, Fair Value, Amount Offset Against Collateral",
+      "description": "Fair value, after effects of master netting arrangements, of financial asset or other contract with one or more underlyings, notional amount or payment provision or both, and the contract can be net settled by means outside the contract or delivery of an asset offset against an obligation to return collateral. Includes assets not subject to a master netting arrangement and not elected to be offset.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 110,
+      "latest_value": {
+        "value": 3424500000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisAssetGainLossIncludedInEarnings1": {
+      "taxonomy": "us-gaap",
+      "label": "Fair Value, Measurement with Unobservable Inputs Reconciliation, Recurring Basis, Asset, Gain (Loss) Included in Earnings",
+      "description": "Amount of gain (loss) recognized in income from asset measured at fair value on recurring basis using unobservable input (level 3).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 0,
+        "date": "2016-06-30",
+        "fiscal_year": 2016,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2016-07-27",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2014-09-30",
+        "latest": "2016-06-30"
+      }
+    },
+    "FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisAssetTransfersIntoLevel3": {
+      "taxonomy": "us-gaap",
+      "label": "Fair Value, Measurement with Unobservable Inputs Reconciliation, Recurring Basis, Asset Transfers Into Level 3",
+      "description": "Amount of transfer of financial instrument classified as an asset into level 3 of the fair value hierarchy.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 34,
+      "latest_value": {
+        "value": 0,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-06-30",
+        "latest": "2018-09-30"
+      }
+    },
+    "FairValueMeasurementWithUnobservableInputsReconciliationRecurringBasisAssetTransfersOutOfLevel3": {
+      "taxonomy": "us-gaap",
+      "label": "Fair Value, Measurement with Unobservable Inputs Reconciliation, Recurring Basis, Asset, Transfers out of Level 3",
+      "description": "Amount of transfers of financial instrument classified as an asset out of level 3 of the fair value hierarchy.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 34,
+      "latest_value": {
+        "value": 0,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-06-30",
+        "latest": "2018-09-30"
+      }
+    },
+    "FeesAndCommissionsMortgageBanking": {
+      "taxonomy": "us-gaap",
+      "label": "Fees and Commissions, Mortgage Banking (Deprecated 2018-01-31)",
+      "description": "The noninterest income derived from mortgage banking activities (fees and commissions), excluding fees earned from servicing third-party assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 50700000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "FiniteLivedIntangibleAssetsAccumulatedAmortization": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Assets, Accumulated Amortization",
+      "description": "Accumulated amount of amortization of assets, excluding financial assets and goodwill, lacking physical substance with a finite life.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 92,
+      "latest_value": {
+        "value": 86600000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-06-30",
+        "latest": "2021-09-30"
+      }
+    },
+    "FiniteLivedIntangibleAssetsAmortizationExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Assets, Amortization Expense (Deprecated 2012-01-31)",
+      "description": "Aggregate amount of intangible asset amortization recognized as expense during the period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 16800000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-12-31",
+        "latest": "2012-03-31"
+      }
+    },
+    "FiniteLivedIntangibleAssetsAmortizationExpenseNextTwelveMonths": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Asset, Expected Amortization, Year One",
+      "description": "Amount of amortization for assets, excluding financial assets and goodwill, lacking physical substance with finite life expected to be recognized in next fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 8800000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-06-30",
+        "latest": "2016-12-31"
+      }
+    },
+    "FiniteLivedIntangibleAssetsAmortizationExpenseRemainderOfFiscalYear": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Asset, Expected Amortization, Remainder of Fiscal Year",
+      "description": "Amount of amortization for assets, excluding financial assets and goodwill, lacking physical substance with finite life expected to be recognized in remainder of current fiscal year.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 2600000,
+        "date": "2016-09-30",
+        "fiscal_year": 2016,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2016-10-26",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2012-06-30",
+        "latest": "2016-09-30"
+      }
+    },
+    "FiniteLivedIntangibleAssetsAmortizationExpenseYearFive": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Asset, Expected Amortization, Year Five",
+      "description": "Amount of amortization for assets, excluding financial assets and goodwill, lacking physical substance with finite life expected to be recognized in fifth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 17,
+      "latest_value": {
+        "value": 5700000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2016-12-31"
+      }
+    },
+    "FiniteLivedIntangibleAssetsAmortizationExpenseYearFour": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Asset, Expected Amortization, Year Four",
+      "description": "Amount of amortization for assets, excluding financial assets and goodwill, lacking physical substance with finite life expected to be recognized in fourth fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 7900000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-06-30",
+        "latest": "2016-12-31"
+      }
+    },
+    "FiniteLivedIntangibleAssetsAmortizationExpenseYearThree": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Asset, Expected Amortization, Year Three",
+      "description": "Amount of amortization for assets, excluding financial assets and goodwill, lacking physical substance with finite life expected to be recognized in third fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 8000000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-06-30",
+        "latest": "2016-12-31"
+      }
+    },
+    "FiniteLivedIntangibleAssetsAmortizationExpenseYearTwo": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Asset, Expected Amortization, Year Two",
+      "description": "Amount of amortization for assets, excluding financial assets and goodwill, lacking physical substance with finite life expected to be recognized in second fiscal year following current fiscal year. Excludes interim and annual periods when interim periods are reported from current statement of financial position date (rolling approach).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 8100000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-06-30",
+        "latest": "2016-12-31"
+      }
+    },
+    "FiniteLivedIntangibleAssetsGross": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Assets, Gross",
+      "description": "Amount before amortization of assets, excluding financial assets and goodwill, lacking physical substance with a finite life.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 82,
+      "latest_value": {
+        "value": 207200000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2021-09-30"
+      }
+    },
+    "FiniteLivedIntangibleAssetsNet": {
+      "taxonomy": "us-gaap",
+      "label": "Finite-Lived Intangible Assets, Net",
+      "description": "Amount after amortization of assets, excluding financial assets and goodwill, lacking physical substance with a finite life.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 82,
+      "latest_value": {
+        "value": 120600000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2021-09-30"
+      }
+    },
+    "GainLossOnSaleOfPropertyPlantEquipment": {
+      "taxonomy": "us-gaap",
+      "label": "Gain (Loss) on Disposition of Property Plant Equipment",
+      "description": "Amount of gain (loss) on sale or disposal of property, plant and equipment assets, including oil and gas property and timber property.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 5,
+      "latest_value": {
+        "value": 32600000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2013-12-31"
+      }
+    },
+    "Goodwill": {
+      "taxonomy": "us-gaap",
+      "label": "Goodwill",
+      "description": "Amount after accumulated impairment loss of an asset representing future economic benefits arising from other assets acquired in a business combination that are not individually identified and separately recognized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 153,
+      "latest_value": {
+        "value": 694900000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "GoodwillAcquiredDuringPeriod": {
+      "taxonomy": "us-gaap",
+      "label": "Goodwill, Acquired During Period",
+      "description": "Amount of increase in asset representing future economic benefits arising from other assets acquired in a business combination that are not individually identified and separately recognized resulting from a business combination.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 4200000,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2022-03-31"
+      }
+    },
+    "GoodwillForeignCurrencyTranslationGainLoss": {
+      "taxonomy": "us-gaap",
+      "label": "Goodwill, Foreign Currency Translation Gain (Loss)",
+      "description": "Amount of foreign currency translation gain (loss) which increases (decreases) an asset representing future economic benefits from other assets acquired in a business combination that are not individually identified and separately recognized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 35,
+      "latest_value": {
+        "value": -7400000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "GoodwillOtherChanges": {
+      "taxonomy": "us-gaap",
+      "label": "Goodwill, Other Changes (Deprecated 2016-01-31)",
+      "description": "Amount of other (increase) decrease of an asset representing the future economic benefits arising from other assets acquired in a business combination that are not individually identified and separately recognized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": -5800000,
+        "date": "2012-12-31",
+        "fiscal_year": 2012,
+        "form": "10-K",
+        "filed": "2013-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2010-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "GoodwillPeriodIncreaseDecrease": {
+      "taxonomy": "us-gaap",
+      "label": "Goodwill, Period Increase (Decrease)",
+      "description": "Amount of increase (decrease) of an asset representing future economic benefits arising from other assets acquired in a business combination that are not individually identified and separately recognized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -1300000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-27",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "GoodwillTranslationAdjustments": {
+      "taxonomy": "us-gaap",
+      "label": "Goodwill, Translation Adjustments (Deprecated 2016-01-31)",
+      "description": "Amount of increase (decrease) from foreign currency translation adjustments of an asset representing future economic benefits arising from other assets acquired in a business combination that are not individually identified and separately recognized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": -6800000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-29",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "HedgedAssetFairValueHedge": {
+      "taxonomy": "us-gaap",
+      "label": "Hedged Asset, Fair Value Hedge",
+      "description": "Amount of asset hedged in fair value hedging relationship.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 54,
+      "latest_value": {
+        "value": 7567300000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-09-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "HedgedAssetFairValueHedgeCumulativeIncreaseDecrease": {
+      "taxonomy": "us-gaap",
+      "label": "Hedged Asset, Fair Value Hedge, Cumulative Increase (Decrease)",
+      "description": "Amount of cumulative increase (decrease) in fair value of hedged asset in fair value hedge, attributable to hedged risk.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 54,
+      "latest_value": {
+        "value": -48700000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-09-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "ImpairmentOfIntangibleAssetsExcludingGoodwill": {
+      "taxonomy": "us-gaap",
+      "label": "Impairment of Intangible Assets (Excluding Goodwill)",
+      "description": "The amount of impairment loss recognized in the period resulting from the write-down of the carrying amount of an intangible asset (excluding goodwill) to fair value.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 9500000,
+        "date": "2014-09-30",
+        "fiscal_year": 2014,
+        "fiscal_period": "Q3",
+        "form": "10-Q",
+        "filed": "2014-10-31",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2014-06-30",
+        "latest": "2014-09-30"
+      }
+    },
+    "IncomeTaxExaminationPenaltiesAndInterestAccrued": {
+      "taxonomy": "us-gaap",
+      "label": "Income Tax Examination, Penalties and Interest Accrued",
+      "description": "The amount of estimated penalties and interest accrued as of the balance sheet date arising from income tax examinations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 30,
+      "latest_value": {
+        "value": 16000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncreaseDecreaseInAccruedIncomeTaxesPayable": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Income Taxes Payable",
+      "description": "The increase (decrease) during the period in the amount due for taxes based on the reporting entity's earnings or attributable to the entity's income earning process (business presence) within a given jurisdiction.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 48,
+      "latest_value": {
+        "value": 183500000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncreaseDecreaseInDerivativeAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Derivative Assets",
+      "description": "The increase (decrease) during the period in the carrying value of derivative instruments reported as assets that are due to be disposed of within one year (or the normal operating cycle, if longer).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 128,
+      "latest_value": {
+        "value": 3287700000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncreaseDecreaseInOtherOperatingCapitalNet": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Other Operating Assets and Liabilities, Net",
+      "description": "Amount of increase (decrease) in operating assets after deduction of operating liabilities classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 146,
+      "latest_value": {
+        "value": 41600000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncreaseDecreaseInReceivables": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Receivables",
+      "description": "The increase (decrease) during the reporting period in the total amount due within one year (or one operating cycle) from all parties, associated with underlying transactions that are classified as operating activities.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 146,
+      "latest_value": {
+        "value": 6100000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IntangibleAssetsNetExcludingGoodwill": {
+      "taxonomy": "us-gaap",
+      "label": "Intangible Assets, Net (Excluding Goodwill)",
+      "description": "Sum of the carrying amounts of all intangible assets, excluding goodwill, as of the balance sheet date, net of accumulated amortization and impairment charges.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 10,
+      "latest_value": {
+        "value": 53200000,
+        "date": "2010-12-31",
+        "fiscal_year": 2010,
+        "form": "10-K",
+        "filed": "2011-02-25",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-06-30",
+        "latest": "2011-03-31"
+      }
+    },
+    "InterestReceivable": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Receivable",
+      "description": "Carrying amount as of the balance sheet date of interest earned but not received. Also called accrued interest or accrued interest receivable.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 34,
+      "latest_value": {
+        "value": 497600000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "Liabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Liabilities",
+      "description": "Sum of the carrying amounts as of the balance sheet date of all liabilities that are recognized. Liabilities are probable future sacrifices of economic benefits arising from present obligations of an entity to transfer assets or provide services to other entities in the future.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 135,
+      "latest_value": {
+        "value": 142720000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "LossContingencyRangeOfPossibleLossPortionNotAccrued": {
+      "taxonomy": "us-gaap",
+      "label": "Loss Contingency, Range of Possible Loss, Portion Not Accrued",
+      "description": "The difference between the maximum amount of estimated loss and the amount recorded as of the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 32000000,
+        "date": "2011-12-31",
+        "fiscal_year": 2011,
+        "form": "10-K",
+        "filed": "2012-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-03-31",
+        "latest": "2011-12-31"
+      }
+    },
+    "NoninterestIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Noninterest Income",
+      "description": "The total amount of noninterest income which may be derived from: (1) fees and commissions; (2) premiums earned; (3) insurance policy charges; (4) the sale or disposal of assets; and (5) other sources not otherwise specified.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 212,
+      "latest_value": {
+        "value": 6113300000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OccupancyNet": {
+      "taxonomy": "us-gaap",
+      "label": "Occupancy, Net",
+      "description": "Amount of net occupancy expense that may include items, such as depreciation of facilities and equipment, lease expenses, property taxes and property and casualty insurance expense.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 212,
+      "latest_value": {
+        "value": 216800000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OperatingLeaseRightOfUseAsset": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Lease, Right-of-Use Asset",
+      "description": "Amount of lessee's right to use underlying asset under operating lease.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 478000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "OperatingLeasesFutureMinimumPaymentsDueFutureMinimumSubleaseRentals": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Leases, Future Minimum Payments Due, Future Minimum Sublease Rentals",
+      "description": "Contractually required future rental payments receivable on noncancelable subleasing arrangements.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 11,
+      "latest_value": {
+        "value": 23400000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OperatingLossCarryforwardsValuationAllowance": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Loss Carryforwards, Valuation Allowance",
+      "description": "The portion of the valuation allowance pertaining to the deferred tax asset representing potential future taxable deductions from net operating loss carryforwards for which it is more likely than not that a tax benefit will not be realized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 3900000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "OtherAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Other Assets",
+      "description": "Amount of assets classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 135,
+      "latest_value": {
+        "value": 13920500000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "PropertyPlantAndEquipmentGross": {
+      "taxonomy": "us-gaap",
+      "label": "Property, Plant and Equipment, Gross",
+      "description": "Amount before accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business and not intended for resale. Examples include, but are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 1331100000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2009-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "PropertyPlantAndEquipmentNet": {
+      "taxonomy": "us-gaap",
+      "label": "Property, Plant and Equipment, Net",
+      "description": "Amount after accumulated depreciation, depletion and amortization of physical assets used in the normal conduct of business to produce goods and services and not intended for resale. Examples include, but are not limited to, land, buildings, machinery and equipment, office equipment, and furniture and fixtures.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 135,
+      "latest_value": {
+        "value": 490300000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "SeniorNotes": {
+      "taxonomy": "us-gaap",
+      "label": "Senior Notes",
+      "description": "Including the current and noncurrent portions, carrying value as of the balance sheet date of Notes with the highest claim on the assets of the issuer in case of bankruptcy or liquidation (with maturities initially due after one year or beyond the operating cycle if longer). Senior note holders are paid off in full before any payments are made to junior note holders.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 135,
+      "latest_value": {
+        "value": 2769700000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2008-06-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "GoodwillTransfers": {
+      "taxonomy": "us-gaap",
+      "label": "Goodwill, Transfers",
+      "description": "Amount of transfers into (out of) an asset representing the future economic benefits arising from other assets acquired in a business combination that are not individually identified and separately recognized.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 9300000,
+        "date": "2020-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "DefinedBenefitPlanFairValueOfPlanAssetsPeriodIncreaseDecrease": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Plan Assets, Period Increase (Decrease)",
+      "description": "Amount of increase (decrease) in plan assets of defined benefit plan.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": -532100000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-28",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2022-12-31"
+      }
+    },
+    "DerivativeAssetFairValueAfterOffsetAndDeductionSubjectToMasterNettingArrangement": {
+      "taxonomy": "us-gaap",
+      "label": null,
+      "description": null,
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 14,
+      "latest_value": {
+        "value": 2228800000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DeferredTaxAssetsPropertyPlantAndEquipment": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Assets, Property, Plant and Equipment",
+      "description": "Amount before allocation of valuation allowances of deferred tax asset attributable to deductible temporary differences from property, plant, and equipment.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 38400000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2023-12-31",
+        "latest": "2024-12-31"
+      }
+    }
+  }
+}

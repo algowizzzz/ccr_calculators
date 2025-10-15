@@ -1,0 +1,2834 @@
+{
+  "chunk_metadata": {
+    "domain": "public",
+    "CIK": "759944",
+    "data_type": "SEC",
+    "ticker": "CFG",
+    "chunk_name": "Cash & Cash Equivalents",
+    "chunk_id": "cash_equivalents",
+    "company_name": "CITIZENS FINANCIAL GROUP INC/RI",
+    "extraction_date": "2025-09-30T11:01:43.599849",
+    "metrics_count": 128,
+    "total_company_metrics": 0,
+    "chunking_strategy": "context_aware_balanced"
+  },
+  "metrics": {
+    "AmortizationOfIntangibleAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Amortization of Intangible Assets",
+      "description": "The aggregate expense charged against earnings to allocate the cost of intangible assets (nonphysical assets not used in production) in a systematic and rational manner to the periods expected to benefit from such assets. As a noncash expense, this element is added back to net income when calculating cash provided by or used in operations using the indirect method.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 39,
+      "latest_value": {
+        "value": 35000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "BankOwnedLifeInsuranceIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Bank Owned Life Insurance Income",
+      "description": "Earnings on or other increases in the value of the cash surrender value of bank owned life insurance policies.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 140,
+      "latest_value": {
+        "value": 108000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CashAndCashEquivalentsAtCarryingValue": {
+      "taxonomy": "us-gaap",
+      "label": "Cash and Cash Equivalents, at Carrying Value",
+      "description": "Amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Excludes cash and cash equivalents within disposal group and discontinued operation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 76,
+      "latest_value": {
+        "value": 4074000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "CashAndCashEquivalentsPeriodIncreaseDecrease": {
+      "taxonomy": "us-gaap",
+      "label": "Cash and Cash Equivalents, Period Increase (Decrease)",
+      "description": "Amount of increase (decrease) in cash and cash equivalents. Cash and cash equivalents are the amount of currency on hand as well as demand deposits with banks or financial institutions. Includes other kinds of accounts that have the general characteristics of demand deposits. Also includes short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates. Includes effect from exchange rate changes.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 43,
+      "latest_value": {
+        "value": 1042000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents": {
+      "taxonomy": "us-gaap",
+      "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+      "description": "Amount of cash and cash equivalents, and cash and cash equivalents restricted to withdrawal or usage. Excludes amount for disposal group and discontinued operations. Cash includes, but is not limited to, currency on hand, demand deposits with banks or financial institutions, and other accounts with general characteristics of demand deposits. Cash equivalents include, but are not limited to, short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 104,
+      "latest_value": {
+        "value": 10601000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+      "taxonomy": "us-gaap",
+      "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents, Period Increase (Decrease), Including Exchange Rate Effect",
+      "description": "Amount of increase (decrease) in cash, cash equivalents, and cash and cash equivalents restricted to withdrawal or usage; including effect from exchange rate change. Cash includes, but is not limited to, currency on hand, demand deposits with banks or financial institutions, and other accounts with general characteristics of demand deposits. Cash equivalents include, but are not limited to, short-term, highly liquid investments that are both readily convertible to known amounts of cash and so near their maturity that they present insignificant risk of changes in value because of changes in interest rates.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 58,
+      "latest_value": {
+        "value": -1027000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CommonStockDividendsPerShareCashPaid": {
+      "taxonomy": "us-gaap",
+      "label": "Common Stock, Dividends, Per Share, Cash Paid",
+      "description": "Aggregate dividends paid during the period for each share of common stock outstanding.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 63,
+      "latest_value": {
+        "value": 0.27,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "CommonStockSharesIssued": {
+      "taxonomy": "us-gaap",
+      "label": "Common Stock, Shares, Issued",
+      "description": "Total number of common shares of an entity that have been sold or granted to shareholders (includes common shares that were issued, repurchased and remain in the treasury). These shares represent capital invested by the firm's shareholders and owners, and may be all or only a portion of the number of shares authorized. Shares issued include shares outstanding and shares held in the treasury.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 650068324,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "CommonStockValue": {
+      "taxonomy": "us-gaap",
+      "label": "Common Stock, Value, Issued",
+      "description": "Aggregate par or stated value of issued nonredeemable common stock (or common stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable common shares, par value and other disclosure concepts are in another section within stockholders' equity.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 7000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ContractualMaturitiesTimeDeposits100000OrMoreAfter12Months": {
+      "taxonomy": "us-gaap",
+      "label": "Contractual Maturities, Time Deposits, $100,000 or More, after 12 Months",
+      "description": "Amount of time deposit liabilities, including certificates of deposit, in denominations of $100,000 or more, maturing after twelve months from the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 436000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "ContractualMaturitiesTimeDeposits100000OrMoreSixMonthsThrough12Months": {
+      "taxonomy": "us-gaap",
+      "label": "Contractual Maturities, Time Deposits, $100,000 or More, Six Months Through 12 Months",
+      "description": "Amount of time deposit liabilities, including certificates of deposit, in denominations of $100,000 or more, maturing within six to twelve months after the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 986000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "ContractualMaturitiesTimeDeposits100000OrMoreThreeMonthsOrLess": {
+      "taxonomy": "us-gaap",
+      "label": "Contractual Maturities, Time Deposits, $100,000 or More, Three Months or Less",
+      "description": "Amount of time deposit liabilities, including certificates of deposit, in denominations of $100,000 or more, maturing within three months or fewer from the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 3420000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "ContractualMaturitiesTimeDeposits100000OrMoreThreeMonthsThroughSixMonths": {
+      "taxonomy": "us-gaap",
+      "label": "Contractual Maturities, Time Deposits, $100,000 or More, Three Months Through Six Months",
+      "description": "Amount of time deposit liabilities, including certificates of deposit, in denominations of $100,000 or more, maturing within three to six months after the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 956000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "CurrentFederalTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Current Federal Tax Expense (Benefit)",
+      "description": "Amount of current federal tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 447000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DeferredFederalIncomeTaxExpenseBenefit": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Federal Income Tax Expense (Benefit)",
+      "description": "Amount of deferred federal income tax expense (benefit) pertaining to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": -127000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DefinedBenefitPlanSettlementsBenefitObligation": {
+      "taxonomy": "us-gaap",
+      "label": "Defined Benefit Plan, Benefit Obligation, (Increase) Decrease for Settlement",
+      "description": "Amount of (increase) decrease to benefit obligation of defined benefit plan from irrevocable action relieving primary responsibility for benefit obligation and eliminating risk for obligation and assets used to effect settlement. Includes, but is not limited to, lump-sum cash payment to participant in exchange for right to receive specified benefits, purchase of nonparticipating annuity contract and change from remeasurement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 92000000,
+        "date": "2012-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-03-03",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "DemandDepositAccounts": {
+      "taxonomy": "us-gaap",
+      "label": "Demand Deposit Accounts",
+      "description": "The amount of money in accounts that may bear interest and that the depositor is entitled to withdraw at any time without prior notice.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 36920000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "Deposits": {
+      "taxonomy": "us-gaap",
+      "label": "Deposits",
+      "description": "The aggregate of all deposit liabilities held by the entity, including foreign and domestic, interest and noninterest bearing; may include demand deposits, saving deposits, Negotiable Order of Withdrawal (NOW) and time deposits among others.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 174776000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DepositsFairValueDisclosure": {
+      "taxonomy": "us-gaap",
+      "label": "Deposits, Fair Value Disclosure",
+      "description": "Fair value portion of deposit liabilities held by the entity, including, but not limited to, foreign and domestic, interest and noninterest bearing, demand deposits, saving deposits, negotiable orders of withdrawal (NOW) and time deposits.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 174651000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DepositsMoneyMarketDeposits": {
+      "taxonomy": "us-gaap",
+      "label": "Deposits, Money Market Deposits",
+      "description": "Amount of deposits in accounts that offer many of the same services as checking accounts although transactions may be somewhat more limited, share some of the characteristics of a money market fund and are insured by the Federal government, also known as money market accounts.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 55321000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DepositsSavingsDeposits": {
+      "taxonomy": "us-gaap",
+      "label": "Deposits, Savings Deposits",
+      "description": "Amount of interest bearing deposits with no stated maturity, which may include passbook and statement savings accounts and money-market deposit accounts (MMDAs).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 25976000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "DepreciationAmortizationAndAccretionNet": {
+      "taxonomy": "us-gaap",
+      "label": "Depreciation, Amortization and Accretion, Net",
+      "description": "The aggregate net amount of depreciation, amortization, and accretion recognized during an accounting period. As a noncash item, the net amount is added back to net income when calculating cash provided by or used in operations using the indirect method.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 101,
+      "latest_value": {
+        "value": 498000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeAssetCollateralObligationToReturnCashOffset": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Asset, Collateral, Obligation to Return Cash, Offset",
+      "description": "Amount of obligation to return cash collateral under master netting arrangements offset against derivative assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 82,
+      "latest_value": {
+        "value": 677000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DerivativeLiabilityCollateralRightToReclaimCashOffset": {
+      "taxonomy": "us-gaap",
+      "label": "Derivative Liability, Collateral, Right to Reclaim Cash, Offset",
+      "description": "Amount of right to receive cash collateral under master netting arrangements offset against derivative liabilities.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 80,
+      "latest_value": {
+        "value": 99000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "Dividends": {
+      "taxonomy": "us-gaap",
+      "label": "Dividends",
+      "description": "Amount of paid and unpaid cash, stock, and paid-in-kind (PIK) dividends declared, for example, but not limited to, common and preferred stock.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 34,
+      "latest_value": {
+        "value": 322000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-03-31",
+        "latest": "2018-09-30"
+      }
+    },
+    "DividendsCommonStock": {
+      "taxonomy": "us-gaap",
+      "label": "Dividends, Common Stock",
+      "description": "Amount of paid and unpaid common stock dividends declared with the form of settlement in cash, stock and payment-in-kind (PIK).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 769000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DividendsCommonStockCash": {
+      "taxonomy": "us-gaap",
+      "label": "Dividends, Common Stock, Cash",
+      "description": "Amount of paid and unpaid common stock dividends declared with the form of settlement in cash.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 121,
+      "latest_value": {
+        "value": 769000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-09-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "DividendsPreferredStockCash": {
+      "taxonomy": "us-gaap",
+      "label": "Dividends, Preferred Stock, Cash",
+      "description": "Amount of paid and unpaid preferred stock dividends declared with the form of settlement in cash.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 117,
+      "latest_value": {
+        "value": 137000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-09-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationAtFederalStatutoryIncomeTaxRate": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, at Federal Statutory Income Tax Rate, Percent",
+      "description": "Percentage of domestic federal statutory tax rate applicable to pretax income (loss).",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 60,
+      "latest_value": {
+        "value": 0.21,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationChangeInEnactedTaxRate": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Change in Enacted Tax Rate, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to changes in the income tax rates.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 0,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-23",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationNondeductibleExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Nondeductible Expense, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to nondeductible expenses.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 24,
+      "latest_value": {
+        "value": 0.018,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationNondeductibleExpenseImpairmentLosses": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Nondeductible Expense, Impairment Losses, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to impairment loss.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationNondeductibleExpenseLifeInsurance": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Nondeductible Expense, Life Insurance, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to life insurance expense.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": -0.016,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationOtherReconcilingItemsPercent": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation,Other Reconciling Items, Percent",
+      "description": "Percentage of the difference, between reported income tax expense (benefit) and the expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations, that is attributable to tax exempt income, equity in earnings (loss) of an unconsolidated subsidiary, minority interest income (expense), tax holiday, disposition of a business, disposition of an asset, repatriation of foreign earnings, repatriation of foreign earnings jobs creation act of 2004, change in enacted tax rate, prior year income taxes, change in deferred tax asset valuation allowance, and other adjustments.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 0.012,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationStateAndLocalIncomeTaxes": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, State and Local Income Taxes, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations applicable to state and local income tax expense (benefit), net of federal tax expense (benefit).",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 0.025,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationTaxContingencies": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Contingency, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to income tax contingencies. Includes, but not limited to, domestic tax contingency, foreign tax contingency, state and local tax contingency, and other contingencies.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 24,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationTaxExemptIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Exempt Income, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to income (loss) exempt from income taxes.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 0.007,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "EffectiveIncomeTaxRateReconciliationTaxSettlementsStateAndLocal": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Settlement, State and Local, Percent",
+      "description": "Percentage of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to state and local income tax settlement.",
+      "available_units": [
+        "pure"
+      ],
+      "data_points_count": 1,
+      "latest_value": {
+        "value": 0.025,
+        "date": "2012-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-03-03",
+        "unit": "pure",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2012-12-31"
+      }
+    },
+    "FederalDepositInsuranceCorporationPremiumExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Federal Deposit Insurance Corporation Premium Expense",
+      "description": "Amount of expense for Federal Deposit Insurance Corporation (FDIC) insurance.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 124,
+      "latest_value": {
+        "value": 193000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "FederalIncomeTaxExpenseBenefitContinuingOperations": {
+      "taxonomy": "us-gaap",
+      "label": "Federal Income Tax Expense (Benefit), Continuing Operations",
+      "description": "Amount of current and deferred federal income tax expense (benefit) attributable to income (loss) from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 320000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "GainOnSaleOfInvestments": {
+      "taxonomy": "us-gaap",
+      "label": "Gain on Sale of Investments",
+      "description": "The difference between the carrying value and the sale price of an investment. A gain would be recognized when the sale price of the investment is greater than the carrying value of the investment. This element refers to the Gain included in earnings and not to the cash proceeds of the sale.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 17,
+      "latest_value": {
+        "value": 11000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2018-09-30"
+      }
+    },
+    "IncomeTaxesPaid": {
+      "taxonomy": "us-gaap",
+      "label": "Income Taxes Paid",
+      "description": "The amount of cash paid during the current period to foreign, federal, state, and local authorities as taxes on income.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 37,
+      "latest_value": {
+        "value": 208000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationChangeInEnactedTaxRate": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Change in Enacted Tax Rate, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations, attributable to increase (decrease) in the income tax rates.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 12,
+      "latest_value": {
+        "value": 0,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "IncomeTaxReconciliationIncomeTaxExpenseBenefitAtFederalStatutoryIncomeTaxRate": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation at Federal Statutory Income Tax Rate, Amount",
+      "description": "The amount of income tax expense or benefit for the period computed by applying the domestic federal statutory tax rates to pretax income from continuing operations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 396000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationNondeductibleExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Nondeductible Expense, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to nondeductible expenses.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 24,
+      "latest_value": {
+        "value": 34000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationNondeductibleExpenseImpairmentLosses": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Nondeductible Expense, Impairment Losses, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to nondeductible impairment loss.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "IncomeTaxReconciliationNondeductibleExpenseLifeInsurance": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Nondeductible Expense, Life Insurance, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to nondeductible life insurance expense.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": -20000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "IncomeTaxReconciliationOtherReconcilingItems": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Other Reconciling Items, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to tax exempt income, equity in earnings (loss) of an unconsolidated subsidiary, minority noncontrolling interest income (loss), tax holiday, disposition of a business, disposition of an asset, repatriation of foreign earnings, repatriation of foreign earnings jobs creation act of 2004, increase (decrease) in enacted tax rate, prior year income taxes, increase (decrease) in deferred tax asset valuation allowance, and other adjustments.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 21000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationStateAndLocalIncomeTaxes": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, State and Local Income Taxes, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to state and local income tax expense (benefit).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 46000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationTaxContingencies": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Contingency, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to increase (decrease) in income tax contingencies. Including, but not limited to, domestic tax contingency, foreign tax contingency, state and local tax contingency, and other contingencies.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 24,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationTaxExemptIncome": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Exempt Income, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to income (loss) exempt from income taxes.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 33,
+      "latest_value": {
+        "value": 12000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "IncomeTaxReconciliationTaxSettlements": {
+      "taxonomy": "us-gaap",
+      "label": "Effective Income Tax Rate Reconciliation, Tax Settlement, Amount",
+      "description": "Amount of the difference between reported income tax expense (benefit) and expected income tax expense (benefit) computed by applying the domestic federal statutory income tax rates to pretax income (loss) from continuing operations attributable to income tax settlements. Including, but not limited to, domestic tax settlement, foreign tax settlement, state and local tax settlement, and other tax settlements.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": -23000000,
+        "date": "2017-06-30",
+        "fiscal_year": 2017,
+        "fiscal_period": "Q2",
+        "form": "10-Q",
+        "filed": "2017-08-03",
+        "unit": "USD",
+        "type": "quarterly"
+      },
+      "date_range": {
+        "earliest": "2017-03-31",
+        "latest": "2017-06-30"
+      }
+    },
+    "IncreaseDecreaseInBrokerageReceivables": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Receivables from Brokers-Dealers and Clearing Organizations",
+      "description": "The increase (decrease) during the reporting period in the total amount due to the entity related to activities and operations with other broker dealers, and clearing organizations, including deposits.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 19,
+      "latest_value": {
+        "value": 0,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "IncreaseDecreaseInDeposits": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Deposits",
+      "description": "The net cash inflow or outflow for the increase (decrease) in the beginning and end of period deposits balances.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 101,
+      "latest_value": {
+        "value": -2566000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "IncreaseDecreaseInPayablesToBrokerDealers": {
+      "taxonomy": "us-gaap",
+      "label": "Increase (Decrease) in Payables to Broker-Dealers and Clearing Organizations",
+      "description": "The increase (decrease) during the reporting period in the aggregate amount of obligations incurred arising from transactions with broker-dealers, such as amounts due on margin and unsettled cash transactions; includes payables to brokers, dealers and clearing organizations.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 0,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-03-03",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "InterestBearingDepositsInBanks": {
+      "taxonomy": "us-gaap",
+      "label": "Interest-bearing Deposits in Banks and Other Financial Institutions",
+      "description": "For banks and other depository institutions (including Federal Reserve Banks, if applicable): Interest-bearing deposits in other financial institutions for relatively short periods of time including, for example, certificates of deposits, which are presented separately from cash on the balance sheet.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 635000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "InterestExpenseDeposits": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Expense, Deposits",
+      "description": "Aggregate amount of interest expense on all deposits.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 147,
+      "latest_value": {
+        "value": 3825000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "InterestExpenseOtherShortTermBorrowings": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Expense, Other Short-term Borrowings",
+      "description": "Interest expense incurred during the reporting period on other short-term borrowings.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 76,
+      "latest_value": {
+        "value": 2000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "InterestIncomeDepositsWithFinancialInstitutions": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Income, Deposits with Financial Institutions",
+      "description": "Interest income derived from funds deposited with both domestic and foreign financial institutions including funds in money market and other accounts.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 147,
+      "latest_value": {
+        "value": 503000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "InterestPaid": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Paid, Including Capitalized Interest, Operating and Investing Activities",
+      "description": "Amount of cash paid for interest, including, but not limited to, capitalized interest and payment to settle zero-coupon bond attributable to accreted interest of debt discount and debt instrument with insignificant coupon interest rate in relation to effective interest rate of borrowing attributable to accreted interest of debt discount; classified as operating and investing activities.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 16,
+      "latest_value": {
+        "value": 716000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "InterestPaidNet": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Paid, Excluding Capitalized Interest, Operating Activities",
+      "description": "Amount of cash paid for interest, excluding capitalized interest, classified as operating activity. Includes, but is not limited to, payment to settle zero-coupon bond for accreted interest of debt discount and debt instrument with insignificant coupon interest rate in relation to effective interest rate of borrowing attributable to accreted interest of debt discount.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 21,
+      "latest_value": {
+        "value": 4375000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "InterestRateCashFlowHedgeGainLossToBeReclassifiedDuringNext12MonthsNet": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Rate Cash Flow Hedge Gain (Loss) to be Reclassified During Next 12 Months, Net",
+      "description": "The estimated net amount of unrealized gains or losses on interest rate cash flow hedges as of the balance sheet date expected to be reclassified to earnings within the next twelve months.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 45,
+      "latest_value": {
+        "value": -718000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-09-30",
+        "latest": "2025-06-30"
+      }
+    },
+    "LossOnSaleOfInvestments": {
+      "taxonomy": "us-gaap",
+      "label": "Loss on Sale of Investments",
+      "description": "The difference between the carrying value and the sale price of an investment. A loss would be recognized when the sale price of the investment is less than the carrying value of the investment. This element refers to the Loss included in earnings and not to the cash proceeds of the sale.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 17,
+      "latest_value": {
+        "value": 0,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2018-09-30"
+      }
+    },
+    "MortgageServicingRightsMSRImpairmentRecovery": {
+      "taxonomy": "us-gaap",
+      "label": "Mortgage Servicing Rights (MSR) Impairment (Recovery)",
+      "description": "The adjustment to the carrying value of the rights retained or purchased to service mortgages. These adjustments are made when the estimate of the fair value is changed. This element is a noncash adjustment to net income when calculating net cash generated by operating activities using the indirect method.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 56,
+      "latest_value": {
+        "value": 1000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "NoninterestBearingDepositLiabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Noninterest-bearing Deposit Liabilities",
+      "description": "The aggregate amount of all domestic and foreign noninterest-bearing deposits liabilities held by the entity.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 36920000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OperatingLeasePayments": {
+      "taxonomy": "us-gaap",
+      "label": "Operating Lease, Payments",
+      "description": "Amount of cash outflow from operating lease, excluding payments to bring another asset to condition and location necessary for its intended use.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 233000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossCashFlowHedgeGainLossBeforeReclassificationAfterTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Cash Flow Hedge, Gain (Loss), before Reclassification, after Tax",
+      "description": "Amount, after tax and before reclassification, of gain (loss) from derivative instrument designated and qualifying as cash flow hedge included in assessment of hedge effectiveness.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 78,
+      "latest_value": {
+        "value": -531000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossCashFlowHedgeGainLossBeforeReclassificationAndTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Cash Flow Hedge, Gain (Loss), before Reclassification and Tax",
+      "description": "Amount, before tax and reclassification, of gain (loss) from derivative instrument designated and qualifying cash flow hedge included in assessment of hedge effectiveness.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 78,
+      "latest_value": {
+        "value": -725000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossCashFlowHedgeGainLossBeforeReclassificationTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Cash Flow Hedge, Gain (Loss), before Reclassification, Tax",
+      "description": "Amount, before reclassification, of tax expense (benefit) for gain (loss) from derivative instrument designated and qualifying as cash flow hedge included in assessment of hedge effectiveness.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 78,
+      "latest_value": {
+        "value": -194000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationAfterTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Cash Flow Hedge, Gain (Loss), Reclassification, after Tax",
+      "description": "Amount, after tax, of reclassification of gain (loss) from accumulated other comprehensive income (AOCI) for derivative instrument designated and qualifying as cash flow hedge included in assessment of hedge effectiveness.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 78,
+      "latest_value": {
+        "value": -693000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossCashFlowHedgeGainLossReclassificationTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Cash Flow Hedge, Gain (Loss), Reclassification, Tax",
+      "description": "Amount of tax expense (benefit) for reclassification of gain (loss) from accumulated other comprehensive income (AOCI) for derivative instrument designated and qualifying as cash flow hedge included in assessment of hedge effectiveness.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 78,
+      "latest_value": {
+        "value": -253000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-03-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "OtherComprehensiveIncomeLossDerivativesQualifyingAsHedgesNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Derivatives Qualifying as Hedges, Net of Tax",
+      "description": "Amount after tax and reclassification adjustments, of increase (decrease) in accumulated gain (loss) from derivative instruments designated and qualifying as the effective portion of cash flow hedges and an entity's share of an equity investee's increase (decrease) in deferred hedging gain (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": -33000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIOnDerivativesNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Reclassification Adjustment from AOCI on Derivatives, Net of Tax",
+      "description": "Amount after tax of reclassification adjustment from accumulated other comprehensive income of accumulated gain (loss) realized from derivative instruments designated and qualifying as the effective portion of cash flow hedges and an entity's share of an equity investee's deferred hedging gain (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 69,
+      "latest_value": {
+        "value": -33000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeLossReclassificationAdjustmentFromAOCIOnDerivativesTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Reclassification Adjustment from AOCI on Derivatives, Tax",
+      "description": "Amount of tax expense (benefit) of reclassification adjustment from accumulated other comprehensive income of accumulated gain (loss) realized from derivative instruments designated and qualifying as the effective portion of cash flow hedges and an entity's share of an equity investee's deferred hedging gain (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 69,
+      "latest_value": {
+        "value": -10000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodBeforeTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Unrealized Gain (Loss) on Derivatives Arising During Period, before Tax",
+      "description": "Amount before tax of increase (decrease) in accumulated gain (loss) from derivative instruments designated and qualifying as the effective portion of cash flow hedges and an entity's share of an equity investee's increase (decrease) in deferred hedging gain (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": -44000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodNetOfTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Unrealized Gain (Loss) on Derivatives Arising During Period, Net of Tax",
+      "description": "Amount after tax of increase (decrease) in accumulated gain (loss) from derivative instruments designated and qualifying as the effective portion of cash flow hedges and an entity's share of an equity investee's increase (decrease) in deferred hedging gain (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 63,
+      "latest_value": {
+        "value": -33000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OtherComprehensiveIncomeUnrealizedGainLossOnDerivativesArisingDuringPeriodTax": {
+      "taxonomy": "us-gaap",
+      "label": "Other Comprehensive Income (Loss), Unrealized Gain (Loss) on Derivatives Arising During Period, Tax",
+      "description": "Amount of tax expense (benefit), before reclassification adjustments, related to increase (decrease) in accumulated gain (loss) from derivative instruments designated and qualifying as the effective portion of cash flow hedges and an entity's share of an equity investee's increase (decrease) in deferred hedging gain (loss).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 69,
+      "latest_value": {
+        "value": -11000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2018-12-31"
+      }
+    },
+    "OtherShortTermBorrowings": {
+      "taxonomy": "us-gaap",
+      "label": "Other Short-term Borrowings",
+      "description": "Amount of borrowings classified as other, maturing within one year or the normal operating cycle, if longer.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 54,
+      "latest_value": {
+        "value": 9000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PaymentsForProceedsFromLifeInsurancePolicies": {
+      "taxonomy": "us-gaap",
+      "label": "Payments for (Proceeds from) Life Insurance Policies",
+      "description": "The net cash outflow or inflow for net proceeds and payments derived from carrying life insurance policies for which the entity is the beneficiary.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 52,
+      "latest_value": {
+        "value": 27000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "PaymentsForProceedsFromOtherInvestingActivities": {
+      "taxonomy": "us-gaap",
+      "label": "Payments for (Proceeds from) Other Investing Activities",
+      "description": "Amount of cash (inflow) outflow from investing activities classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 49,
+      "latest_value": {
+        "value": 93000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PaymentsForProceedsFromProductiveAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Payments for (Proceeds from) Productive Assets",
+      "description": "The net cash outflow or inflow from purchases, sales and disposals of property, plant and equipment and other productive assets, including intangibles.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 49,
+      "latest_value": {
+        "value": 122000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2018-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PaymentsForRepurchaseOfCommonStock": {
+      "taxonomy": "us-gaap",
+      "label": "Payments for Repurchase of Common Stock",
+      "description": "The cash outflow to reacquire common stock during the period.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 97,
+      "latest_value": {
+        "value": 1050000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PaymentsForRepurchaseOfRedeemablePreferredStock": {
+      "taxonomy": "us-gaap",
+      "label": "Payments for Repurchase of Redeemable Preferred Stock",
+      "description": "The cash outflow for reacquisition of callable preferred stock.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18,
+      "latest_value": {
+        "value": 300000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "PaymentsForRestructuring": {
+      "taxonomy": "us-gaap",
+      "label": "Payments for Restructuring",
+      "description": "Amount of cash payments made as the result of exit or disposal activities. Excludes payments associated with a discontinued operation or an asset retirement obligation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 29,
+      "latest_value": {
+        "value": 23000000,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2016-12-31"
+      }
+    },
+    "PaymentsForSoftware": {
+      "taxonomy": "us-gaap",
+      "label": "Payments for Software",
+      "description": "The cash outflow associated with the development, modification or acquisition of software programs or applications for internal use (that is, not to be sold, leased or otherwise marketed to others) that qualify for capitalization.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 52,
+      "latest_value": {
+        "value": 240000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "PaymentsOfDividends": {
+      "taxonomy": "us-gaap",
+      "label": "Payments of Dividends",
+      "description": "Cash outflow in the form of capital distributions and dividends to common shareholders, preferred shareholders and noncontrolling interests.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 16,
+      "latest_value": {
+        "value": 71000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "PaymentsOfDividendsCommonStock": {
+      "taxonomy": "us-gaap",
+      "label": "Payments of Ordinary Dividends, Common Stock",
+      "description": "Amount of cash outflow in the form of ordinary dividends to common shareholders of the parent entity.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 71,
+      "latest_value": {
+        "value": 769000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PaymentsOfDividendsPreferredStockAndPreferenceStock": {
+      "taxonomy": "us-gaap",
+      "label": "Payments of Ordinary Dividends, Preferred Stock and Preference Stock",
+      "description": "Amount of cash outflow in the form of ordinary dividends to preferred shareholders of the parent entity.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 89,
+      "latest_value": {
+        "value": 134000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PaymentsOfOrdinaryDividends": {
+      "taxonomy": "us-gaap",
+      "label": "Payments of Ordinary Dividends",
+      "description": "Cash outflow in the form of ordinary dividends to common shareholders, preferred shareholders and noncontrolling interests, generally out of earnings.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 43,
+      "latest_value": {
+        "value": 471000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-09-30"
+      }
+    },
+    "PaymentsRelatedToTaxWithholdingForShareBasedCompensation": {
+      "taxonomy": "us-gaap",
+      "label": "Payment, Tax Withholding, Share-based Payment Arrangement",
+      "description": "Amount of cash outflow to satisfy grantee's tax withholding obligation for award under share-based payment arrangement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 64,
+      "latest_value": {
+        "value": 25000000,
+        "date": "2022-12-31",
+        "fiscal_year": 2022,
+        "form": "10-K",
+        "filed": "2023-02-17",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2024-06-30"
+      }
+    },
+    "PaymentsToAcquireBusinessesNetOfCashAcquired": {
+      "taxonomy": "us-gaap",
+      "label": "Payments to Acquire Businesses, Net of Cash Acquired",
+      "description": "The cash outflow associated with the acquisition of a business, net of the cash acquired from the purchase.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 53,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "PaymentsToAcquireFinanceReceivables": {
+      "taxonomy": "us-gaap",
+      "label": "Payments to Acquire Finance Receivables",
+      "description": "The cash outflow for the purchase of amounts due from customers, clients, lessees, borrowers, or others under the terms of its agreements therewith.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 38,
+      "latest_value": {
+        "value": 655000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2016-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PaymentsToAcquireLifeInsurancePolicies": {
+      "taxonomy": "us-gaap",
+      "label": "Payment to Acquire Life Insurance Policy, Investing Activities",
+      "description": "Amount of cash outflow for payment of premium on corporate-owned life insurance policy, classified as investing activities. Includes, but is not limited to, bank-owned life insurance policy.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 30,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "PaymentsToAcquireOtherInvestments": {
+      "taxonomy": "us-gaap",
+      "label": "Payments to Acquire Other Investments",
+      "description": "Amount of cash outflow to acquire investments classified as other.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 52,
+      "latest_value": {
+        "value": 511000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "PaymentsToAcquireProductiveAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Payments to Acquire Productive Assets",
+      "description": "The cash outflow for purchases of and capital improvements on property, plant and equipment (capital expenditures), software, and other intangible assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 49,
+      "latest_value": {
+        "value": 232000000,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-09-30"
+      }
+    },
+    "PaymentsToAcquirePropertyPlantAndEquipment": {
+      "taxonomy": "us-gaap",
+      "label": "Payments to Acquire Property, Plant, and Equipment",
+      "description": "The cash outflow associated with the acquisition of long-lived, physical assets that are used in the normal conduct of business to produce goods and services and not intended for resale; includes cash outflows to pay for construction of self-constructed assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 126000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "PreferredStockSharesIssued": {
+      "taxonomy": "us-gaap",
+      "label": "Preferred Stock, Shares Issued",
+      "description": "Total number of nonredeemable preferred shares (or preferred stock redeemable solely at the option of the issuer) issued to shareholders (includes related preferred shares that were issued, repurchased, and remain in the treasury). May be all or portion of the number of preferred shares authorized. Excludes preferred shares that are classified as debt.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 61,
+      "latest_value": {
+        "value": 2150000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PreferredStockValue": {
+      "taxonomy": "us-gaap",
+      "label": "Preferred Stock, Value, Issued",
+      "description": "Aggregate par or stated value of issued nonredeemable preferred stock (or preferred stock redeemable solely at the option of the issuer). This item includes treasury stock repurchased by the entity. Note: elements for number of nonredeemable preferred shares, par value and other disclosure concepts are in another section within stockholders' equity.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 2113000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "PreferredStockValueOutstanding": {
+      "taxonomy": "us-gaap",
+      "label": "Preferred Stock, Value, Outstanding",
+      "description": "Value of all nonredeemable preferred stock (or preferred stock redeemable solely at the option of the issuer) held by shareholders, which is net of related treasury stock. May be all or a portion of the number of preferred shares authorized. These shares represent the ownership interest of the preferred shareholders.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 16,
+      "latest_value": {
+        "value": 2014000000,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-16",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2023-12-31"
+      }
+    },
+    "ProceedsFromIssuanceOfLongTermDebt": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from Issuance of Long-term Debt",
+      "description": "The cash inflow from a debt initially having maturity due after one year or beyond the operating cycle, if longer.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 77,
+      "latest_value": {
+        "value": 13185000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ProceedsFromIssuanceOfPrivatePlacement": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from Issuance of Private Placement",
+      "description": "The cash inflow associated with the amount received from entity's raising of capital via private rather than public placement.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 68,
+      "latest_value": {
+        "value": 392000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ProceedsFromPaymentsForInInterestBearingDepositsInBanks": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from (Payments for) in Interest-bearing Deposits in Banks",
+      "description": "The net cash inflow or outflow in Interest-bearing Deposits by banks in other financial institutions for relatively short periods of time including, for example, certificates of deposits.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 101,
+      "latest_value": {
+        "value": -230000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ProceedsFromRelatedPartyDebt": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from Related Party Debt",
+      "description": "The cash inflow from a long-term borrowing made from related parties where one party can exercise control or significant influence over another party; including affiliates, owners or officers and their immediate families, pension trusts, and so forth. Alternate caption: Proceeds from Advances from Affiliates.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 6750000000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2016-09-30"
+      }
+    },
+    "ProceedsFromRepaymentsOfShortTermDebt": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from (Repayments of) Short-term Debt",
+      "description": "The net cash inflow or outflow for borrowing having initial term of repayment within one year or the normal operating cycle, if longer.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 69,
+      "latest_value": {
+        "value": -505000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ProceedsFromSaleOfOtherInvestments": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from Sale of Other Investments",
+      "description": "The cash inflow associated with the sale of other investments not otherwise defined in the taxonomy.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 52,
+      "latest_value": {
+        "value": 538000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "ProceedsFromSaleOfProductiveAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from Sale of Productive Assets",
+      "description": "The cash inflow from the sale of property, plant and equipment (capital expenditures), software, and other intangible assets.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 43,
+      "latest_value": {
+        "value": 0,
+        "date": "2018-12-31",
+        "fiscal_year": 2018,
+        "form": "10-K",
+        "filed": "2019-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2019-09-30"
+      }
+    },
+    "ProceedsFromSaleOfPropertyPlantAndEquipment": {
+      "taxonomy": "us-gaap",
+      "label": "Proceeds from Sale of Property, Plant, and Equipment",
+      "description": "The cash inflow from the sale of long-lived, physical assets that are used in the normal conduct of business to produce goods and services and not intended for resale.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 3,
+      "latest_value": {
+        "value": 31000000,
+        "date": "2019-12-31",
+        "fiscal_year": 2019,
+        "form": "10-K",
+        "filed": "2020-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2017-12-31",
+        "latest": "2019-12-31"
+      }
+    },
+    "RepaymentsOfLongTermDebt": {
+      "taxonomy": "us-gaap",
+      "label": "Repayments of Long-term Debt",
+      "description": "The cash outflow for debt initially having maturity due after one year or beyond the normal operating cycle, if longer.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 103,
+      "latest_value": {
+        "value": 14286000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "RestructuringCosts": {
+      "taxonomy": "us-gaap",
+      "label": "Restructuring Costs",
+      "description": "Amount, after cash payment, of expenses associated with exit or disposal activities pursuant to an authorized plan. Excludes expenses related to a discontinued operation or an asset retirement obligation.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 24,
+      "latest_value": {
+        "value": 0,
+        "date": "2016-12-31",
+        "fiscal_year": 2016,
+        "form": "10-K",
+        "filed": "2017-02-24",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-09-30",
+        "latest": "2016-12-31"
+      }
+    },
+    "ShortTermBorrowings": {
+      "taxonomy": "us-gaap",
+      "label": "Short-term Debt",
+      "description": "Reflects the total carrying amount as of the balance sheet date of debt having initial terms less than one year or the normal operating cycle, if longer.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 90,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ShortTermLeaseCost": {
+      "taxonomy": "us-gaap",
+      "label": "Short-term Lease, Cost",
+      "description": "Amount of short-term lease cost, excluding expense for lease with term of one month or less.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 20,
+      "latest_value": {
+        "value": 3000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2019-03-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "StockRepurchasedDuringPeriodShares": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Repurchased During Period, Shares",
+      "description": "Number of shares that have been repurchased during the period and have not been retired and are not held in treasury. Some state laws may govern the circumstances under which an entity may acquire its own stock and prescribe the accounting treatment therefore. This element is used when state law does not recognize treasury stock.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 80358,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-03-03",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2015-03-31"
+      }
+    },
+    "StockRepurchasedDuringPeriodValue": {
+      "taxonomy": "us-gaap",
+      "label": "Stock Repurchased During Period, Value",
+      "description": "Equity impact of the value of stock that has been repurchased during the period and has not been retired and is not held in treasury. Some state laws may mandate the circumstances under which an entity may acquire its own stock and prescribe the accounting treatment therefore. This element is used when state law does not recognize treasury stock.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 2,
+      "latest_value": {
+        "value": 334000000,
+        "date": "2014-12-31",
+        "fiscal_year": 2014,
+        "form": "10-K",
+        "filed": "2015-03-03",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2014-12-31"
+      }
+    },
+    "TimeDepositMaturitiesNextRollingTwelveMonths": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposit Maturities, Next Rolling Twelve Months",
+      "description": "Amount of time deposits maturing in the next rolling twelve months following the latest balance sheet. Time deposits include, but are not limited to, certificates of deposits. For interim and annual periods when interim periods are reported on a rolling approach, from latest balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 4,
+      "latest_value": {
+        "value": 13754000000,
+        "date": "2017-12-31",
+        "fiscal_year": 2017,
+        "form": "10-K",
+        "filed": "2018-02-22",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2017-12-31"
+      }
+    },
+    "TimeDeposits": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposits",
+      "description": "Amount of time deposit liabilities, including certificates of deposit.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 22,
+      "latest_value": {
+        "value": 23313000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TimeDeposits100000OrMore": {
+      "taxonomy": "us-gaap",
+      "label": "Time Deposits, $100,000 or More",
+      "description": "Amount of time deposit liabilities, including certificates of deposit, in denominations of $100,000 or more.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 7,
+      "latest_value": {
+        "value": 5798000000,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "TransferOfInvestments": {
+      "taxonomy": "us-gaap",
+      "label": "Transfer from Investments",
+      "description": "Value of investments transferred from the entity's investments in noncash transactions.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-26",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2015-12-31"
+      }
+    },
+    "TransferToInvestments": {
+      "taxonomy": "us-gaap",
+      "label": "Transfer to Investments",
+      "description": "Value of investments transferred to the entity's investments in noncash transactions.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 39,
+      "latest_value": {
+        "value": 329000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2012-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "TreasuryStockAcquiredAverageCostPerShare": {
+      "taxonomy": "us-gaap",
+      "label": "Treasury Stock Acquired, Average Cost Per Share",
+      "description": "Total cost of shares repurchased divided by the total number of shares repurchased.",
+      "available_units": [
+        "USD/shares"
+      ],
+      "data_points_count": 13,
+      "latest_value": {
+        "value": 35.77,
+        "date": "2020-12-31",
+        "fiscal_year": 2020,
+        "form": "10-K",
+        "filed": "2021-02-23",
+        "unit": "USD/shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2020-12-31"
+      }
+    },
+    "TreasuryStockShares": {
+      "taxonomy": "us-gaap",
+      "label": "Treasury Stock, Shares",
+      "description": "Number of common and preferred shares that were previously issued and that were repurchased by the issuing entity and held in treasury on the financial statement date. This stock has no voting rights and receives no dividends.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 60,
+      "latest_value": {
+        "value": 149121938,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-23",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2022-03-31"
+      }
+    },
+    "TreasuryStockSharesAcquired": {
+      "taxonomy": "us-gaap",
+      "label": "Treasury Stock, Shares, Acquired",
+      "description": "Number of shares that have been repurchased during the period and are being held in treasury.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 51,
+      "latest_value": {
+        "value": 28113278,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2015-04-07",
+        "latest": "2025-06-30"
+      }
+    },
+    "TreasuryStockValue": {
+      "taxonomy": "us-gaap",
+      "label": "Treasury Stock, Value",
+      "description": "The amount allocated to treasury stock. Treasury stock is common and preferred shares of an entity that were issued, repurchased by the entity, and are held in its treasury.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 60,
+      "latest_value": {
+        "value": 4918000000,
+        "date": "2021-12-31",
+        "fiscal_year": 2021,
+        "form": "10-K",
+        "filed": "2022-02-23",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2013-12-31",
+        "latest": "2022-03-31"
+      }
+    },
+    "TreasuryStockValueAcquiredCostMethod": {
+      "taxonomy": "us-gaap",
+      "label": "Treasury Stock, Value, Acquired, Cost Method",
+      "description": "Equity impact of the cost of common and preferred stock that were repurchased during the period. Recorded using the cost method.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 107,
+      "latest_value": {
+        "value": 1050000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2014-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "NoncashOrPartNoncashAcquisitionValueOfLiabilitiesAssumed1": {
+      "taxonomy": "us-gaap",
+      "label": "Noncash or Part Noncash Acquisition, Value of Liabilities Assumed",
+      "description": "\"The total amount of [all] liabilities that an Entity assumes in acquiring a business or in consideration for an asset received in a noncash (or part noncash) acquisition. Noncash is defined as transactions during a period that affect recognized assets or liabilities but that do not result in cash receipts or cash payments in the period. \"\"Part noncash\"\" refers to that portion of the transaction not resulting in cash receipts or cash payments in the period.\"",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 17,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2020-12-31",
+        "latest": "2024-12-31"
+      }
+    },
+    "TreasuryStockCommonShares": {
+      "taxonomy": "us-gaap",
+      "label": "Treasury Stock, Common, Shares",
+      "description": "Number of previously issued common shares repurchased by the issuing entity and held in treasury.",
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 209524943,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "TreasuryStockCommonValue": {
+      "taxonomy": "us-gaap",
+      "label": "Treasury Stock, Common, Value",
+      "description": "Amount allocated to previously issued common shares repurchased by the issuing entity and held in treasury.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 26,
+      "latest_value": {
+        "value": 7047000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2021-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "DividendsPreferredStock": {
+      "taxonomy": "us-gaap",
+      "label": "Dividends, Preferred Stock",
+      "description": "Amount of paid and unpaid preferred stock dividends declared with the form of settlement in cash, stock and payment-in-kind (PIK).",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 13,
+      "latest_value": {
+        "value": 137000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2022-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    "ShorttermDebtFairValue": {
+      "taxonomy": "us-gaap",
+      "label": "Short-term Debt, Fair Value",
+      "description": "This element represents the portion of the balance sheet assertion valued at fair value by the entity whether such amount is presented as a separate caption or as a parenthetical disclosure. Additionally, this element may be used in connection with the fair value disclosures required in the footnote disclosures to the financial statements. The element may be used in both the balance sheet and disclosure in the same submission. This item represents the amount of short-term debt existing as of the balance sheet date.",
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 6,
+      "latest_value": {
+        "value": 0,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-13",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "date_range": {
+        "earliest": "2023-12-31",
+        "latest": "2025-06-30"
+      }
+    }
+  }
+}

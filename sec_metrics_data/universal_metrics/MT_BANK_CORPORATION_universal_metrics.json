@@ -1,0 +1,135 @@
+{
+  "company_info": {
+    "name": "M&T BANK CORPORATION",
+    "cik": "36270",
+    "extraction_date": "2025-09-30T10:10:36.524186"
+  },
+  "metrics": {
+    "EntityCommonStockSharesOutstanding": {
+      "taxonomy": "dei",
+      "label": "Entity Common Stock, Shares Outstanding",
+      "description": "Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests, if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member], Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings, Instrument.",
+      "latest_value": {
+        "value": 164333454,
+        "date": "2025-02-14",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "unit": "shares",
+        "type": "annual"
+      },
+      "available_units": [
+        "shares"
+      ],
+      "data_points_count": 67
+    },
+    "Assets": {
+      "taxonomy": "us-gaap",
+      "label": "Assets",
+      "description": "Sum of the carrying amounts as of the balance sheet date of all assets that are recognized. Assets are probable future economic benefits obtained or controlled by an entity as a result of past transactions or events.",
+      "latest_value": {
+        "value": 208105000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 134
+    },
+    "DeferredTaxLiabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Deferred Tax Liabilities, Net",
+      "description": "Amount, after deferred tax asset, of deferred tax liability attributable to taxable differences without jurisdictional netting.",
+      "latest_value": {
+        "value": 487708000,
+        "date": "2015-12-31",
+        "fiscal_year": 2015,
+        "form": "10-K",
+        "filed": "2016-02-19",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 18
+    },
+    "Goodwill": {
+      "taxonomy": "us-gaap",
+      "label": "Goodwill",
+      "description": "Amount after accumulated impairment loss of an asset representing future economic benefits arising from other assets acquired in a business combination that are not individually identified and separately recognized.",
+      "latest_value": {
+        "value": 8465000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 135
+    },
+    "InterestExpense": {
+      "taxonomy": "us-gaap",
+      "label": "Interest Expense",
+      "description": "Amount of the cost of borrowed funds accounted for as interest expense.",
+      "latest_value": {
+        "value": 3109000000,
+        "date": "2023-12-31",
+        "fiscal_year": 2023,
+        "form": "10-K",
+        "filed": "2024-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 205
+    },
+    "Liabilities": {
+      "taxonomy": "us-gaap",
+      "label": "Liabilities",
+      "description": "Sum of the carrying amounts as of the balance sheet date of all liabilities that are recognized. Liabilities are probable future sacrifices of economic benefits arising from present obligations of an entity to transfer assets or provide services to other entities in the future.",
+      "latest_value": {
+        "value": 179078000000,
+        "date": "2024-12-31",
+        "fiscal_year": 2024,
+        "form": "10-K",
+        "filed": "2025-02-19",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 134
+    },
+    "OtherAssets": {
+      "taxonomy": "us-gaap",
+      "label": "Other Assets",
+      "description": "Amount of assets classified as other.",
+      "latest_value": {
+        "value": 5282212000,
+        "date": "2013-12-31",
+        "fiscal_year": 2013,
+        "form": "10-K",
+        "filed": "2014-02-21",
+        "unit": "USD",
+        "type": "annual"
+      },
+      "available_units": [
+        "USD"
+      ],
+      "data_points_count": 40
+    }
+  }
+}

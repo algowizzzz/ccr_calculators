@@ -8,10 +8,38 @@ CACHE_PATH = BASE / "cache" / "cache.json"
 OUTPUTS_DIR = BASE / "outputs"
 
 def load_cache() -> Dict[str, Any]:
-    if not CACHE_PATH.exists():
-        return {}
-    with open(CACHE_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
+    """Load cache data from multiple data files"""
+    data_dir = BASE / "data"
+    cache = {}
+    
+    # Load from individual data files
+    files_to_load = [
+        ("trades.json", "trades"),
+        ("sim_matrices.json", "sim_matrices"), 
+        ("quick_vectors.json", "quick_vectors"),
+        ("limits.json", "limits"),
+        ("netting_sets.json", "netting_sets")
+    ]
+    
+    for filename, key in files_to_load:
+        file_path = data_dir / filename
+        if file_path.exists():
+            try:
+                with open(file_path, 'r', encoding="utf-8") as f:
+                    cache[key] = json.load(f)
+            except json.JSONDecodeError:
+                continue
+    
+    # Load legacy cache.json if it exists
+    if CACHE_PATH.exists():
+        try:
+            with open(CACHE_PATH, "r", encoding="utf-8") as f:
+                legacy_cache = json.load(f)
+                cache.update(legacy_cache)
+        except json.JSONDecodeError:
+            pass
+    
+    return cache
 
 def save_cache(cache: Dict[str, Any]) -> None:
     CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)

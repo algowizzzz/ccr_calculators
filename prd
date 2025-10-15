@@ -1,0 +1,369 @@
+CCR Exposure & Limits workflow
+
+1) Goal
+Goal. Build a deterministic, auditable DAG that ingests a Trade ID and outputs:
+Input Trigger
+Trade update booking/modify/cancel,reserve), 
+agreement/CSA/
+limit update including preapproval
+hourly SIM, 
+EOD run.
+Output tables: 
+Enriched Trade Data (static + mapped + calculated fields),
+Limit vs Exposure (per node, per time bucket; QUICK/SIM/COMBINED),
+Breaches (violations & reservation breaches) ready for workflow.
+
+
+
+2) Parameters governing design
+PFE(QUICK) output: vectors only (load-only; no floor/percentile).
+
+
+Horizon set: 250 buckets over 50 years (fixed; all vectors use this set).
+
+
+PFE percentile (SIM): configurable, default = 95%.
+
+
+Limit buckets per legend: up to 3 buckets (policy-defined).
+
+
+State precedence: Confirmed > Reserve > Provision.
+
+
+Pre-approval validity: config-based, default = 24 hours TTL.
+
+
+Reservation hold: 5 minutes (provision → reserve → confirm/expire).
+
+
+
+3) What We Calculate
+PFE vectors (n=250 buckets):
+
+
+SIM (Monte Carlo): scenario matrices → floor negatives to 0 if Netted=N → sum scenarios → 95% percentile by bucket → vector[250].
+
+
+QUICK (risk-factor approx): vector[250] provided by risk engine; we load it directly.
+
+
+COMBINED = SIM + QUICK (node wise).
+
+
+MTM, Notional: scalar at trade; summed in rollups.
+
+
+Settlement exposure: vector[250]; DvP=Y ⇒ zero.
+
+
+Tenor (business days): only for the finer product layers (Sub-product, Product); defined as max trade tenor within the pool; mapped to policy buckets.
+
+
+
+4) Where We Compute & How We Roll Up
+Simulation layers (heavy calc):
+ Sub-product (e.g., Reverse Repo – Bond), Product (Reverse Repo), Product family (Securities Financing).
+ → Build PFE vectors here (SIM percentile, QUICK load).
+
+
+Grouping layers (sums only):
+Counterparty entity, Connection, Country.
+ → Pure vector addition per method; COMBINED likewise.
+
+
+Rule: Only Sub-product/Product/Family run simulations; everything above is vector sums.
+
+
+5) Intraday vs EOD
+Intraday: vector deltas per method on impacted nodes and recompute COMBINED. 
+EOD (7pm): full bottom-up rebuild on final snapshot. 
+Global hold 19:00–04:00; queued events released after 04:00 and processed as intraday.
+
+
+
+6) Trade State, Reservations & Pre-approval
+Trade State: provision → reserve (5-min hold) → confirm/expire.
+
+
+During reserve, exposures and checks run; breaches are reservation breaches and auto-close on expiry if back within limits.
+
+
+Pre-approval: if a pre-approval limit exists for the same node and within 24h TTL, it replaces the standard limit in comparisons.
+
+
+
+7) Limit Matching 
+A limit applies when each dimension equals the trade/path context or ALL.Supports shapes like exact Sub-product/Product/Family, Country rollups, Agreement, Connection, etc.
+Tenor limits apply only where Sub-product or Product is specified (not ALL).
+How limit identification works (exact vs “ALL” wildcard)
+Concept. Each limit is defined on a legend (a set of fields):
+ cpty, le, facility, L2, L3, L4, agreement, country, connection, csa, netted, limit_type
+
+ A limit applies to a trade/path when, for every field in the legend, the limit’s value is either:
+an exact match to the trade/path value, or
+ALL (i.e., “doesn’t constrain this field”).
+
+
+
+
+8) Workflow nodes / Steps
+Input Trigger
+Trade update (booking/modify/cancel,reserve), 
+agreement/CSA/Netting
+limit update including pre-approval
+hourly SIM, and EoD run
+Output tables: Trade Data, Limit vs Exposure, Breaches; logs 
+
+
+Steps
+Fetch trade & risk
+ Pull trade economics; QUICK vector; SIM matrices (if available); MTM; Settlement; MPOR; Trade Tenor (business days).
+
+
+Map the trade to agreement/netting set
+Assign: Counterparty, Legal Entity, Facility, Sub-product / Product / Family,  Agreement (netting set), Connection group, Country; flags: CSA (Y/N), Netted (Y/N).
+
+
+Create three calculation pools
+ Build keys for Sub-product, Product, Family (include CSA/Netted/Method/State).
+
+
+Produce lowest-layer PFE vectors
+
+
+SIM: (if Netted=N) floor negatives → sum scenarios → percentile=95% by bucket → vector[250].
+
+
+QUICK: sum scenarios → vector[250].
+
+
+Persist SIM, QUICK, COMBINED (= SIM + QUICK) for each pool; store peaks if needed.
+
+
+Identify applicable limits (wildcard rule)
+ A limit applies if, for every dimension (Counterparty, LE, Facility, Family, Product, Sub-product, Country, Connection, CSA, Netted), the limit value is either the exact value or ALL.
+Tenor limits only if Sub-product or Product is set.
+
+
+Aggregate exposures to each matched limit (sums only)
+
+
+Sub-product limit → sum matching Sub-product vectors per method; set COMBINED.
+
+
+Product limit → sum Product vectors; Family (or looser) → sum Family vectors.
+
+
+Entity/Connection/Country → sum appropriate children (equivalent to Family sums across the right population).
+
+
+Tenor for product nodes
+ For Sub-product and Product pools: Tenor_bd = max(trade tenor); map to policy buckets; compare to Tenor limits.
+
+
+Compare & create breaches
+
+
+Identify limit values: PFE/Settlement: each limit defines ≤3 buckets mapped to index ranges over 250 horizons.
+For example Carve-outs (vector limits) = {(3M,10),(Forever, 5)} (time bucket,value)
+
+
+Exposure per bucket = max() of the COMBINED vector over that range.
+Output per limit: QUICK, SIM, COMBINED peaks by limit vector buckets.
+
+
+Breach if exposure > limit (per bucket).
+
+
+Tenor: breach when Tenor_bd exceeds limit/bucket.
+
+
+State on breach: Confirmed ⇒ Violation; Reserve/Provision ⇒ Reservation Breach (auto-close if hold expires and exposure returns within limits).
+
+
+Pre-approval: if active, evaluate against pre-approval limit first; else standard.
+
+
+Persist & publish
+Send 4 updated tables to the reporting layer UI intraday. 
+Trade Data, Limit vs Exposure, Breaches; logs 
+
+9) Scenarios & Triggers
+
+Below is the intraday-only playbook—what the DAG updates by scenario, in the minimum sequence. Each line names the steps (N1–N8 shorthand) and the tables updated.
+
+A. Trade events
+A1. New trade (booking)
+Steps: N1 Fetch → N2 Map → N3 Pools → N4 Build PFE vectors (QUICK now; SIM later) → N5 Match limits → N6 Aggregate → N7 Compare/Breaches → N8 Persist
+
+
+Tables: trade_data, ns_vectors(L4/L3/L2 QUICK & COMBINED), limit_exposure, breaches
+
+
+A2. Trade modify (economics: notional/rate/underlier/tenor)
+Steps: N1 → N4 recompute (QUICK vector) → N6 delta aggregate (current − old + new) → N7 → N8
+
+
+Tables: trade_data, ns_vectors (updated pools), limit_exposure (delta), breaches
+
+
+A3. Trade cancel
+Steps: N1 (fetch state) → remove from N4 pools → N6 delta aggregate (current − old) → N7 recheck → N8
+
+
+Tables: ns_vectors (decrement), limit_exposure (delta), breaches (close if cleared), trade_data (state)
+
+
+A4. Trade state change (provision ↔ reserve ↔ confirm/expire)
+Steps: N1 (state only) → N7 relabel breach state (no exposure math) → N8
+
+
+Tables: breaches (state/auto-close timers), trade_data (state)
+
+
+A5. DvP flag flip
+Steps: N1 → recompute Settlement vector at trade → N6 rollup settlement (vector sums) → N7 settlement checks → N8
+
+
+Tables: trade_data (settlement), limit_exposure (settlement), breaches (settlement)
+
+
+
+B. Mapping / routing changes
+B1. Netting/Agreement reassignment (trade moves NS; or netted Y/N flips; CSA Y/N flips)
+Steps: N2 remap → N3 rebuild old/new keys → N4 recompute affected pools (QUICK now) for old and new → N6 delta aggregates on all impacted limits (old −, new +) → N7 → N8
+
+
+Tables: mapped_trade, ns_keys, ns_vectors (old/new pools), limit_exposure, breaches
+
+
+B2. Product taxonomy change (L4/L3/L2 reclassification)
+Steps: N2 remap → N3 → N4 recompute pools at changed levels → N5 rematch limits (legend changed) → N6 delta aggregates → N7 → N8
+
+
+Tables: mapped_trade, ns_keys, ns_vectors, limit_exposure, breaches
+
+
+B3. Counterparty→Connection or Counterparty→Country remap
+Steps: N2 remap → N5 rematch limits (connection/country dim changed) → N6 recompute affected Connection/Country aggregates (vector sums only) → N7 → N8
+
+
+Tables: mapped_trade, limit_exposure, breaches
+
+
+B4. Facility routing / Desk→LE change
+Steps: N2 remap (facility/LE) → N3 → N4 pools impacted → N5 rematch limits → N6 delta aggregates → N7 → N8
+
+
+Tables: mapped_trade, ns_vectors, limit_exposure, breaches
+
+
+
+C. Market data / risk inputs
+C1. QUICK tick (within the hour)
+Steps: N1 pull new QUICK vector(s) → N4 update affected pools (QUICK, then COMBINED) → N6 delta aggregates → N7 → N8
+
+
+Tables: ns_vectors (QUICK/COMBINED), limit_exposure, breaches, trade_data (lineage)
+
+
+C2. Hourly SIM refresh
+Steps: N1 pull SIM matrices → N4 rebuild SIM vectors (percentile=95%) → recompute COMBINED = QUICK+SIM → N6 delta aggregates → N7 → N8
+
+
+Tables: ns_vectors (SIM/COMBINED), limit_exposure, breaches, trade_data (lineage)
+
+
+C3. Calendar/holiday update (intraday)
+Steps: recompute Tenor_bd at L4/L3 pools only → N7 tenor checks → N8
+
+
+Tables: trade_data (tenor), limit_exposure (tenor if stored), breaches (tenor)
+
+
+
+D. Agreement / CSA terms
+D1. CSA term change (K/MTA/IA/eligibility/haircuts)
+Steps: Identify impacted trades under the agreement → N4 recompute pools for those trades (as policy dictates PFE effect) → N6 delta aggregates → N7 → N8
+
+
+Tables: ns_vectors, limit_exposure, breaches
+
+
+D2. Agreement attribute change (but same netting membership)
+Steps: If exposure math unaffected, skip N4; otherwise treat like D1. Always run N7 if any limit scope dimensions changed.
+
+
+Tables: as applicable above
+
+
+
+E. Limits & approvals
+E1. Limit value change (scalar or vector-step)
+Steps: N5 rematch not needed (same legend) → N7 re-compare only → N8
+
+
+Tables: limit_exposure (status only if you store), breaches (open/close/update)
+
+
+E2. New limit added / legend widened or narrowed
+Steps: N5 match (new legend) → N6 aggregate exposures for that legend → N7 → N8
+
+
+Tables: limit_exposure (new rows), breaches
+
+
+E3. Pre-approval created/updated/expired (24h TTL)
+Steps: N5 choose effective limit (pre-approval takes precedence while valid) → N7 re-compare only → N8
+
+
+Tables: breaches (status), optional limit_exposure status
+
+
+E4. Bucket-config tweak (indices for ≤3 buckets)
+Steps: N6 recompute bucket reductions from stored vectors → N7 → N8
+
+
+Tables: limit_exposure (bucket exposures), breaches
+
+
+
+F. Trade States
+F1. Reservation start/extend/expire (5 min)
+Steps: No exposure change; N7 updates breach state (Reservation Breach ↔ auto-close on expiry) → N8
+
+
+Tables: breaches, trade_data (state)
+
+
+
+Always-apply deltas (intraday)
+Above L2: use vector delta: agg_new = agg_old − child_old + child_new (per method), then recompute COMBINED.
+
+
+10) Example (RBC Repo - to be completed)
+Trade: Repo on a bond with RBC
+ Mapped: Counterparty RBC, Legal Entity BMO, Facility 14896, Sub-product Reverse Repo – Bond, Product Reverse Repo, Family SFT, Agreement NS-RBC-01, Connection RB-CONN, Country CA, CSA=N, Netted=N.
+Flow:
+Build three pools (Sub-product/Product/Family).
+
+
+Produce SIM vectors (percentile 95%) and load QUICK vectors; set COMBINED.
+
+
+Find relevant PFE limits (e.g., Sub-product, Product, Family, Country).
+
+
+Sum correct pool vectors to each limit; compute bucket exposures (≤3 buckets); compare; create breaches if any.
+
+
+Persist Trade Data, Limit vs Exposure, Breaches; emit events.
+
+
+Repeat flow for intraday.
+
+
+
+
+

@@ -1,0 +1,54 @@
+{
+  "123": {
+    "limit_id": "123",
+    "counterparty": "RBC",
+    "legal_entity": "ALL",
+    "facility": "ALL",
+    "sub_product": "ALL",
+    "product": "ALL", 
+    "family": "SFT",
+    "agreement": "ALL",
+    "country": "CA",
+    "connection": "ALL",
+    "csa": "ALL",
+    "netted": "ALL",
+    "limit_type": "PFE",
+    "buckets": [
+      {
+        "range": [0, 9],
+        "limit": 100000,
+        "name": "All Tenors",
+        "description": "RBC SFT family limit across all time buckets"
+      }
+    ]
+  },
+  "456": {
+    "limit_id": "456", 
+    "counterparty": "ALL",
+    "legal_entity": "ALL",
+    "facility": "ALL",
+    "sub_product": "ALL",
+    "product": "ALL",
+    "family": "ALL",
+    "agreement": "ALL",
+    "country": "CA",
+    "connection": "ALL",
+    "csa": "ALL",
+    "netted": "ALL",
+    "limit_type": "PFE",
+    "buckets": [
+      {
+        "range": [0, 4],
+        "limit": 200000,
+        "name": "0-2Y",
+        "description": "Canada short-medium term"
+      },
+      {
+        "range": [5, 9], 
+        "limit": 150000,
+        "name": "2Y+",
+        "description": "Canada long term"
+      }
+    ]
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "report_metadata": {
+    "generated": "2025-09-30T09:58:05.753195",
+    "title": "SEC Financial Metrics Data Collection - Final Report",
+    "version": "1.0"
+  },
+  "executive_summary": {
+    "total_companies_targeted": 30,
+    "companies_successfully_processed": 28,
+    "success_rate": "93.3%",
+    "companies_missing_data": 2,
+    "total_data_size_mb": "317.8",
+    "us_banks_processed": 23,
+    "canadian_banks_processed": 5
+  },
+  "data_quality_analysis": {
+    "avg_metrics_per_company": 754.0357142857143,
+    "avg_key_metrics_found": 15.75,
+    "key_metrics_success_rate": "54.3%",
+    "taxonomies_found": [
+      "srt",
+      "us-gaap",
+      "ifrs-full",
+      "invest",
+      "dei"
+    ],
+    "date_coverage": {
+      "earliest": "2005-12-31",
+      "latest": "2025-08-04"
+    }
+  },
+  "processed_companies": [
+    {
+      "ticker": "BAC",
+      "company_name": "Bank of America Corporation",
+      "cik": "0000070858",
+      "total_metrics": 878,
+      "key_metrics_found": 20,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-07-30"
+      }
+    },
+    {
+      "ticker": "BK",
+      "company_name": "THE BANK OF NEW YORK MELLON CORPORATION",
+      "cik": "0001390777",
+      "total_metrics": 942,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "srt",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    {
+      "ticker": "BMO",
+      "company_name": "BANK OF MONTREAL",
+      "cik": "0000927971",
+      "total_metrics": 277,
+      "key_metrics_found": 1,
+      "taxonomies": [
+        "dei",
+        "ifrs-full"
+      ],
+      "date_range": {
+        "earliest": "2015-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "BNS",
+      "company_name": "BANK OF NOVA SCOTIA",
+      "cik": "0000009631",
+      "total_metrics": 260,
+      "key_metrics_found": 1,
+      "taxonomies": [
+        "dei",
+        "ifrs-full",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2015-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "C",
+      "company_name": "Citigroup\u00a0Inc",
+      "cik": "0000831001",
+      "total_metrics": 776,
+      "key_metrics_found": 20,
+      "taxonomies": [
+        "dei",
+        "srt",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    {
+      "ticker": "CFG",
+      "company_name": "CITIZENS FINANCIAL GROUP INC/RI",
+      "cik": "0000759944",
+      "total_metrics": 750,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2011-12-31",
+        "latest": "2025-07-25"
+      }
+    },
+    {
+      "ticker": "CM",
+      "company_name": "CANADIAN IMPERIAL BANK OF COMMERCE",
+      "cik": "0001045520",
+      "total_metrics": 241,
+      "key_metrics_found": 1,
+      "taxonomies": [
+        "dei",
+        "ifrs-full"
+      ],
+      "date_range": {
+        "earliest": "2015-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "CMA",
+      "company_name": "Comerica Incorporated",
+      "cik": "0000028412",
+      "total_metrics": 736,
+      "key_metrics_found": 17,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-07-28"
+      }
+    },
+    {
+      "ticker": "COF",
+      "company_name": "CAPITAL\u00a0ONE\u00a0FINANCIAL\u00a0CORP",
+      "cik": "0000927628",
+      "total_metrics": 1004,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    {
+      "ticker": "FCNCA",
+      "company_name": "FIRST CITIZENS BANCSHARES INC /DE/",
+      "cik": "0000798941",
+      "total_metrics": 925,
+      "key_metrics_found": 18,
+      "taxonomies": [
+        "dei",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2005-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    {
+      "ticker": "FITB",
+      "company_name": "Fifth Third Bancorp",
+      "cik": "0000035527",
+      "total_metrics": 1010,
+      "key_metrics_found": 17,
+      "taxonomies": [
+        "dei",
+        "us-gaap",
+        "srt"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "GS",
+      "company_name": "The Goldman Sachs Group, Inc.",
+      "cik": "0000886982",
+      "total_metrics": 615,
+      "key_metrics_found": 18,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "srt",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2007-11-30",
+        "latest": "2025-07-18"
+      }
+    },
+    {
+      "ticker": "HBAN",
+      "company_name": "Huntington Bancshares Incorporated",
+      "cik": "0000049196",
+      "total_metrics": 856,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    {
+      "ticker": "JPM",
+      "company_name": "JPMorgan Chase & Co",
+      "cik": "0000019617",
+      "total_metrics": 899,
+      "key_metrics_found": 20,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "srt",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    {
+      "ticker": "KEY",
+      "company_name": "KeyCorp",
+      "cik": "0000091576",
+      "total_metrics": 803,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "MS",
+      "company_name": "MORGAN STANLEY",
+      "cik": "0000895421",
+      "total_metrics": 905,
+      "key_metrics_found": 20,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "date_range": {
+        "earliest": "2006-11-30",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "MTB",
+      "company_name": "M&T BANK CORPORATION",
+      "cik": "0000036270",
+      "total_metrics": 858,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "NTRS",
+      "company_name": "NORTHERN TRUST CORPORATION",
+      "cik": "0000073124",
+      "total_metrics": 758,
+      "key_metrics_found": 18,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    {
+      "ticker": "PNC",
+      "company_name": "PNC Financial Services Group, Inc.",
+      "cik": "0000713676",
+      "total_metrics": 942,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-07-15"
+      }
+    },
+    {
+      "ticker": "RF",
+      "company_name": "Regions Financial Corporation",
+      "cik": "0001281761",
+      "total_metrics": 911,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-08-04"
+      }
+    },
+    {
+      "ticker": "RY",
+      "company_name": "Royal Bank of Canada",
+      "cik": "0001000275",
+      "total_metrics": 298,
+      "key_metrics_found": 1,
+      "taxonomies": [
+        "dei",
+        "ifrs-full",
+        "invest"
+      ],
+      "date_range": {
+        "earliest": "2015-10-01",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "SCHW",
+      "company_name": "SCHWAB CHARLES CORP",
+      "cik": "0000316709",
+      "total_metrics": 777,
+      "key_metrics_found": 20,
+      "taxonomies": [
+        "dei",
+        "srt",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "STT",
+      "company_name": "STATE STREET CORPORATION",
+      "cik": "0000093751",
+      "total_metrics": 835,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-18",
+        "latest": "2025-07-29"
+      }
+    },
+    {
+      "ticker": "TD",
+      "company_name": "TORONTO DOMINION BANK",
+      "cik": "0000947263",
+      "total_metrics": 239,
+      "key_metrics_found": 1,
+      "taxonomies": [
+        "dei",
+        "ifrs-full",
+        "invest"
+      ],
+      "date_range": {
+        "earliest": "2015-10-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "TFC",
+      "company_name": "TRUIST FINANCIAL CORPORATION",
+      "cik": "0000092230",
+      "total_metrics": 835,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-06-30"
+      }
+    },
+    {
+      "ticker": "USB",
+      "company_name": "US BANCORP \\DE\\",
+      "cik": "0000036104",
+      "total_metrics": 883,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap",
+        "srt"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-07-31"
+      }
+    },
+    {
+      "ticker": "WFC",
+      "company_name": "WELLS FARGO & COMPANY/MN",
+      "cik": "0000072971",
+      "total_metrics": 908,
+      "key_metrics_found": 19,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "srt",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2006-12-31",
+        "latest": "2025-07-23"
+      }
+    },
+    {
+      "ticker": "ZION",
+      "company_name": "ZIONS BANCORPORATION, NATIONAL ASSOCIATION",
+      "cik": "0000109380",
+      "total_metrics": 992,
+      "key_metrics_found": 20,
+      "taxonomies": [
+        "dei",
+        "invest",
+        "us-gaap"
+      ],
+      "date_range": {
+        "earliest": "2007-12-31",
+        "latest": "2025-07-31"
+      }
+    }
+  ],
+  "missing_companies": [
+    {
+      "ticker": "ALLY",
+      "reason": "No SEC companyfacts data available"
+    },
+    {
+      "ticker": "NA",
+      "reason": "No SEC companyfacts data available"
+    }
+  ],
+  "file_structure": {
+    "raw_json": 28,
+    "key_metrics": 28,
+    "catalogs": 28,
+    "summaries": 28
+  }
+}

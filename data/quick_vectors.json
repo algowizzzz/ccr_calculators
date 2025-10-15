@@ -1,0 +1,19 @@
+{
+  "NS-RBC-MASTER": {
+    "method": "QUICK",
+    "agreement": "NS-RBC-MASTER", 
+    "members": ["T001", "T002"],
+    "time_buckets": [
+      {"bucket": 0, "pfe": 25.0},
+      {"bucket": 1, "pfe": 24.0},
+      {"bucket": 2, "pfe": 23.0},
+      {"bucket": 3, "pfe": 22.0},
+      {"bucket": 4, "pfe": 21.0},
+      {"bucket": 5, "pfe": 20.0},
+      {"bucket": 6, "pfe": 19.0},
+      {"bucket": 7, "pfe": 18.0},
+      {"bucket": 8, "pfe": 17.0},
+      {"bucket": 9, "pfe": 16.0}
+    ]
+  }
+}
